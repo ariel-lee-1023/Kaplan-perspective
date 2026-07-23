@@ -108,4 +108,4 @@ Issues and pull requests welcome. Useful contributions: corrections where a clus
 
 ## License
 
-[MIT](LICENSE). Applies to the skill files in this repository only, not to the underlying published works.
+MIT © 2026 Ariel Lee. [See LICENSE](LICENSE).
