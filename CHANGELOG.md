@@ -31,5 +31,5 @@ Initial public release.
 - M1 (ground → map → moral modulation) was elevated to the core below the 0.55 composite cut under the variation and sparsity-protection rules; the elevation is logged in `provenance.md`
 - Interactional moves are reconstructed from monologic prose; the corpus contains no interviews, debates, or decision records
 
-[Unreleased]: https://github.com/<your-username>/kaplan-perspective/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/<your-username>/kaplan-perspective/releases/tag/v1.0.0
+[Unreleased]: https://github.com/ariel-lee-1023/Kaplan-perspective/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/ariel-lee-1023/Kaplan-perspective/releases/tag/v1.0.0

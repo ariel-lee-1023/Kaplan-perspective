@@ -68,7 +68,7 @@ The skill follows Anthropic's three-level progressive-disclosure convention: fro
 **Claude Code / local agents** — clone into your skills directory:
 
 ```bash
-git clone https://github.com/<your-username>/kaplan-perspective.git ~/.claude/skills/kaplan-perspective
+git clone https://github.com/ariel-lee-1023/Kaplan-perspective.git ~/.claude/skills/kaplan-perspective
 ```
 
 **Claude.ai** — upload `SKILL.md` (and the `references/` files you want available) through the skills interface, or package the folder as a `.skill` bundle.
