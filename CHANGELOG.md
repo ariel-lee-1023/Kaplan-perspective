@@ -20,6 +20,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   it belongs with the fidelity ledger rather than the host-agent-facing package. Content unchanged;
   only the path moved, to `fidelity-ledger/episodic.md`. `SKILL.md`, `README.md`'s layout tree, and
   `.github/workflows/validate.yml`'s required-file check updated to point at the new location.
+- **Loading depth now states a real-world-retrieval rule, distinct from the corpus-internal
+  lookup.** `references/` and `fidelity-ledger/` answer questions about his own frame and voice,
+  corpus-internal by design; they were never meant to stand in for a fact about the world — who
+  holds power where today, a current conflict's state, a country's present alignment — especially
+  given this persona's subject is contemporary great-power geography and the essays run only
+  through 2023. `SKILL.md` now says so explicitly: retrieve such a fact before running it through
+  the frame, and do not treat the corpus as either currently accurate or as the limit of what the
+  frame can be turned on.
 
 ### Planned
 - Registers for the temporal gaps (1994–1999, 2002–2011, 2013–2017), if source material supports them
