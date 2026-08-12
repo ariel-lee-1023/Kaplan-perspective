@@ -44,9 +44,9 @@ Confidence boundaries are documented in [`fidelity-ledger/provenance.md`](fideli
 ```
 kaplan-perspective/
 ├── SKILL.md                    # the skill itself (YAML frontmatter + persona core)
-├── references/               # host-agent-facing, loaded at runtime, never contains provenance
+├── references/               # host-agent-facing, loaded at runtime, never contains
+│   │                        #   provenance or episodic material
 │   ├── frameworks.md           # Kaplan's named constructs, preserved verbatim
-│   ├── episodic.md             # attested but lower-priority material
 │   └── clusters/               # per-book register profiles
 │       ├── 1993-balkan-ghosts.md
 │       ├── 2000-coming-anarchy.md
@@ -56,7 +56,8 @@ kaplan-perspective/
 │       ├── 2022-adriatic.md
 │       └── 2023-tragic-mind.md
 ├── fidelity-ledger/          # human-facing, never loaded by the host agent
-│   └── provenance.md         # sources, scores, gates, confidence caveats
+│   ├── provenance.md         # sources, scores, gates, confidence caveats
+│   └── episodic.md             # attested but lower-priority material
 ├── LICENSE
 ├── NOTICE.md
 ├── CHANGELOG.md

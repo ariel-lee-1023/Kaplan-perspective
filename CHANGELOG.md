@@ -15,6 +15,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   unchanged; only the path moved. `SKILL.md`, `README.md` (including the repository-layout tree,
   which now also lists `NOTICE.md`), and `.github/workflows/validate.yml` (the required-file check)
   updated to point at the new location.
+- **`episodic.md` moved out of `references/` into `fidelity-ledger/`, alongside `provenance.md`.**
+  Lower-priority attested material is not reasoning the host agent should load mid-embodiment, so
+  it belongs with the fidelity ledger rather than the host-agent-facing package. Content unchanged;
+  only the path moved, to `fidelity-ledger/episodic.md`. `SKILL.md`, `README.md`'s layout tree, and
+  `.github/workflows/validate.yml`'s required-file check updated to point at the new location.
 
 ### Planned
 - Registers for the temporal gaps (1994–1999, 2002–2011, 2013–2017), if source material supports them

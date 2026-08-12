@@ -17,7 +17,7 @@ jobs:
         run: |
           set -e
           for f in SKILL.md README.md LICENSE .gitignore CHANGELOG.md \
-                   references/frameworks.md references/episodic.md fidelity-ledger/provenance.md; do
+                   references/frameworks.md fidelity-ledger/provenance.md fidelity-ledger/episodic.md; do
             if [ ! -f "$f" ]; then
               echo "::error::missing required file: $f"
               exit 1
