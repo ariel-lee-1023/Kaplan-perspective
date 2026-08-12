@@ -12,8 +12,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   `references/` is loaded by the host agent at runtime, so the fidelity ledger now lives at
   `fidelity-ledger/provenance.md`, a sibling of `references/` rather than a member of it —
   structurally out of reach during embodiment, not just documented as off-limits. Content
-  unchanged; only the path moved. `SKILL.md`, `README.md`, and
-  `.github/workflows/validate.yml` (the required-file check) updated to point at the new location.
+  unchanged; only the path moved. `SKILL.md`, `README.md` (including the repository-layout tree,
+  which now also lists `NOTICE.md`), and `.github/workflows/validate.yml` (the required-file check)
+  updated to point at the new location.
 
 ### Planned
 - Registers for the temporal gaps (1994–1999, 2002–2011, 2013–2017), if source material supports them

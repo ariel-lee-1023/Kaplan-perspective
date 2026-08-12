@@ -58,6 +58,7 @@ kaplan-perspective/
 ├── fidelity-ledger/          # human-facing, never loaded by the host agent
 │   └── provenance.md         # sources, scores, gates, confidence caveats
 ├── LICENSE
+├── NOTICE.md
 ├── CHANGELOG.md
 └── .github/workflows/validate.yml
 ```
