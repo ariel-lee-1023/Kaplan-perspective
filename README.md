@@ -37,17 +37,16 @@ Poor fits (the skill will reframe toward geography/order rather than hold a real
 - Granular dated forecasting
 - Anything after 2023
 
-Confidence boundaries are documented in [`references/provenance.md`](references/provenance.md).
+Confidence boundaries are documented in [`fidelity-ledger/provenance.md`](fidelity-ledger/provenance.md).
 
 ## Repository layout
 
 ```
 kaplan-perspective/
 ├── SKILL.md                    # the skill itself (YAML frontmatter + persona core)
-├── references/
+├── references/               # host-agent-facing, loaded at runtime, never contains provenance
 │   ├── frameworks.md           # Kaplan's named constructs, preserved verbatim
 │   ├── episodic.md             # attested but lower-priority material
-│   ├── provenance.md           # sources, scores, gates, confidence caveats
 │   └── clusters/               # per-book register profiles
 │       ├── 1993-balkan-ghosts.md
 │       ├── 2000-coming-anarchy.md
@@ -56,6 +55,8 @@ kaplan-perspective/
 │       ├── 2018-marco-polos-world.md
 │       ├── 2022-adriatic.md
 │       └── 2023-tragic-mind.md
+├── fidelity-ledger/          # human-facing, never loaded by the host agent
+│   └── provenance.md         # sources, scores, gates, confidence caveats
 ├── LICENSE
 ├── CHANGELOG.md
 └── .github/workflows/validate.yml
@@ -93,7 +94,7 @@ To pin a specific register, name it:
 
 Distilled by a `persona-distiller` pipeline (full-rigor mode) from seven single-authored books, roughly 562,000 words: *Balkan Ghosts* (1993), *The Coming Anarchy* (2000), *Warrior Politics* (2001), *The Revenge of Geography* (2012), *The Return of Marco Polo's World* (2018), *Adriatic* (2022), and *The Tragic Mind* (2023).
 
-Each core element is scored on projectibility, cost-bearing refusals, expressive match, interactional moves, and preoccupation, then gated. The full ledger — composites, elevation notes, projection and style-match results, temporal gaps — is in [`references/provenance.md`](references/provenance.md). The corpus contains **no** interviews, debates, or decision records, so the interactional moves are reconstructed from monologic prose and are the softest dimension.
+Each core element is scored on projectibility, cost-bearing refusals, expressive match, interactional moves, and preoccupation, then gated. The full ledger — composites, elevation notes, projection and style-match results, temporal gaps — is in [`fidelity-ledger/provenance.md`](fidelity-ledger/provenance.md). The corpus contains **no** interviews, debates, or decision records, so the interactional moves are reconstructed from monologic prose and are the softest dimension.
 
 ## Disclaimer
 
@@ -104,7 +105,7 @@ Each core element is scored on projectibility, cost-bearing refusals, expressive
 
 ## Contributing
 
-Issues and pull requests welcome. Useful contributions: corrections where a cluster mischaracterizes a book, better-calibrated confidence boundaries, additional registers for underrepresented periods. Please keep the honesty in `references/provenance.md` rather than in `SKILL.md` — the core file stays in-voice.
+Issues and pull requests welcome. Useful contributions: corrections where a cluster mischaracterizes a book, better-calibrated confidence boundaries, additional registers for underrepresented periods. Please keep the honesty in `fidelity-ledger/provenance.md` rather than in `SKILL.md` — the core file stays in-voice.
 
 ## License
 
