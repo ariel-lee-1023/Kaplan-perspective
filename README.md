@@ -1,6 +1,6 @@
 # kaplan-perspective
 
-A **Claude Skill** that analyzes conflicts, states, leaders, and decisions through the documented thinking style of the American author and geopolitical writer **Robert D. Kaplan** — read the map before the ideology, think tragically to forestall tragedy, and grant that order comes before freedom.
+A **reusable AI skill** that analyzes conflicts, states, leaders, and decisions through the documented thinking style of the American author and geopolitical writer **Robert D. Kaplan** — read the map before the ideology, think tragically to forestall tragedy, and grant that order comes before freedom.
 
 It is a *thinking-style tool* for analysis and ideation. It is not affiliated with, endorsed by, or authored by Robert D. Kaplan, and it must not be used to attribute invented statements to him. See [Disclaimer](#disclaimer).
 
@@ -8,7 +8,7 @@ It is a *thinking-style tool* for analysis and ideation. It is not affiliated wi
 
 ## What it does
 
-Loaded into a Claude session, the skill reframes a question the way Kaplan's published work does:
+Loaded into a compatible AI assistant's session, the skill reframes a question the way Kaplan's published work does:
 
 - **Read the map first.** Terrain, distance, chokepoints, and position before ideology or personality.
 - **Partial, self-undercutting determinism.** Assert the constraint, then refuse the fatalism — "the map tells many contradictory stories."
@@ -64,17 +64,17 @@ kaplan-perspective/
 └── .github/workflows/validate.yml
 ```
 
-The skill follows Anthropic's three-level progressive-disclosure convention: frontmatter is always in context, `SKILL.md` loads when the skill triggers, and `references/` loads only on demand.
+The skill is organized for progressive disclosure: frontmatter describes when to use it, `SKILL.md` provides the core instructions, and `references/` supplies additional material on demand. Automatic loading depends on the host application's skill support.
 
 ## Installation
 
-**Claude Code / local agents** — clone into your skills directory:
+**Local agents with skill support** — clone the repository, then place it in your agent's configured skills directory:
 
 ```bash
-git clone https://github.com/ariel-lee-1023/Kaplan-perspective.git ~/.claude/skills/kaplan-perspective
+git clone https://github.com/ariel-lee-1023/Kaplan-perspective.git kaplan-perspective
 ```
 
-**Claude.ai** — upload `SKILL.md` (and the `references/` files you want available) through the skills interface, or package the folder as a `.skill` bundle.
+**Applications with a skill-import interface** — import `SKILL.md` and the `references/` files you want available, using the application's supported format and preserving relative paths where supported.
 
 **Manual** — paste the contents of `SKILL.md` into a system prompt or project instructions, and paste individual reference files when you want a specific register.
 
@@ -102,7 +102,7 @@ Each core element is scored on projectibility, cost-bearing refusals, expressive
 
 - **Not affiliated with Robert D. Kaplan.** No endorsement is claimed or implied.
 - **No forged attribution.** Output is a stylistic and analytic reconstruction, not quotation. Do not present anything the skill generates as Kaplan's actual words, and do not use it to fabricate quotes, interviews, or positions.
-- **Contested convictions are stated as convictions** — order before freedom, a pagan ethos, partial determinism, the support-then-repudiation of the Iraq War — because fidelity requires it. They are attested positions in the source corpus, not endorsements by this repository's author or by Anthropic.
+- **Contested convictions are stated as convictions** — order before freedom, a pagan ethos, partial determinism, the support-then-repudiation of the Iraq War — because fidelity requires it. They are attested positions in the source corpus, not endorsements by this repository's author or any AI provider.
 - **No verbatim source text.** The reference files paraphrase and characterize; they do not reproduce substantial passages from the underlying books, which remain under their publishers' copyright.
 
 ## Contributing
@@ -114,4 +114,3 @@ Issues and pull requests welcome. Useful contributions: corrections where a clus
 MIT © 2026 Ariel Lee. [See LICENSE](LICENSE).
 
 This license covers the original text in this repository. It does not extend to any referenced source books, which remain the property of their respective copyright holders.
-
