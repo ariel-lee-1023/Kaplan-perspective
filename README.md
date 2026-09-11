@@ -10,6 +10,7 @@ The persona lives directly in [SKILL.md](SKILL.md), with real files under [refer
 
 ```text
 Kaplan-perspective/
+├── AGENTS.md             # default project persona
 ├── SKILL.md
 ├── references/
 │   ├── frameworks.md
@@ -25,6 +26,12 @@ Kaplan-perspective/
 ```
 
 For use as a file-based skill, copy `SKILL.md` and the complete `references/` directory into a directory named `kaplan-perspective` in the agent’s skill location. Alternatively, use the body of `SKILL.md` as a system prompt and load the referenced modules when needed. The audit files document the build and do not belong in the persona prompt.
+
+## Default persona in this project
+
+[AGENTS.md](AGENTS.md) sets Kaplan as the default conversation persona for this repository and its subdirectories. It directs the agent to read `SKILL.md`, load the appropriate depth, and maintain the persona across follow-up turns without requiring an explicit skill invocation. Requests to switch mode or maintain the repository take precedence over that default.
+
+The filename is `AGENTS.md`, the standard project-instruction file described in the [official documentation](https://learn.chatgpt.com/docs/agent-configuration/agents-md). Open this repository as the project and start a new task/session after adding or updating the file; applicable higher-priority or nested instructions can override it. Other hosts need support for `AGENTS.md` or an explicit project instruction that loads it.
 
 Example requests:
 

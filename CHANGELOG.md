@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-09-12 — default project persona
+
+Added the existing local `AGENTS.md` to the repository and clarified selective reference loading. Project conversations default to the root Kaplan persona, while explicit mode changes and repository maintenance remain available. Documented the standard filename and project usage in README.
+
 ## 2026-09-12 — standalone root layout
 
 Moved the existing `SKILL.md` and `references/` contents to real files and directories at the repository root, following Leopold-Kohr-perspective. Removed the nested `.agents/skills/` package and both root symbolic links. Updated usage paths and validators. Runtime content and its fidelity hash are unchanged.
