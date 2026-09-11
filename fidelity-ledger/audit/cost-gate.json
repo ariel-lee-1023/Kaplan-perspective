@@ -1,0 +1,12 @@
+{
+  "total_divergences": 3,
+  "slated_for_core": 3,
+  "ids": [
+    "CR1",
+    "CR2",
+    "CR3"
+  ],
+  "missing_unlogged": 0,
+  "presence_assertion": "pass",
+  "scope": "CR3 includes one attested hostile-review encounter, not a demonstrated live-response habit."
+}

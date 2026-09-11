@@ -1,0 +1,580 @@
+{
+  "generated": "2026-09-11T13:17:16+00:00",
+  "lang": "en",
+  "n_units": 7,
+  "n_registers": 5,
+  "thresholds": {
+    "ratio": 3.0,
+    "dims": 3
+  },
+  "units": [
+    {
+      "unit_id": "AD",
+      "label": "AD.txt",
+      "chars": 542656,
+      "features": {
+        "mean_sentence_len": 29.195617,
+        "median_sentence_len": 24.0,
+        "p90_sentence_len": 57.0,
+        "long_sentence_share": 0.361138,
+        "question_rate": 8.403267,
+        "connective_rate": 43.921077,
+        "hedge_rate": 47.282383,
+        "booster_rate": 28.010891,
+        "second_person_rate": 16.918578,
+        "first_person_rate": 159.998207,
+        "title_mark_rate": 0.0,
+        "core_term_density": 0.0,
+        "flagship_term_density": 0.0
+      }
+    },
+    {
+      "unit_id": "BG",
+      "label": "BG.txt",
+      "chars": 230164,
+      "features": {
+        "mean_sentence_len": 21.198883,
+        "median_sentence_len": 17.0,
+        "p90_sentence_len": 40.0,
+        "long_sentence_share": 0.206704,
+        "question_rate": 19.764929,
+        "connective_rate": 32.941549,
+        "hedge_rate": 40.84752,
+        "booster_rate": 30.042692,
+        "second_person_rate": 35.049808,
+        "first_person_rate": 222.157803,
+        "title_mark_rate": 0.0,
+        "core_term_density": 0.0,
+        "flagship_term_density": 0.0
+      }
+    },
+    {
+      "unit_id": "CA",
+      "label": "CA.txt",
+      "chars": 212216,
+      "features": {
+        "mean_sentence_len": 27.08123,
+        "median_sentence_len": 23.0,
+        "p90_sentence_len": 50.0,
+        "long_sentence_share": 0.320189,
+        "question_rate": 7.571566,
+        "connective_rate": 35.236903,
+        "hedge_rate": 69.600163,
+        "booster_rate": 27.956551,
+        "second_person_rate": 3.203355,
+        "first_person_rate": 107.749206,
+        "title_mark_rate": 0.0,
+        "core_term_density": 0.0,
+        "flagship_term_density": 0.0
+      }
+    },
+    {
+      "unit_id": "MP",
+      "label": "MP.txt",
+      "chars": 458192,
+      "features": {
+        "mean_sentence_len": 27.159331,
+        "median_sentence_len": 24.0,
+        "p90_sentence_len": 49.0,
+        "long_sentence_share": 0.336486,
+        "question_rate": 10.045405,
+        "connective_rate": 39.779805,
+        "hedge_rate": 66.165736,
+        "booster_rate": 29.734399,
+        "second_person_rate": 10.849038,
+        "first_person_rate": 94.694687,
+        "title_mark_rate": 0.0,
+        "core_term_density": 0.0,
+        "flagship_term_density": 0.0
+      }
+    },
+    {
+      "unit_id": "RG",
+      "label": "RG.txt",
+      "chars": 679242,
+      "features": {
+        "mean_sentence_len": 29.995363,
+        "median_sentence_len": 26.0,
+        "p90_sentence_len": 53.0,
+        "long_sentence_share": 0.401528,
+        "question_rate": 6.002019,
+        "connective_rate": 51.744678,
+        "hedge_rate": 51.835617,
+        "booster_rate": 20.643307,
+        "second_person_rate": 1.636914,
+        "first_person_rate": 52.381256,
+        "title_mark_rate": 0.0,
+        "core_term_density": 0.0,
+        "flagship_term_density": 0.0
+      }
+    },
+    {
+      "unit_id": "TM",
+      "label": "TM.txt",
+      "chars": 176331,
+      "features": {
+        "mean_sentence_len": 21.854058,
+        "median_sentence_len": 19.0,
+        "p90_sentence_len": 40.0,
+        "long_sentence_share": 0.22338,
+        "question_rate": 11.243612,
+        "connective_rate": 46.678024,
+        "hedge_rate": 46.337308,
+        "booster_rate": 39.863714,
+        "second_person_rate": 17.717206,
+        "first_person_rate": 137.308348,
+        "title_mark_rate": 0.0,
+        "core_term_density": 0.0,
+        "flagship_term_density": 0.0
+      }
+    },
+    {
+      "unit_id": "WP",
+      "label": "WP.txt",
+      "chars": 244659,
+      "features": {
+        "mean_sentence_len": 27.119972,
+        "median_sentence_len": 23.5,
+        "p90_sentence_len": 47.0,
+        "long_sentence_share": 0.325243,
+        "question_rate": 7.415552,
+        "connective_rate": 48.584652,
+        "hedge_rate": 79.013987,
+        "booster_rate": 34.520674,
+        "second_person_rate": 1.789961,
+        "first_person_rate": 98.703557,
+        "title_mark_rate": 0.0,
+        "core_term_density": 0.0,
+        "flagship_term_density": 0.0
+      }
+    }
+  ],
+  "distance_matrix": {
+    "units": [
+      "AD",
+      "BG",
+      "CA",
+      "MP",
+      "RG",
+      "TM",
+      "WP"
+    ],
+    "z_distance": [
+      [
+        0.0,
+        1.4019038525562633,
+        0.6399760686273784,
+        0.5370403625706973,
+        0.7053384776841353,
+        0.9888769006169896,
+        0.7826155969471974
+      ],
+      [
+        1.4019038525562633,
+        0.0,
+        1.400219344681691,
+        1.366261215395775,
+        2.0021453993074796,
+        0.8210602478999941,
+        1.6537767876780067
+      ],
+      [
+        0.6399760686273784,
+        1.400219344681691,
+        0.0,
+        0.27592713823828147,
+        0.8087357010475599,
+        1.1247802240461569,
+        0.39050818546269944
+      ],
+      [
+        0.5370403625706973,
+        1.366261215395775,
+        0.27592713823828147,
+        0.0,
+        0.8027112361522691,
+        0.9828319094246225,
+        0.4152655180613954
+      ],
+      [
+        0.7053384776841353,
+        2.0021453993074796,
+        0.8087357010475599,
+        0.8027112361522691,
+        0.0,
+        1.4547372207355802,
+        0.7895453281686827
+      ],
+      [
+        0.9888769006169896,
+        0.8210602478999941,
+        1.1247802240461569,
+        0.9828319094246225,
+        1.4547372207355802,
+        0.0,
+        0.9815945234036255
+      ],
+      [
+        0.7826155969471974,
+        1.6537767876780067,
+        0.39050818546269944,
+        0.4152655180613954,
+        0.7895453281686827,
+        0.9815945234036255,
+        0.0
+      ]
+    ],
+    "ratio_exceedances": [
+      [
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        3,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        2,
+        3,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "families": [
+    {
+      "family_id": "R1",
+      "label": "Late literary travel",
+      "members": [
+        "AD"
+      ],
+      "centroid": {
+        "mean_sentence_len": 29.195617,
+        "median_sentence_len": 24.0,
+        "p90_sentence_len": 57.0,
+        "long_sentence_share": 0.361138,
+        "question_rate": 8.403267,
+        "connective_rate": 43.921077,
+        "hedge_rate": 47.282383,
+        "booster_rate": 28.010891,
+        "second_person_rate": 16.918578,
+        "first_person_rate": 159.998207,
+        "title_mark_rate": 0.0,
+        "core_term_density": 0.0,
+        "flagship_term_density": 0.0
+      },
+      "is_default": false
+    },
+    {
+      "family_id": "R2",
+      "label": "Early reported travel",
+      "members": [
+        "BG"
+      ],
+      "centroid": {
+        "mean_sentence_len": 21.198883,
+        "median_sentence_len": 17.0,
+        "p90_sentence_len": 40.0,
+        "long_sentence_share": 0.206704,
+        "question_rate": 19.764929,
+        "connective_rate": 32.941549,
+        "hedge_rate": 40.84752,
+        "booster_rate": 30.042692,
+        "second_person_rate": 35.049808,
+        "first_person_rate": 222.157803,
+        "title_mark_rate": 0.0,
+        "core_term_density": 0.0,
+        "flagship_term_density": 0.0
+      },
+      "is_default": false
+    },
+    {
+      "family_id": "R3",
+      "label": "Historical policy argument",
+      "members": [
+        "CA",
+        "MP",
+        "WP"
+      ],
+      "centroid": {
+        "mean_sentence_len": 27.120178,
+        "median_sentence_len": 23.5,
+        "p90_sentence_len": 48.666667,
+        "long_sentence_share": 0.327306,
+        "question_rate": 8.344174,
+        "connective_rate": 41.200453,
+        "hedge_rate": 71.593295,
+        "booster_rate": 30.737208,
+        "second_person_rate": 5.280785,
+        "first_person_rate": 100.382483,
+        "title_mark_rate": 0.0,
+        "core_term_density": 0.0,
+        "flagship_term_density": 0.0
+      },
+      "gradient": [
+        "WP",
+        "CA",
+        "MP"
+      ],
+      "is_default": true,
+      "gradient_axis": "Increasing second-person address rate; low throughout. Script proposed median sentence length, but reading favors this interpretable axis."
+    },
+    {
+      "family_id": "R4",
+      "label": "Geographic exposition",
+      "members": [
+        "RG"
+      ],
+      "centroid": {
+        "mean_sentence_len": 29.995363,
+        "median_sentence_len": 26.0,
+        "p90_sentence_len": 53.0,
+        "long_sentence_share": 0.401528,
+        "question_rate": 6.002019,
+        "connective_rate": 51.744678,
+        "hedge_rate": 51.835617,
+        "booster_rate": 20.643307,
+        "second_person_rate": 1.636914,
+        "first_person_rate": 52.381256,
+        "title_mark_rate": 0.0,
+        "core_term_density": 0.0,
+        "flagship_term_density": 0.0
+      },
+      "is_default": false
+    },
+    {
+      "family_id": "R5",
+      "label": "Tragic literary reflection",
+      "members": [
+        "TM"
+      ],
+      "centroid": {
+        "mean_sentence_len": 21.854058,
+        "median_sentence_len": 19.0,
+        "p90_sentence_len": 40.0,
+        "long_sentence_share": 0.22338,
+        "question_rate": 11.243612,
+        "connective_rate": 46.678024,
+        "hedge_rate": 46.337308,
+        "booster_rate": 39.863714,
+        "second_person_rate": 17.717206,
+        "first_person_rate": 137.308348,
+        "title_mark_rate": 0.0,
+        "core_term_density": 0.0,
+        "flagship_term_density": 0.0
+      },
+      "is_default": false
+    }
+  ],
+  "gap_table": [
+    {
+      "dimension": "second_person_rate",
+      "by_family": {
+        "R1": 16.918578,
+        "R2": 35.049808,
+        "R3": 5.280785,
+        "R4": 1.636914,
+        "R5": 17.717206
+      },
+      "max_ratio": 21.412125499568088
+    },
+    {
+      "dimension": "first_person_rate",
+      "by_family": {
+        "R1": 159.998207,
+        "R2": 222.157803,
+        "R3": 100.382483,
+        "R4": 52.381256,
+        "R5": 137.308348
+      },
+      "max_ratio": 4.241169837546469
+    },
+    {
+      "dimension": "question_rate",
+      "by_family": {
+        "R1": 8.403267,
+        "R2": 19.764929,
+        "R3": 8.344174,
+        "R4": 6.002019,
+        "R5": 11.243612
+      },
+      "max_ratio": 3.2930467231110065
+    },
+    {
+      "dimension": "long_sentence_share",
+      "by_family": {
+        "R1": 0.361138,
+        "R2": 0.206704,
+        "R3": 0.327306,
+        "R4": 0.401528,
+        "R5": 0.22338
+      },
+      "max_ratio": 1.942526511339887
+    },
+    {
+      "dimension": "booster_rate",
+      "by_family": {
+        "R1": 28.010891,
+        "R2": 30.042692,
+        "R3": 30.737208,
+        "R4": 20.643307,
+        "R5": 39.863714
+      },
+      "max_ratio": 1.9310720903390142
+    },
+    {
+      "dimension": "hedge_rate",
+      "by_family": {
+        "R1": 47.282383,
+        "R2": 40.84752,
+        "R3": 71.593295,
+        "R4": 51.835617,
+        "R5": 46.337308
+      },
+      "max_ratio": 1.7526962469202534
+    },
+    {
+      "dimension": "connective_rate",
+      "by_family": {
+        "R1": 43.921077,
+        "R2": 32.941549,
+        "R3": 41.200453,
+        "R4": 51.744678,
+        "R5": 46.678024
+      },
+      "max_ratio": 1.5708028180459879
+    },
+    {
+      "dimension": "median_sentence_len",
+      "by_family": {
+        "R1": 24.0,
+        "R2": 17.0,
+        "R3": 23.5,
+        "R4": 26.0,
+        "R5": 19.0
+      },
+      "max_ratio": 1.5294117647058822
+    },
+    {
+      "dimension": "p90_sentence_len",
+      "by_family": {
+        "R1": 57.0,
+        "R2": 40.0,
+        "R3": 48.666667,
+        "R4": 53.0,
+        "R5": 40.0
+      },
+      "max_ratio": 1.425
+    },
+    {
+      "dimension": "mean_sentence_len",
+      "by_family": {
+        "R1": 29.195617,
+        "R2": 21.198883,
+        "R3": 27.120178,
+        "R4": 29.995363,
+        "R5": 21.854058
+      },
+      "max_ratio": 1.4149501650629424
+    },
+    {
+      "dimension": "title_mark_rate",
+      "by_family": {
+        "R1": 0.0,
+        "R2": 0.0,
+        "R3": 0.0,
+        "R4": 0.0,
+        "R5": 0.0
+      },
+      "max_ratio": 1.0
+    },
+    {
+      "dimension": "core_term_density",
+      "by_family": {
+        "R1": 0.0,
+        "R2": 0.0,
+        "R3": 0.0,
+        "R4": 0.0,
+        "R5": 0.0
+      },
+      "max_ratio": 1.0
+    },
+    {
+      "dimension": "flagship_term_density",
+      "by_family": {
+        "R1": 0.0,
+        "R2": 0.0,
+        "R3": 0.0,
+        "R4": 0.0,
+        "R5": 0.0
+      },
+      "max_ratio": 1.0
+    }
+  ],
+  "forced_splits": [
+    {
+      "a": "BG",
+      "b": "RG",
+      "dimensions": [
+        "question_rate",
+        "second_person_rate",
+        "first_person_rate"
+      ],
+      "ratios": {
+        "question_rate": 3.2930467231110065,
+        "second_person_rate": 21.412125499568088,
+        "first_person_rate": 4.241169837546469
+      }
+    }
+  ],
+  "verdict": "MULTI_REGISTER"
+}

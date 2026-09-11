@@ -1,0 +1,886 @@
+{
+  "clusters": [
+    {
+      "id": "c01",
+      "label": "BG section 00 (1993)",
+      "source": "clusters/c01_bg_section_00_1993.txt",
+      "kind": "monologue",
+      "tokens": 5917,
+      "attribution": "firsthand",
+      "period": "1993"
+    },
+    {
+      "id": "c02",
+      "label": "BG section 01 (1993)",
+      "source": "clusters/c02_bg_section_01_1993.txt",
+      "kind": "monologue",
+      "tokens": 12984,
+      "attribution": "firsthand",
+      "period": "1993"
+    },
+    {
+      "id": "c03",
+      "label": "BG section 02 (1993)",
+      "source": "clusters/c03_bg_section_02_1993.txt",
+      "kind": "monologue",
+      "tokens": 9320,
+      "attribution": "firsthand",
+      "period": "1993"
+    },
+    {
+      "id": "c04",
+      "label": "BG section 03 (1993)",
+      "source": "clusters/c04_bg_section_03_1993.txt",
+      "kind": "monologue",
+      "tokens": 10424,
+      "attribution": "firsthand",
+      "period": "1993"
+    },
+    {
+      "id": "c05",
+      "label": "BG section 04 (1993)",
+      "source": "clusters/c05_bg_section_04_1993.txt",
+      "kind": "monologue",
+      "tokens": 2637,
+      "attribution": "firsthand",
+      "period": "1993"
+    },
+    {
+      "id": "c06",
+      "label": "BG section 05 (1993)",
+      "source": "clusters/c06_bg_section_05_1993.txt",
+      "kind": "monologue",
+      "tokens": 10077,
+      "attribution": "firsthand",
+      "period": "1993"
+    },
+    {
+      "id": "c07",
+      "label": "BG section 06 (1993)",
+      "source": "clusters/c07_bg_section_06_1993.txt",
+      "kind": "monologue",
+      "tokens": 8158,
+      "attribution": "firsthand",
+      "period": "1993"
+    },
+    {
+      "id": "c08",
+      "label": "BG section 07 (1993)",
+      "source": "clusters/c08_bg_section_07_1993.txt",
+      "kind": "monologue",
+      "tokens": 7933,
+      "attribution": "firsthand",
+      "period": "1993"
+    },
+    {
+      "id": "c09",
+      "label": "BG section 08 (1993)",
+      "source": "clusters/c09_bg_section_08_1993.txt",
+      "kind": "monologue",
+      "tokens": 6773,
+      "attribution": "firsthand",
+      "period": "1993"
+    },
+    {
+      "id": "c10",
+      "label": "BG section 09 (1993)",
+      "source": "clusters/c10_bg_section_09_1993.txt",
+      "kind": "monologue",
+      "tokens": 10239,
+      "attribution": "firsthand",
+      "period": "1993"
+    },
+    {
+      "id": "c11",
+      "label": "BG section 10 (1993)",
+      "source": "clusters/c11_bg_section_10_1993.txt",
+      "kind": "monologue",
+      "tokens": 5636,
+      "attribution": "firsthand",
+      "period": "1993"
+    },
+    {
+      "id": "c12",
+      "label": "BG section 11 (1993)",
+      "source": "clusters/c12_bg_section_11_1993.txt",
+      "kind": "monologue",
+      "tokens": 3884,
+      "attribution": "firsthand",
+      "period": "1993"
+    },
+    {
+      "id": "c13",
+      "label": "BG section 12 (1993)",
+      "source": "clusters/c13_bg_section_12_1993.txt",
+      "kind": "monologue",
+      "tokens": 10174,
+      "attribution": "firsthand",
+      "period": "1993"
+    },
+    {
+      "id": "c14",
+      "label": "BG section 13 (1993)",
+      "source": "clusters/c14_bg_section_13_1993.txt",
+      "kind": "monologue",
+      "tokens": 2648,
+      "attribution": "firsthand",
+      "period": "1993"
+    },
+    {
+      "id": "c15",
+      "label": "BG section 14 (1993)",
+      "source": "clusters/c15_bg_section_14_1993.txt",
+      "kind": "monologue",
+      "tokens": 5460,
+      "attribution": "firsthand",
+      "period": "1993"
+    },
+    {
+      "id": "c16",
+      "label": "BG section 15 (1993)",
+      "source": "clusters/c16_bg_section_15_1993.txt",
+      "kind": "monologue",
+      "tokens": 7811,
+      "attribution": "firsthand",
+      "period": "1993"
+    },
+    {
+      "id": "c17",
+      "label": "BG section 16 (1993)",
+      "source": "clusters/c17_bg_section_16_1993.txt",
+      "kind": "monologue",
+      "tokens": 4881,
+      "attribution": "firsthand",
+      "period": "1993"
+    },
+    {
+      "id": "c18",
+      "label": "BG section 17 (1993)",
+      "source": "clusters/c18_bg_section_17_1993.txt",
+      "kind": "monologue",
+      "tokens": 12716,
+      "attribution": "firsthand",
+      "period": "1993"
+    },
+    {
+      "id": "c19",
+      "label": "CA section 00 (2000)",
+      "source": "clusters/c19_ca_section_00_2000.txt",
+      "kind": "monologue",
+      "tokens": 1649,
+      "attribution": "firsthand",
+      "period": "2000"
+    },
+    {
+      "id": "c20",
+      "label": "CA section 01 (2000)",
+      "source": "clusters/c20_ca_section_01_2000.txt",
+      "kind": "monologue",
+      "tokens": 18645,
+      "attribution": "firsthand",
+      "period": "2000"
+    },
+    {
+      "id": "c21",
+      "label": "CA section 02 (2000)",
+      "source": "clusters/c21_ca_section_02_2000.txt",
+      "kind": "monologue",
+      "tokens": 13063,
+      "attribution": "firsthand",
+      "period": "2000"
+    },
+    {
+      "id": "c22",
+      "label": "CA section 03 (2000)",
+      "source": "clusters/c22_ca_section_03_2000.txt",
+      "kind": "monologue",
+      "tokens": 1070,
+      "attribution": "firsthand",
+      "period": "2000"
+    },
+    {
+      "id": "c23",
+      "label": "CA section 04 (2000)",
+      "source": "clusters/c23_ca_section_04_2000.txt",
+      "kind": "monologue",
+      "tokens": 1743,
+      "attribution": "firsthand",
+      "period": "2000"
+    },
+    {
+      "id": "c24",
+      "label": "CA section 05 (2000)",
+      "source": "clusters/c24_ca_section_05_2000.txt",
+      "kind": "monologue",
+      "tokens": 2028,
+      "attribution": "firsthand",
+      "period": "2000"
+    },
+    {
+      "id": "c25",
+      "label": "CA section 06 (2000)",
+      "source": "clusters/c25_ca_section_06_2000.txt",
+      "kind": "monologue",
+      "tokens": 1904,
+      "attribution": "firsthand",
+      "period": "2000"
+    },
+    {
+      "id": "c26",
+      "label": "CA section 07 (2000)",
+      "source": "clusters/c26_ca_section_07_2000.txt",
+      "kind": "monologue",
+      "tokens": 8918,
+      "attribution": "firsthand",
+      "period": "2000"
+    },
+    {
+      "id": "c27",
+      "label": "CA section 08 (2000)",
+      "source": "clusters/c27_ca_section_08_2000.txt",
+      "kind": "monologue",
+      "tokens": 3845,
+      "attribution": "firsthand",
+      "period": "2000"
+    },
+    {
+      "id": "c28",
+      "label": "CA section 09 (2000)",
+      "source": "clusters/c28_ca_section_09_2000.txt",
+      "kind": "monologue",
+      "tokens": 5511,
+      "attribution": "firsthand",
+      "period": "2000"
+    },
+    {
+      "id": "c29",
+      "label": "WP section 00 (2001)",
+      "source": "clusters/c29_wp_section_00_2001.txt",
+      "kind": "monologue",
+      "tokens": 1235,
+      "attribution": "firsthand",
+      "period": "2001"
+    },
+    {
+      "id": "c30",
+      "label": "WP section 01 (2001)",
+      "source": "clusters/c30_wp_section_01_2001.txt",
+      "kind": "monologue",
+      "tokens": 4555,
+      "attribution": "firsthand",
+      "period": "2001"
+    },
+    {
+      "id": "c31",
+      "label": "WP section 02 (2001)",
+      "source": "clusters/c31_wp_section_02_2001.txt",
+      "kind": "monologue",
+      "tokens": 3835,
+      "attribution": "firsthand",
+      "period": "2001"
+    },
+    {
+      "id": "c32",
+      "label": "WP section 03 (2001)",
+      "source": "clusters/c32_wp_section_03_2001.txt",
+      "kind": "monologue",
+      "tokens": 3532,
+      "attribution": "firsthand",
+      "period": "2001"
+    },
+    {
+      "id": "c33",
+      "label": "WP section 04 (2001)",
+      "source": "clusters/c33_wp_section_04_2001.txt",
+      "kind": "monologue",
+      "tokens": 4862,
+      "attribution": "firsthand",
+      "period": "2001"
+    },
+    {
+      "id": "c34",
+      "label": "WP section 05 (2001)",
+      "source": "clusters/c34_wp_section_05_2001.txt",
+      "kind": "monologue",
+      "tokens": 4382,
+      "attribution": "firsthand",
+      "period": "2001"
+    },
+    {
+      "id": "c35",
+      "label": "WP section 06 (2001)",
+      "source": "clusters/c35_wp_section_06_2001.txt",
+      "kind": "monologue",
+      "tokens": 4474,
+      "attribution": "firsthand",
+      "period": "2001"
+    },
+    {
+      "id": "c36",
+      "label": "WP section 07 (2001)",
+      "source": "clusters/c36_wp_section_07_2001.txt",
+      "kind": "monologue",
+      "tokens": 6215,
+      "attribution": "firsthand",
+      "period": "2001"
+    },
+    {
+      "id": "c37",
+      "label": "WP section 08 (2001)",
+      "source": "clusters/c37_wp_section_08_2001.txt",
+      "kind": "monologue",
+      "tokens": 7156,
+      "attribution": "firsthand",
+      "period": "2001"
+    },
+    {
+      "id": "c38",
+      "label": "WP section 09 (2001)",
+      "source": "clusters/c38_wp_section_09_2001.txt",
+      "kind": "monologue",
+      "tokens": 6254,
+      "attribution": "firsthand",
+      "period": "2001"
+    },
+    {
+      "id": "c39",
+      "label": "WP section 10 (2001)",
+      "source": "clusters/c39_wp_section_10_2001.txt",
+      "kind": "monologue",
+      "tokens": 5536,
+      "attribution": "firsthand",
+      "period": "2001"
+    },
+    {
+      "id": "c40",
+      "label": "WP section 11 (2001)",
+      "source": "clusters/c40_wp_section_11_2001.txt",
+      "kind": "monologue",
+      "tokens": 1891,
+      "attribution": "firsthand",
+      "period": "2001"
+    },
+    {
+      "id": "c41",
+      "label": "RG section 00 (2012)",
+      "source": "clusters/c41_rg_section_00_2012.txt",
+      "kind": "monologue",
+      "tokens": 4123,
+      "attribution": "firsthand",
+      "period": "2012"
+    },
+    {
+      "id": "c42",
+      "label": "RG section 01 (2012)",
+      "source": "clusters/c42_rg_section_01_2012.txt",
+      "kind": "monologue",
+      "tokens": 9074,
+      "attribution": "firsthand",
+      "period": "2012"
+    },
+    {
+      "id": "c43",
+      "label": "RG section 02 (2012)",
+      "source": "clusters/c43_rg_section_02_2012.txt",
+      "kind": "monologue",
+      "tokens": 7043,
+      "attribution": "firsthand",
+      "period": "2012"
+    },
+    {
+      "id": "c44",
+      "label": "RG section 03 (2012)",
+      "source": "clusters/c44_rg_section_03_2012.txt",
+      "kind": "monologue",
+      "tokens": 10167,
+      "attribution": "firsthand",
+      "period": "2012"
+    },
+    {
+      "id": "c45",
+      "label": "RG section 04 (2012)",
+      "source": "clusters/c45_rg_section_04_2012.txt",
+      "kind": "monologue",
+      "tokens": 8345,
+      "attribution": "firsthand",
+      "period": "2012"
+    },
+    {
+      "id": "c46",
+      "label": "RG section 05 (2012)",
+      "source": "clusters/c46_rg_section_05_2012.txt",
+      "kind": "monologue",
+      "tokens": 4134,
+      "attribution": "firsthand",
+      "period": "2012"
+    },
+    {
+      "id": "c47",
+      "label": "RG section 06 (2012)",
+      "source": "clusters/c47_rg_section_06_2012.txt",
+      "kind": "monologue",
+      "tokens": 6454,
+      "attribution": "firsthand",
+      "period": "2012"
+    },
+    {
+      "id": "c48",
+      "label": "RG section 07 (2012)",
+      "source": "clusters/c48_rg_section_07_2012.txt",
+      "kind": "monologue",
+      "tokens": 4643,
+      "attribution": "firsthand",
+      "period": "2012"
+    },
+    {
+      "id": "c49",
+      "label": "RG section 08 (2012)",
+      "source": "clusters/c49_rg_section_08_2012.txt",
+      "kind": "monologue",
+      "tokens": 7033,
+      "attribution": "firsthand",
+      "period": "2012"
+    },
+    {
+      "id": "c50",
+      "label": "RG section 09 (2012)",
+      "source": "clusters/c50_rg_section_09_2012.txt",
+      "kind": "monologue",
+      "tokens": 7505,
+      "attribution": "firsthand",
+      "period": "2012"
+    },
+    {
+      "id": "c51",
+      "label": "RG section 10 (2012)",
+      "source": "clusters/c51_rg_section_10_2012.txt",
+      "kind": "monologue",
+      "tokens": 14301,
+      "attribution": "firsthand",
+      "period": "2012"
+    },
+    {
+      "id": "c52",
+      "label": "RG section 11 (2012)",
+      "source": "clusters/c52_rg_section_11_2012.txt",
+      "kind": "monologue",
+      "tokens": 17799,
+      "attribution": "firsthand",
+      "period": "2012"
+    },
+    {
+      "id": "c53",
+      "label": "RG section 12 (2012)",
+      "source": "clusters/c53_rg_section_12_2012.txt",
+      "kind": "monologue",
+      "tokens": 11505,
+      "attribution": "firsthand",
+      "period": "2012"
+    },
+    {
+      "id": "c54",
+      "label": "RG section 13 (2012)",
+      "source": "clusters/c54_rg_section_13_2012.txt",
+      "kind": "monologue",
+      "tokens": 11911,
+      "attribution": "firsthand",
+      "period": "2012"
+    },
+    {
+      "id": "c55",
+      "label": "RG section 14 (2012)",
+      "source": "clusters/c55_rg_section_14_2012.txt",
+      "kind": "monologue",
+      "tokens": 13172,
+      "attribution": "firsthand",
+      "period": "2012"
+    },
+    {
+      "id": "c56",
+      "label": "RG section 15 (2012)",
+      "source": "clusters/c56_rg_section_15_2012.txt",
+      "kind": "monologue",
+      "tokens": 12196,
+      "attribution": "firsthand",
+      "period": "2012"
+    },
+    {
+      "id": "c57",
+      "label": "MP section 00 (2018)",
+      "source": "clusters/c57_mp_section_00_2018.txt",
+      "kind": "monologue",
+      "tokens": 17613,
+      "attribution": "firsthand",
+      "period": "2018"
+    },
+    {
+      "id": "c58",
+      "label": "MP section 02 (2018)",
+      "source": "clusters/c58_mp_section_02_2018.txt",
+      "kind": "monologue",
+      "tokens": 1351,
+      "attribution": "firsthand",
+      "period": "2018"
+    },
+    {
+      "id": "c59",
+      "label": "MP section 03 (2018)",
+      "source": "clusters/c59_mp_section_03_2018.txt",
+      "kind": "monologue",
+      "tokens": 3144,
+      "attribution": "firsthand",
+      "period": "2018"
+    },
+    {
+      "id": "c60",
+      "label": "MP section 04 (2018)",
+      "source": "clusters/c60_mp_section_04_2018.txt",
+      "kind": "monologue",
+      "tokens": 6598,
+      "attribution": "firsthand",
+      "period": "2018"
+    },
+    {
+      "id": "c61",
+      "label": "MP section 05 (2018)",
+      "source": "clusters/c61_mp_section_05_2018.txt",
+      "kind": "monologue",
+      "tokens": 8408,
+      "attribution": "firsthand",
+      "period": "2018"
+    },
+    {
+      "id": "c62",
+      "label": "MP section 06 (2018)",
+      "source": "clusters/c62_mp_section_06_2018.txt",
+      "kind": "monologue",
+      "tokens": 10808,
+      "attribution": "firsthand",
+      "period": "2018"
+    },
+    {
+      "id": "c63",
+      "label": "MP section 07 (2018)",
+      "source": "clusters/c63_mp_section_07_2018.txt",
+      "kind": "monologue",
+      "tokens": 1359,
+      "attribution": "firsthand",
+      "period": "2018"
+    },
+    {
+      "id": "c64",
+      "label": "MP section 08 (2018)",
+      "source": "clusters/c64_mp_section_08_2018.txt",
+      "kind": "monologue",
+      "tokens": 3419,
+      "attribution": "firsthand",
+      "period": "2018"
+    },
+    {
+      "id": "c65",
+      "label": "MP section 09 (2018)",
+      "source": "clusters/c65_mp_section_09_2018.txt",
+      "kind": "monologue",
+      "tokens": 2890,
+      "attribution": "firsthand",
+      "period": "2018"
+    },
+    {
+      "id": "c66",
+      "label": "MP section 10 (2018)",
+      "source": "clusters/c66_mp_section_10_2018.txt",
+      "kind": "monologue",
+      "tokens": 6704,
+      "attribution": "firsthand",
+      "period": "2018"
+    },
+    {
+      "id": "c67",
+      "label": "MP section 11 (2018)",
+      "source": "clusters/c67_mp_section_11_2018.txt",
+      "kind": "monologue",
+      "tokens": 12414,
+      "attribution": "firsthand",
+      "period": "2018"
+    },
+    {
+      "id": "c68",
+      "label": "MP section 12 (2018)",
+      "source": "clusters/c68_mp_section_12_2018.txt",
+      "kind": "monologue",
+      "tokens": 8839,
+      "attribution": "firsthand",
+      "period": "2018"
+    },
+    {
+      "id": "c69",
+      "label": "MP section 13 (2018)",
+      "source": "clusters/c69_mp_section_13_2018.txt",
+      "kind": "monologue",
+      "tokens": 1097,
+      "attribution": "firsthand",
+      "period": "2018"
+    },
+    {
+      "id": "c70",
+      "label": "MP section 14 (2018)",
+      "source": "clusters/c70_mp_section_14_2018.txt",
+      "kind": "monologue",
+      "tokens": 2320,
+      "attribution": "firsthand",
+      "period": "2018"
+    },
+    {
+      "id": "c71",
+      "label": "MP section 15 (2018)",
+      "source": "clusters/c71_mp_section_15_2018.txt",
+      "kind": "monologue",
+      "tokens": 7740,
+      "attribution": "firsthand",
+      "period": "2018"
+    },
+    {
+      "id": "c72",
+      "label": "MP section 16 (2018)",
+      "source": "clusters/c72_mp_section_16_2018.txt",
+      "kind": "monologue",
+      "tokens": 3313,
+      "attribution": "firsthand",
+      "period": "2018"
+    },
+    {
+      "id": "c73",
+      "label": "MP section 17 (2018)",
+      "source": "clusters/c73_mp_section_17_2018.txt",
+      "kind": "monologue",
+      "tokens": 3269,
+      "attribution": "firsthand",
+      "period": "2018"
+    },
+    {
+      "id": "c74",
+      "label": "AD section 00 (2022)",
+      "source": "clusters/c74_ad_section_00_2022.txt",
+      "kind": "monologue",
+      "tokens": 1991,
+      "attribution": "firsthand",
+      "period": "2022"
+    },
+    {
+      "id": "c75",
+      "label": "AD section 01 (2022)",
+      "source": "clusters/c75_ad_section_01_2022.txt",
+      "kind": "monologue",
+      "tokens": 10671,
+      "attribution": "firsthand",
+      "period": "2022"
+    },
+    {
+      "id": "c76",
+      "label": "AD section 02 (2022)",
+      "source": "clusters/c76_ad_section_02_2022.txt",
+      "kind": "monologue",
+      "tokens": 12279,
+      "attribution": "firsthand",
+      "period": "2022"
+    },
+    {
+      "id": "c77",
+      "label": "AD section 03 (2022)",
+      "source": "clusters/c77_ad_section_03_2022.txt",
+      "kind": "monologue",
+      "tokens": 14607,
+      "attribution": "firsthand",
+      "period": "2022"
+    },
+    {
+      "id": "c78",
+      "label": "AD section 04 (2022)",
+      "source": "clusters/c78_ad_section_04_2022.txt",
+      "kind": "monologue",
+      "tokens": 17145,
+      "attribution": "firsthand",
+      "period": "2022"
+    },
+    {
+      "id": "c79",
+      "label": "AD section 05 (2022)",
+      "source": "clusters/c79_ad_section_05_2022.txt",
+      "kind": "monologue",
+      "tokens": 19026,
+      "attribution": "firsthand",
+      "period": "2022"
+    },
+    {
+      "id": "c80",
+      "label": "AD section 06 (2022)",
+      "source": "clusters/c80_ad_section_06_2022.txt",
+      "kind": "monologue",
+      "tokens": 21720,
+      "attribution": "firsthand",
+      "period": "2022"
+    },
+    {
+      "id": "c81",
+      "label": "AD section 07 (2022)",
+      "source": "clusters/c81_ad_section_07_2022.txt",
+      "kind": "monologue",
+      "tokens": 17063,
+      "attribution": "firsthand",
+      "period": "2022"
+    },
+    {
+      "id": "c82",
+      "label": "AD section 08 (2022)",
+      "source": "clusters/c82_ad_section_08_2022.txt",
+      "kind": "monologue",
+      "tokens": 12706,
+      "attribution": "firsthand",
+      "period": "2022"
+    },
+    {
+      "id": "c83",
+      "label": "TM section 00 (2023)",
+      "source": "clusters/c83_tm_section_00_2023.txt",
+      "kind": "monologue",
+      "tokens": 1657,
+      "attribution": "firsthand",
+      "period": "2023"
+    },
+    {
+      "id": "c84",
+      "label": "TM section 01 (2023)",
+      "source": "clusters/c84_tm_section_01_2023.txt",
+      "kind": "monologue",
+      "tokens": 6224,
+      "attribution": "firsthand",
+      "period": "2023"
+    },
+    {
+      "id": "c85",
+      "label": "TM section 02 (2023)",
+      "source": "clusters/c85_tm_section_02_2023.txt",
+      "kind": "monologue",
+      "tokens": 4335,
+      "attribution": "firsthand",
+      "period": "2023"
+    },
+    {
+      "id": "c86",
+      "label": "TM section 03 (2023)",
+      "source": "clusters/c86_tm_section_03_2023.txt",
+      "kind": "monologue",
+      "tokens": 4597,
+      "attribution": "firsthand",
+      "period": "2023"
+    },
+    {
+      "id": "c87",
+      "label": "TM section 04 (2023)",
+      "source": "clusters/c87_tm_section_04_2023.txt",
+      "kind": "monologue",
+      "tokens": 2049,
+      "attribution": "firsthand",
+      "period": "2023"
+    },
+    {
+      "id": "c88",
+      "label": "TM section 05 (2023)",
+      "source": "clusters/c88_tm_section_05_2023.txt",
+      "kind": "monologue",
+      "tokens": 3734,
+      "attribution": "firsthand",
+      "period": "2023"
+    },
+    {
+      "id": "c89",
+      "label": "TM section 06 (2023)",
+      "source": "clusters/c89_tm_section_06_2023.txt",
+      "kind": "monologue",
+      "tokens": 2049,
+      "attribution": "firsthand",
+      "period": "2023"
+    },
+    {
+      "id": "c90",
+      "label": "TM section 07 (2023)",
+      "source": "clusters/c90_tm_section_07_2023.txt",
+      "kind": "monologue",
+      "tokens": 1924,
+      "attribution": "firsthand",
+      "period": "2023"
+    },
+    {
+      "id": "c91",
+      "label": "TM section 08 (2023)",
+      "source": "clusters/c91_tm_section_08_2023.txt",
+      "kind": "monologue",
+      "tokens": 2695,
+      "attribution": "firsthand",
+      "period": "2023"
+    },
+    {
+      "id": "c92",
+      "label": "TM section 09 (2023)",
+      "source": "clusters/c92_tm_section_09_2023.txt",
+      "kind": "monologue",
+      "tokens": 2808,
+      "attribution": "firsthand",
+      "period": "2023"
+    },
+    {
+      "id": "c93",
+      "label": "TM section 10 (2023)",
+      "source": "clusters/c93_tm_section_10_2023.txt",
+      "kind": "monologue",
+      "tokens": 2401,
+      "attribution": "firsthand",
+      "period": "2023"
+    },
+    {
+      "id": "c94",
+      "label": "TM section 11 (2023)",
+      "source": "clusters/c94_tm_section_11_2023.txt",
+      "kind": "monologue",
+      "tokens": 1913,
+      "attribution": "firsthand",
+      "period": "2023"
+    },
+    {
+      "id": "c95",
+      "label": "TM section 12 (2023)",
+      "source": "clusters/c95_tm_section_12_2023.txt",
+      "kind": "monologue",
+      "tokens": 1234,
+      "attribution": "firsthand",
+      "period": "2023"
+    },
+    {
+      "id": "c96",
+      "label": "TM section 13 (2023)",
+      "source": "clusters/c96_tm_section_13_2023.txt",
+      "kind": "monologue",
+      "tokens": 1746,
+      "attribution": "firsthand",
+      "period": "2023"
+    },
+    {
+      "id": "c97",
+      "label": "TM section 14 (2023)",
+      "source": "clusters/c97_tm_section_14_2023.txt",
+      "kind": "monologue",
+      "tokens": 1113,
+      "attribution": "firsthand",
+      "period": "2023"
+    },
+    {
+      "id": "c98",
+      "label": "TM section 15 (2023)",
+      "source": "clusters/c98_tm_section_15_2023.txt",
+      "kind": "monologue",
+      "tokens": 1114,
+      "attribution": "firsthand",
+      "period": "2023"
+    }
+  ]
+}

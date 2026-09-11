@@ -1,71 +1,13 @@
-name: Validate skill
-
+name: Validate persona
 on:
   push:
     branches: [main]
   pull_request:
   workflow_dispatch:
-
 jobs:
-  structure:
-    name: Structure and frontmatter
+  validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      - name: Required files exist
-        run: |
-          set -e
-          for f in SKILL.md README.md LICENSE .gitignore CHANGELOG.md \
-                   references/frameworks.md fidelity-ledger/provenance.md fidelity-ledger/episodic.md; do
-            if [ ! -f "$f" ]; then
-              echo "::error::missing required file: $f"
-              exit 1
-            fi
-            echo "ok: $f"
-          done
-
-      - name: All seven cluster files present
-        run: |
-          set -e
-          count=$(find references/clusters -name '*.md' | wc -l)
-          echo "cluster files: $count"
-          if [ "$count" -ne 7 ]; then
-            echo "::error::expected 7 cluster files, found $count"
-            exit 1
-          fi
-
-      - name: SKILL.md has valid YAML frontmatter
-        run: |
-          set -e
-          head -n 1 SKILL.md | grep -qx -- '---' \
-            || { echo "::error::SKILL.md must open with a --- frontmatter fence"; exit 1; }
-          awk 'NR>1 && /^---$/{print NR; exit}' SKILL.md | grep -q . \
-            || { echo "::error::SKILL.md frontmatter is not closed"; exit 1; }
-          grep -qE '^name: *[^ ]' SKILL.md \
-            || { echo "::error::SKILL.md frontmatter missing name"; exit 1; }
-          grep -qE '^description: *[^ ]' SKILL.md \
-            || { echo "::error::SKILL.md frontmatter missing description"; exit 1; }
-          echo "frontmatter ok"
-
-      - name: Internal reference links resolve
-        run: |
-          set -e
-          fail=0
-          grep -oE '`references/[A-Za-z0-9_./-]+\.md`' SKILL.md README.md \
-            | tr -d '`' | sed 's/^[^:]*://' | sort -u | while read -r path; do
-              if [ ! -f "$path" ]; then
-                echo "::error::referenced file not found: $path"
-                fail=1
-              fi
-            done
-          exit $fail
-
-      - name: No stray corpus files committed
-        run: |
-          set -e
-          if find . -path ./.git -prune -o \( -name '*.epub' -o -name '*.mobi' -o -name '*.pdf' \) -print | grep -q .; then
-            echo "::error::source corpus files must not be committed"
-            exit 1
-          fi
-          echo "clean"
+      - name: Validate runtime and audit consistency
+        run: python3 scripts/validate.py

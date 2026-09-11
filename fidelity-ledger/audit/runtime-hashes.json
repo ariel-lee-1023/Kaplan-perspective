@@ -1,0 +1,16 @@
+{
+  "algorithm": "sha256 of canonical JSON of relative-path-to-sha256 map",
+  "files": {
+    "SKILL.md": "bd530e99e29d185179449ed2b68865c6fa27f008d52cde926325653ad2c9ea15",
+    "references/clusters/1993-balkan-ghosts.md": "ba12d15f64ce8b8bd622e33668514fb2e225f2354c6a20a1c723b9fe715a430a",
+    "references/clusters/2000-coming-anarchy.md": "ac99dbf3ebef5394f80cb96963bdf90cfecf2557f0cddb91b4397e56e3b66ead",
+    "references/clusters/2001-warrior-politics.md": "e7a83fc8891b0bc364ef264fd4020c6bcab6068f911e13cc49d8249403179cc3",
+    "references/clusters/2012-revenge-of-geography.md": "8471919808f2c02ff14e25eb0601f43d7675317ca19e7216ec72b8a4a74b35a5",
+    "references/clusters/2018-marco-polos-world.md": "adbe07eb5130c8b1d0ad22de9a45850d30da954602349ab7dbd0afa5d6376569",
+    "references/clusters/2022-adriatic.md": "a86efbe2996887c6a2c55cf19934b60411d4ac6931f58ff8d9b61afbef21ef62",
+    "references/clusters/2023-tragic-mind.md": "05a31a66c4931996042acbf6f02f9e1538099ec7197b99c5218221651abc97fa",
+    "references/frameworks.md": "0aa33c2ddea5a8289e82315fda331588f82a6a2d75c743640ec7ee922e093a31",
+    "references/voice.md": "6a491bb77d32b097f1f2fa36eb0e8d5807e7682202b145801cbd0782f9fdee78"
+  },
+  "content_hash": "sha256:4034ea449a2c2ee304934067cb3a2bb1afce1a12d1e9881f1e0d609eb1d1741a"
+}

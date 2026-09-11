@@ -1,0 +1,680 @@
+[
+  {
+    "name": "Kaplan",
+    "hits_casefold": 3,
+    "hits_literal": 2,
+    "clusters": [
+      "c13",
+      "c19",
+      "c80"
+    ]
+  },
+  {
+    "name": "Shakespeare",
+    "hits_casefold": 61,
+    "hits_literal": 65,
+    "clusters": [
+      "c10",
+      "c18",
+      "c44",
+      "c68",
+      "c71",
+      "c76",
+      "c77",
+      "c78",
+      "c82",
+      "c83",
+      "c84",
+      "c85",
+      "c86",
+      "c88",
+      "c89",
+      "c90",
+      "c91",
+      "c92",
+      "c93",
+      "c94",
+      "c96",
+      "c97"
+    ]
+  },
+  {
+    "name": "Thucydides",
+    "hits_casefold": 54,
+    "hits_literal": 54,
+    "clusters": [
+      "c21",
+      "c29",
+      "c33",
+      "c34",
+      "c35",
+      "c36",
+      "c37",
+      "c39",
+      "c43",
+      "c56",
+      "c58",
+      "c60",
+      "c69",
+      "c82",
+      "c84",
+      "c91",
+      "c92"
+    ]
+  },
+  {
+    "name": "Hobbes",
+    "hits_casefold": 69,
+    "hits_literal": 81,
+    "clusters": [
+      "c20",
+      "c21",
+      "c33",
+      "c36",
+      "c37",
+      "c39",
+      "c42",
+      "c86"
+    ]
+  },
+  {
+    "name": "Machiavelli",
+    "hits_casefold": 100,
+    "hits_literal": 105,
+    "clusters": [
+      "c29",
+      "c32",
+      "c33",
+      "c34",
+      "c35",
+      "c36",
+      "c37",
+      "c38",
+      "c39",
+      "c45",
+      "c50",
+      "c62",
+      "c75",
+      "c76",
+      "c77",
+      "c78",
+      "c80",
+      "c84"
+    ]
+  },
+  {
+    "name": "Malthus",
+    "hits_casefold": 41,
+    "hits_literal": 46,
+    "clusters": [
+      "c20",
+      "c36",
+      "c37",
+      "c49"
+    ]
+  },
+  {
+    "name": "Mackinder",
+    "hits_casefold": 204,
+    "hits_literal": 210,
+    "clusters": [
+      "c42",
+      "c43",
+      "c45",
+      "c46",
+      "c47",
+      "c48",
+      "c49",
+      "c50",
+      "c51",
+      "c52",
+      "c53",
+      "c54",
+      "c55",
+      "c56",
+      "c57"
+    ]
+  },
+  {
+    "name": "Mahan",
+    "hits_casefold": 70,
+    "hits_literal": 78,
+    "clusters": [
+      "c48",
+      "c51",
+      "c52",
+      "c53",
+      "c54",
+      "c56",
+      "c57",
+      "c60"
+    ]
+  },
+  {
+    "name": "Spykman",
+    "hits_casefold": 77,
+    "hits_literal": 79,
+    "clusters": [
+      "c43",
+      "c47",
+      "c48",
+      "c49",
+      "c50",
+      "c51",
+      "c52",
+      "c53",
+      "c54",
+      "c55",
+      "c56",
+      "c71"
+    ]
+  },
+  {
+    "name": "Haushofer",
+    "hits_casefold": 50,
+    "hits_literal": 50,
+    "clusters": [
+      "c46",
+      "c47",
+      "c48",
+      "c51"
+    ]
+  },
+  {
+    "name": "Braudel",
+    "hits_casefold": 43,
+    "hits_literal": 43,
+    "clusters": [
+      "c45",
+      "c50",
+      "c56",
+      "c57",
+      "c75",
+      "c76",
+      "c77",
+      "c78",
+      "c80",
+      "c82"
+    ]
+  },
+  {
+    "name": "Huntington",
+    "hits_casefold": 197,
+    "hits_literal": 197,
+    "clusters": [
+      "c20",
+      "c36",
+      "c43",
+      "c44",
+      "c55",
+      "c56",
+      "c57",
+      "c60",
+      "c66",
+      "c67",
+      "c68",
+      "c71",
+      "c78",
+      "c79"
+    ]
+  },
+  {
+    "name": "Mearsheimer",
+    "hits_casefold": 95,
+    "hits_literal": 95,
+    "clusters": [
+      "c48",
+      "c52",
+      "c56",
+      "c68"
+    ]
+  },
+  {
+    "name": "Kissinger",
+    "hits_casefold": 192,
+    "hits_literal": 192,
+    "clusters": [
+      "c13",
+      "c18",
+      "c21",
+      "c26",
+      "c33",
+      "c37",
+      "c39",
+      "c42",
+      "c43",
+      "c47",
+      "c54",
+      "c59",
+      "c62",
+      "c66",
+      "c67",
+      "c68",
+      "c71",
+      "c79",
+      "c84",
+      "c96"
+    ]
+  },
+  {
+    "name": "Churchill",
+    "hits_casefold": 95,
+    "hits_literal": 99,
+    "clusters": [
+      "c03",
+      "c28",
+      "c29",
+      "c30",
+      "c31",
+      "c32",
+      "c33",
+      "c34",
+      "c35",
+      "c37",
+      "c39",
+      "c40",
+      "c43",
+      "c50",
+      "c71",
+      "c78",
+      "c80",
+      "c81",
+      "c84",
+      "c87"
+    ]
+  },
+  {
+    "name": "Eisenhower",
+    "hits_casefold": 13,
+    "hits_literal": 14,
+    "clusters": [
+      "c21",
+      "c26",
+      "c59",
+      "c68",
+      "c84",
+      "c90",
+      "c98"
+    ]
+  },
+  {
+    "name": "George H. W. Bush",
+    "hits_casefold": 6,
+    "hits_literal": 6,
+    "clusters": [
+      "c42",
+      "c59",
+      "c71",
+      "c84",
+      "c92",
+      "c98"
+    ]
+  },
+  {
+    "name": "Saddam Hussein",
+    "hits_casefold": 37,
+    "hits_literal": 38,
+    "clusters": [
+      "c15",
+      "c21",
+      "c26",
+      "c30",
+      "c33",
+      "c34",
+      "c37",
+      "c41",
+      "c42",
+      "c43",
+      "c44",
+      "c54",
+      "c55",
+      "c59",
+      "c62",
+      "c63",
+      "c64",
+      "c65",
+      "c67",
+      "c68",
+      "c71",
+      "c72",
+      "c75",
+      "c83",
+      "c86",
+      "c88",
+      "c89",
+      "c96"
+    ]
+  },
+  {
+    "name": "Noel Malcolm",
+    "hits_casefold": 5,
+    "hits_literal": 5,
+    "clusters": [
+      "c79",
+      "c81",
+      "c82"
+    ]
+  },
+  {
+    "name": "Robert West",
+    "hits_casefold": 0,
+    "hits_literal": 0,
+    "clusters": []
+  },
+  {
+    "name": "Rebecca West",
+    "hits_casefold": 6,
+    "hits_literal": 6,
+    "clusters": [
+      "c02",
+      "c80"
+    ]
+  },
+  {
+    "name": "Gibbon",
+    "hits_casefold": 37,
+    "hits_literal": 38,
+    "clusters": [
+      "c03",
+      "c24",
+      "c26",
+      "c31",
+      "c35",
+      "c43",
+      "c76",
+      "c78"
+    ]
+  },
+  {
+    "name": "Conrad",
+    "hits_casefold": 34,
+    "hits_literal": 34,
+    "clusters": [
+      "c01",
+      "c07",
+      "c27",
+      "c35",
+      "c39",
+      "c59",
+      "c84",
+      "c85",
+      "c86",
+      "c96"
+    ]
+  },
+  {
+    "name": "Joseph Roth",
+    "hits_casefold": 3,
+    "hits_literal": 3,
+    "clusters": [
+      "c02",
+      "c70",
+      "c79"
+    ]
+  },
+  {
+    "name": "Ezra Pound",
+    "hits_casefold": 13,
+    "hits_literal": 13,
+    "clusters": [
+      "c75",
+      "c76",
+      "c77",
+      "c78",
+      "c81"
+    ]
+  },
+  {
+    "name": "Dante",
+    "hits_casefold": 23,
+    "hits_literal": 23,
+    "clusters": [
+      "c75",
+      "c76",
+      "c78",
+      "c79"
+    ]
+  },
+  {
+    "name": "Hamlet",
+    "hits_casefold": 22,
+    "hits_literal": 22,
+    "clusters": [
+      "c84",
+      "c85",
+      "c86",
+      "c89",
+      "c90",
+      "c92",
+      "c94",
+      "c96"
+    ]
+  },
+  {
+    "name": "Antigone",
+    "hits_casefold": 22,
+    "hits_literal": 22,
+    "clusters": [
+      "c88",
+      "c90",
+      "c94"
+    ]
+  },
+  {
+    "name": "Oedipus",
+    "hits_casefold": 33,
+    "hits_literal": 33,
+    "clusters": [
+      "c18",
+      "c78",
+      "c83",
+      "c84",
+      "c87",
+      "c88",
+      "c93",
+      "c94",
+      "c95"
+    ]
+  },
+  {
+    "name": "Tiresias",
+    "hits_casefold": 10,
+    "hits_literal": 10,
+    "clusters": [
+      "c85",
+      "c88",
+      "c95"
+    ]
+  },
+  {
+    "name": "Prometheus",
+    "hits_casefold": 11,
+    "hits_literal": 11,
+    "clusters": [
+      "c86",
+      "c87",
+      "c90",
+      "c92"
+    ]
+  },
+  {
+    "name": "Dionysus",
+    "hits_casefold": 25,
+    "hits_literal": 25,
+    "clusters": [
+      "c84",
+      "c85",
+      "c86",
+      "c93"
+    ]
+  },
+  {
+    "name": "Apollo",
+    "hits_casefold": 9,
+    "hits_literal": 10,
+    "clusters": [
+      "c36",
+      "c76",
+      "c86"
+    ]
+  },
+  {
+    "name": "Nostromo",
+    "hits_casefold": 17,
+    "hits_literal": 17,
+    "clusters": [
+      "c27"
+    ]
+  },
+  {
+    "name": "proportionalism",
+    "hits_casefold": 4,
+    "hits_literal": 2,
+    "clusters": [
+      "c25"
+    ]
+  },
+  {
+    "name": "probabilistic determinism",
+    "hits_casefold": 4,
+    "hits_literal": 4,
+    "clusters": [
+      "c35",
+      "c43",
+      "c45",
+      "c71"
+    ]
+  },
+  {
+    "name": "anxious foresight",
+    "hits_casefold": 14,
+    "hits_literal": 13,
+    "clusters": [
+      "c34",
+      "c35",
+      "c39",
+      "c47",
+      "c83",
+      "c84",
+      "c89",
+      "c94"
+    ]
+  },
+  {
+    "name": "constructive pessimism",
+    "hits_casefold": 1,
+    "hits_literal": 1,
+    "clusters": [
+      "c90"
+    ]
+  },
+  {
+    "name": "pagan ethos",
+    "hits_casefold": 0,
+    "hits_literal": 0,
+    "clusters": []
+  },
+  {
+    "name": "Heartland",
+    "hits_casefold": 121,
+    "hits_literal": 88,
+    "clusters": [
+      "c03",
+      "c04",
+      "c07",
+      "c20",
+      "c42",
+      "c44",
+      "c45",
+      "c46",
+      "c47",
+      "c48",
+      "c49",
+      "c50",
+      "c51",
+      "c52",
+      "c53",
+      "c54",
+      "c55",
+      "c56",
+      "c57",
+      "c79",
+      "c80",
+      "c81",
+      "c92"
+    ]
+  },
+  {
+    "name": "Rimland",
+    "hits_casefold": 46,
+    "hits_literal": 33,
+    "clusters": [
+      "c45",
+      "c47",
+      "c48",
+      "c49",
+      "c51",
+      "c52",
+      "c53",
+      "c54",
+      "c55",
+      "c56",
+      "c57"
+    ]
+  },
+  {
+    "name": "crisis of room",
+    "hits_casefold": 4,
+    "hits_literal": 4,
+    "clusters": [
+      "c46",
+      "c49",
+      "c50",
+      "c51"
+    ]
+  },
+  {
+    "name": "concert of civilizations",
+    "hits_casefold": 0,
+    "hits_literal": 0,
+    "clusters": []
+  },
+  {
+    "name": "coming anarchy",
+    "hits_casefold": 6,
+    "hits_literal": 0,
+    "clusters": [
+      "c19",
+      "c60"
+    ]
+  },
+  {
+    "name": "revenge of geography",
+    "hits_casefold": 2,
+    "hits_literal": 2,
+    "clusters": [
+      "c43",
+      "c49"
+    ]
+  },
+  {
+    "name": "order comes before freedom",
+    "hits_casefold": 4,
+    "hits_literal": 4,
+    "clusters": [
+      "c69",
+      "c77",
+      "c86"
+    ]
+  },
+  {
+    "name": "crowd symbol",
+    "hits_casefold": 6,
+    "hits_literal": 9,
+    "clusters": [
+      "c02",
+      "c08",
+      "c76"
+    ]
+  }
+]

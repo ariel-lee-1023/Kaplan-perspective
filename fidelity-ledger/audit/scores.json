@@ -1,0 +1,800 @@
+{
+  "weights": {
+    "projectibility": 0.4,
+    "cost_refusal": 0.25,
+    "expressive_match": 0.2,
+    "interactional": 0.05,
+    "preoccupation": 0.1
+  },
+  "weight_notes": "Monologic author corpus: transfer 0.10 interactional weight to projectibility; interactional scores remain zero. Embedded interviews are Kaplan reporting others, not Kaplan answering an interviewer.",
+  "tokenizer": {
+    "script": "token_count.py",
+    "tokens_per_han_char": 1.6666666666666667,
+    "tokens_per_latin_word": 1.3
+  },
+  "n_registers": 5,
+  "core_budget": {
+    "supply": 6350,
+    "ceiling": 7500,
+    "ceiling_rule": "large, 98 chapter/essay units and multiple periods",
+    "budget": 6350,
+    "floor_triggered": false,
+    "over_ceiling": false,
+    "counts": {
+      "cost_refusal": 3,
+      "projectible": 7,
+      "procedure": 5,
+      "verdict": 6,
+      "interactional": 0,
+      "variation": 2
+    }
+  },
+  "decisions": [
+    {
+      "id": "PROC1",
+      "type": "procedure",
+      "scores": {
+        "projectibility": 0.95,
+        "cost_refusal": 0.6,
+        "expressive_match": 0.65,
+        "interactional": 0,
+        "preoccupation": 0.9
+      },
+      "composite": 0.75,
+      "decision": "core",
+      "reason": "Successor-order guard prevents both reflex intervention and reflex defense of tyranny.",
+      "order": 1,
+      "rank": 12
+    },
+    {
+      "id": "PROC2",
+      "type": "procedure",
+      "scores": {
+        "projectibility": 0.95,
+        "cost_refusal": 0.45,
+        "expressive_match": 0.8,
+        "interactional": 0,
+        "preoccupation": 1
+      },
+      "composite": 0.7525,
+      "decision": "core",
+      "reason": "Executable map-reading sequence with a technological discriminant.",
+      "order": 2,
+      "rank": 11
+    },
+    {
+      "id": "PROC3",
+      "type": "procedure",
+      "scores": {
+        "projectibility": 0.95,
+        "cost_refusal": 0.65,
+        "expressive_match": 0.7,
+        "interactional": 0,
+        "preoccupation": 0.9
+      },
+      "composite": 0.7725,
+      "decision": "core",
+      "reason": "Munich and Vietnam are competing warnings, not timeless policy instructions.",
+      "order": 3,
+      "rank": 5
+    },
+    {
+      "id": "PROC4",
+      "type": "procedure",
+      "scores": {
+        "projectibility": 0.95,
+        "cost_refusal": 0.65,
+        "expressive_match": 0.7,
+        "interactional": 0,
+        "preoccupation": 0.9
+      },
+      "composite": 0.7725,
+      "decision": "core",
+      "reason": "Preserves opportunity cost and the home front alongside deterrence.",
+      "order": 4,
+      "rank": 6
+    },
+    {
+      "id": "PROC5",
+      "type": "procedure",
+      "scores": {
+        "projectibility": 1,
+        "cost_refusal": 0.4,
+        "expressive_match": 0.85,
+        "interactional": 0,
+        "preoccupation": 1
+      },
+      "composite": 0.77,
+      "decision": "core",
+      "reason": "Map-to-character sequence and a field correction, not deterministic deduction.",
+      "order": 5,
+      "rank": 7
+    },
+    {
+      "id": "CR1",
+      "type": "cost_refusal",
+      "scores": {
+        "projectibility": 0.95,
+        "cost_refusal": 1,
+        "expressive_match": 0.75,
+        "interactional": 0,
+        "preoccupation": 1
+      },
+      "composite": 0.88,
+      "decision": "core",
+      "reason": "Documented self-implicating admission; known personal reputational stake.",
+      "rank": 1
+    },
+    {
+      "id": "CR2",
+      "type": "cost_refusal",
+      "scores": {
+        "projectibility": 0.85,
+        "cost_refusal": 0.95,
+        "expressive_match": 0.75,
+        "interactional": 0,
+        "preoccupation": 0.85
+      },
+      "composite": 0.8125,
+      "decision": "core",
+      "reason": "Responsibility for effects coexists with correction of misread intentions; not an admission of proven causation.",
+      "rank": 2
+    },
+    {
+      "id": "CR3",
+      "type": "cost_refusal",
+      "scores": {
+        "projectibility": 0.85,
+        "cost_refusal": 0.85,
+        "expressive_match": 0.8,
+        "interactional": 0,
+        "preoccupation": 0.7
+      },
+      "composite": 0.7825,
+      "decision": "core",
+      "reason": "Specific critical encounter plus independent field correction; not a generalized personality claim.",
+      "rank": 3
+    },
+    {
+      "id": "PR1",
+      "type": "regularity",
+      "scores": {
+        "projectibility": 0.95,
+        "cost_refusal": 0.5,
+        "expressive_match": 0.75,
+        "interactional": 0,
+        "preoccupation": 1
+      },
+      "composite": 0.755,
+      "decision": "core",
+      "reason": "Constraint is a conditional mechanism, not a fate slogan.",
+      "rank": 10
+    },
+    {
+      "id": "PR2",
+      "type": "regularity",
+      "scores": {
+        "projectibility": 0.95,
+        "cost_refusal": 0.55,
+        "expressive_match": 0.7,
+        "interactional": 0,
+        "preoccupation": 1
+      },
+      "composite": 0.7575,
+      "decision": "core",
+      "reason": "Separates durable order from both electoral formalism and terror.",
+      "rank": 8
+    },
+    {
+      "id": "PR3",
+      "type": "regularity",
+      "scores": {
+        "projectibility": 0.9,
+        "cost_refusal": 0.5,
+        "expressive_match": 0.7,
+        "interactional": 0,
+        "preoccupation": 0.95
+      },
+      "composite": 0.72,
+      "decision": "core",
+      "reason": "Integration and fragmentation operate together; neither cancels the other.",
+      "rank": 15
+    },
+    {
+      "id": "PR4",
+      "type": "regularity",
+      "scores": {
+        "projectibility": 0.9,
+        "cost_refusal": 0.45,
+        "expressive_match": 0.8,
+        "interactional": 0,
+        "preoccupation": 0.9
+      },
+      "composite": 0.7225,
+      "decision": "core",
+      "reason": "Borderland comparison replaces immutable ethnic categories.",
+      "rank": 14
+    },
+    {
+      "id": "PR5",
+      "type": "regularity",
+      "scores": {
+        "projectibility": 0.95,
+        "cost_refusal": 0.6,
+        "expressive_match": 0.75,
+        "interactional": 0,
+        "preoccupation": 1
+      },
+      "composite": 0.78,
+      "decision": "core",
+      "reason": "Gives a tie-breaker without pretending the sacrificed good becomes worthless.",
+      "rank": 4
+    },
+    {
+      "id": "PR6",
+      "type": "regularity",
+      "scores": {
+        "projectibility": 0.95,
+        "cost_refusal": 0.55,
+        "expressive_match": 0.75,
+        "interactional": 0,
+        "preoccupation": 0.9
+      },
+      "composite": 0.7575,
+      "decision": "core",
+      "reason": "Rejects isolationism and automatic intervention alike.",
+      "rank": 9
+    },
+    {
+      "id": "PR7",
+      "type": "regularity",
+      "scores": {
+        "projectibility": 0.9,
+        "cost_refusal": 0.65,
+        "expressive_match": 0.65,
+        "interactional": 0,
+        "preoccupation": 0.85
+      },
+      "composite": 0.7375,
+      "decision": "core",
+      "reason": "Prevents pagan public ethics from becoming an unrestricted license.",
+      "rank": 13
+    },
+    {
+      "id": "VD1",
+      "type": "verdict",
+      "scores": {
+        "projectibility": 0.95,
+        "cost_refusal": 0.5,
+        "expressive_match": 0.65,
+        "interactional": 0,
+        "preoccupation": 0.85
+      },
+      "composite": 0.72,
+      "decision": "core",
+      "reason": "Cross-work stable object judgment; detailed qualifications routed to frameworks.",
+      "object": "Kissinger",
+      "corpus_hits": 192,
+      "rank": 16
+    },
+    {
+      "id": "VD2",
+      "type": "verdict",
+      "scores": {
+        "projectibility": 0.95,
+        "cost_refusal": 0.5,
+        "expressive_match": 0.65,
+        "interactional": 0,
+        "preoccupation": 0.85
+      },
+      "composite": 0.72,
+      "decision": "core",
+      "reason": "Cross-work stable object judgment; detailed qualifications routed to frameworks.",
+      "object": "Churchill",
+      "corpus_hits": 99,
+      "rank": 17
+    },
+    {
+      "id": "VD3",
+      "type": "verdict",
+      "scores": {
+        "projectibility": 0.95,
+        "cost_refusal": 0.5,
+        "expressive_match": 0.65,
+        "interactional": 0,
+        "preoccupation": 0.85
+      },
+      "composite": 0.72,
+      "decision": "core",
+      "reason": "Cross-work stable object judgment; detailed qualifications routed to frameworks.",
+      "object": "Eisenhower",
+      "corpus_hits": 14,
+      "rank": 18
+    },
+    {
+      "id": "VD4",
+      "type": "verdict",
+      "scores": {
+        "projectibility": 0.95,
+        "cost_refusal": 0.5,
+        "expressive_match": 0.65,
+        "interactional": 0,
+        "preoccupation": 0.85
+      },
+      "composite": 0.72,
+      "decision": "core",
+      "reason": "Cross-work stable object judgment; detailed qualifications routed to frameworks.",
+      "object": "Huntington",
+      "corpus_hits": 197,
+      "rank": 19
+    },
+    {
+      "id": "VD5",
+      "type": "verdict",
+      "scores": {
+        "projectibility": 0.95,
+        "cost_refusal": 0.5,
+        "expressive_match": 0.65,
+        "interactional": 0,
+        "preoccupation": 0.85
+      },
+      "composite": 0.72,
+      "decision": "core",
+      "reason": "Cross-work stable object judgment; detailed qualifications routed to frameworks.",
+      "object": "Malthus",
+      "corpus_hits": 46,
+      "rank": 20
+    },
+    {
+      "id": "VD6",
+      "type": "verdict",
+      "scores": {
+        "projectibility": 0.95,
+        "cost_refusal": 0.5,
+        "expressive_match": 0.65,
+        "interactional": 0,
+        "preoccupation": 0.85
+      },
+      "composite": 0.72,
+      "decision": "core",
+      "reason": "Cross-work stable object judgment; detailed qualifications routed to frameworks.",
+      "object": "Hobbes",
+      "corpus_hits": 81,
+      "rank": 21
+    },
+    {
+      "id": "VD7",
+      "type": "verdict",
+      "scores": {
+        "projectibility": 0.85,
+        "cost_refusal": 0.4,
+        "expressive_match": 0.65,
+        "interactional": 0,
+        "preoccupation": 0.8
+      },
+      "composite": 0.65,
+      "decision": "frameworks",
+      "reason": "Qualified agreement, not an endorsement of every associated argument.",
+      "object": "Mearsheimer",
+      "corpus_hits": 95
+    },
+    {
+      "id": "VD8",
+      "type": "verdict",
+      "scores": {
+        "projectibility": 0.9,
+        "cost_refusal": 0.4,
+        "expressive_match": 0.8,
+        "interactional": 0,
+        "preoccupation": 0.9
+      },
+      "composite": 0.71,
+      "decision": "frameworks",
+      "reason": "Paired literary-historical exemplars, kept in depth rather than another core slogan.",
+      "object": "Gibbon",
+      "corpus_hits": 38
+    },
+    {
+      "id": "MOD1",
+      "type": "modulation",
+      "scores": {
+        "projectibility": 0.85,
+        "cost_refusal": 0.35,
+        "expressive_match": 1,
+        "interactional": 0,
+        "preoccupation": 0.9
+      },
+      "composite": 0.7175,
+      "decision": "core",
+      "reason": "Measurement-supported task routing, not purported behavior under live questioning.",
+      "rank": 23
+    },
+    {
+      "id": "MOD2",
+      "type": "modulation",
+      "scores": {
+        "projectibility": 0.9,
+        "cost_refusal": 0.5,
+        "expressive_match": 0.85,
+        "interactional": 0,
+        "preoccupation": 0.85
+      },
+      "composite": 0.74,
+      "decision": "core",
+      "reason": "Repeated written concession; not an observed dialogue move.",
+      "rank": 22
+    },
+    {
+      "id": "PR8",
+      "type": "regularity",
+      "scores": {
+        "projectibility": 0.9,
+        "cost_refusal": 0.4,
+        "expressive_match": 0.7,
+        "interactional": 0,
+        "preoccupation": 0.8
+      },
+      "composite": 0.68,
+      "decision": "clusters",
+      "reason": "CA and MP modules carry the causal development paradox."
+    },
+    {
+      "id": "PR9",
+      "type": "regularity",
+      "scores": {
+        "projectibility": 0.9,
+        "cost_refusal": 0.45,
+        "expressive_match": 0.7,
+        "interactional": 0,
+        "preoccupation": 0.8
+      },
+      "composite": 0.6925,
+      "decision": "clusters",
+      "reason": "Distinguishes operational forms of power rather than praising strength abstractly."
+    },
+    {
+      "id": "PR10",
+      "type": "regularity",
+      "scores": {
+        "projectibility": 0.85,
+        "cost_refusal": 0.4,
+        "expressive_match": 0.8,
+        "interactional": 0,
+        "preoccupation": 0.85
+      },
+      "composite": 0.685,
+      "decision": "clusters",
+      "reason": "Roth passage reprint counts once; Venice provides distinct corroboration."
+    },
+    {
+      "id": "PR11",
+      "type": "regularity",
+      "scores": {
+        "projectibility": 0.9,
+        "cost_refusal": 0.55,
+        "expressive_match": 0.7,
+        "interactional": 0,
+        "preoccupation": 0.8
+      },
+      "composite": 0.7175,
+      "decision": "clusters",
+      "reason": "Important scale distinction retained in MP and frameworks."
+    },
+    {
+      "id": "PR12",
+      "type": "regularity",
+      "scores": {
+        "projectibility": 0.85,
+        "cost_refusal": 0.3,
+        "expressive_match": 0.95,
+        "interactional": 0,
+        "preoccupation": 0.9
+      },
+      "composite": 0.695,
+      "decision": "voice",
+      "reason": "The source of allusions is a working reading practice, not name-dropping."
+    },
+    {
+      "id": "PR13",
+      "type": "regularity",
+      "scores": {
+        "projectibility": 0.9,
+        "cost_refusal": 0.3,
+        "expressive_match": 0.9,
+        "interactional": 0,
+        "preoccupation": 0.85
+      },
+      "composite": 0.7,
+      "decision": "voice",
+      "reason": "Concrete concession-and-reversal construction retained as prose operation."
+    },
+    {
+      "id": "PP1",
+      "type": "preoccupation",
+      "scores": {
+        "projectibility": 0.7,
+        "cost_refusal": 0.2,
+        "expressive_match": 0.9,
+        "interactional": 0,
+        "preoccupation": 1
+      },
+      "composite": 0.61,
+      "decision": "voice",
+      "reason": "Specific objects of attention; no separate core-budget allowance."
+    },
+    {
+      "id": "IM1",
+      "type": "interactional",
+      "scores": {
+        "projectibility": 0.1,
+        "cost_refusal": 0,
+        "expressive_match": 0.1,
+        "interactional": 0,
+        "preoccupation": 0.1
+      },
+      "composite": 0.07,
+      "decision": "cut",
+      "reason": "A work-specific intention does not establish an interview refusal; old wording copied a fictional template example."
+    },
+    {
+      "id": "IM2",
+      "type": "interactional",
+      "scores": {
+        "projectibility": 0,
+        "cost_refusal": 0,
+        "expressive_match": 0,
+        "interactional": 0,
+        "preoccupation": 0
+      },
+      "composite": 0.0,
+      "decision": "cut",
+      "reason": "Unsupported template transfer and contradicted by learning from criticism."
+    },
+    {
+      "id": "IM3",
+      "type": "interactional",
+      "scores": {
+        "projectibility": 0.2,
+        "cost_refusal": 0,
+        "expressive_match": 0.2,
+        "interactional": 0,
+        "preoccupation": 0.3
+      },
+      "composite": 0.15,
+      "decision": "cut",
+      "reason": "No attested exchange pattern; literature supplies inquiry, not an automatic victory."
+    },
+    {
+      "id": "PR14",
+      "type": "regularity",
+      "scores": {
+        "projectibility": 0,
+        "cost_refusal": 0,
+        "expressive_match": 0.1,
+        "interactional": 0,
+        "preoccupation": 0.3
+      },
+      "composite": 0.05,
+      "decision": "cut",
+      "reason": "Contradicts the method and the explicit map-to-individual sequence."
+    },
+    {
+      "id": "PR15",
+      "type": "regularity",
+      "scores": {
+        "projectibility": 0,
+        "cost_refusal": 0,
+        "expressive_match": 0.1,
+        "interactional": 0,
+        "preoccupation": 0.3
+      },
+      "composite": 0.05,
+      "decision": "cut",
+      "reason": "Erases justified intervention and tyranny as a form of chaos."
+    },
+    {
+      "id": "CR4",
+      "type": "cost_refusal",
+      "scores": {
+        "projectibility": 0,
+        "cost_refusal": 0,
+        "expressive_match": 0.1,
+        "interactional": 0,
+        "preoccupation": 0.2
+      },
+      "composite": 0.04,
+      "decision": "cut",
+      "reason": "No documented cost; contradicts tragedy\u2019s consolation and constructive purpose."
+    },
+    {
+      "id": "CR5",
+      "type": "cost_refusal",
+      "scores": {
+        "projectibility": 0.2,
+        "cost_refusal": 0.1,
+        "expressive_match": 0.2,
+        "interactional": 0,
+        "preoccupation": 0.4
+      },
+      "composite": 0.185,
+      "decision": "cut",
+      "reason": "Unfashionable reading is not proof of personal cost; ignores the Nazi distortion distinction."
+    },
+    {
+      "id": "MOD3",
+      "type": "expression",
+      "scores": {
+        "projectibility": 0.2,
+        "cost_refusal": 0,
+        "expressive_match": 0.25,
+        "interactional": 0,
+        "preoccupation": 0.2
+      },
+      "composite": 0.15,
+      "decision": "cut",
+      "reason": "Generic average and an invalid pooled prescription."
+    },
+    {
+      "id": "MOD4",
+      "type": "expression",
+      "scores": {
+        "projectibility": 0,
+        "cost_refusal": 0,
+        "expressive_match": 0,
+        "interactional": 0,
+        "preoccupation": 0
+      },
+      "composite": 0.0,
+      "decision": "cut",
+      "reason": "No measured absence supports this ban; templated stiffness removed."
+    }
+  ],
+  "coefficients_source": "persona-distiller references/scoring.md and scripts/cluster_budget.py defaults",
+  "cluster_budgets": [
+    {
+      "cluster_id": "c01",
+      "supply": 2716,
+      "budget": 2716,
+      "counts": {
+        "apparatus": 3,
+        "moves": 6,
+        "applications": 7,
+        "fragments": 12,
+        "siblings": 6,
+        "registers": 1
+      },
+      "floor_triggered": false,
+      "recut_flagged": false,
+      "words": 103519,
+      "words_firsthand": 503095,
+      "verdict": "OK",
+      "actual": 2745
+    },
+    {
+      "cluster_id": "c19",
+      "supply": 2743,
+      "budget": 2743,
+      "counts": {
+        "apparatus": 4,
+        "moves": 6,
+        "applications": 7,
+        "fragments": 12,
+        "siblings": 6,
+        "registers": 1
+      },
+      "floor_triggered": false,
+      "recut_flagged": false,
+      "words": 43895,
+      "words_firsthand": 503095,
+      "verdict": "OK",
+      "actual": 2819
+    },
+    {
+      "cluster_id": "c29",
+      "supply": 2949,
+      "budget": 2949,
+      "counts": {
+        "apparatus": 6,
+        "moves": 6,
+        "applications": 7,
+        "fragments": 13,
+        "siblings": 6,
+        "registers": 1
+      },
+      "floor_triggered": false,
+      "recut_flagged": false,
+      "words": 40667,
+      "words_firsthand": 503095,
+      "verdict": "OK",
+      "actual": 3123
+    },
+    {
+      "cluster_id": "c41",
+      "supply": 3024,
+      "budget": 3024,
+      "counts": {
+        "apparatus": 6,
+        "moves": 6,
+        "applications": 7,
+        "fragments": 13,
+        "siblings": 6,
+        "registers": 1
+      },
+      "floor_triggered": false,
+      "recut_flagged": false,
+      "words": 112340,
+      "words_firsthand": 503095,
+      "verdict": "OK",
+      "actual": 2930
+    },
+    {
+      "cluster_id": "c57",
+      "supply": 3226,
+      "budget": 3226,
+      "counts": {
+        "apparatus": 6,
+        "moves": 7,
+        "applications": 8,
+        "fragments": 15,
+        "siblings": 6,
+        "registers": 1
+      },
+      "floor_triggered": false,
+      "recut_flagged": false,
+      "words": 76160,
+      "words_firsthand": 503095,
+      "verdict": "OK",
+      "actual": 3313
+    },
+    {
+      "cluster_id": "c74",
+      "supply": 3334,
+      "budget": 3334,
+      "counts": {
+        "apparatus": 7,
+        "moves": 7,
+        "applications": 8,
+        "fragments": 15,
+        "siblings": 6,
+        "registers": 1
+      },
+      "floor_triggered": false,
+      "recut_flagged": false,
+      "words": 95718,
+      "words_firsthand": 503095,
+      "verdict": "OK",
+      "actual": 3353
+    },
+    {
+      "cluster_id": "c83",
+      "supply": 3139,
+      "budget": 3139,
+      "counts": {
+        "apparatus": 6,
+        "moves": 7,
+        "applications": 8,
+        "fragments": 14,
+        "siblings": 6,
+        "registers": 1
+      },
+      "floor_triggered": false,
+      "recut_flagged": false,
+      "words": 30796,
+      "words_firsthand": 503095,
+      "verdict": "OK",
+      "actual": 3185
+    }
+  ],
+  "standing_budgets": {
+    "frameworks": {
+      "supply": 5730,
+      "budget": 5730,
+      "realised": 6183
+    },
+    "voice": {
+      "supply": 5270,
+      "budget": 5270,
+      "realised": 5793
+    }
+  }
+}

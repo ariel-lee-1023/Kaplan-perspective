@@ -1,0 +1,30 @@
+P  1  predicted=R3       actual=R3       OK
+P  2  predicted=R5       actual=R5       OK
+P  3  predicted=R3       actual=R3       OK
+P  4  predicted=R3       actual=R3       OK
+P  5  predicted=R3       actual=R3       OK
+P  6  predicted=R3       actual=R3       OK
+P  7  predicted=R5       actual=R5       OK
+P  8  predicted=R1       actual=R1       OK
+P  9  predicted=R4       actual=R4       OK
+P 10  predicted=R2       actual=R2       OK
+P 11  predicted=R1       actual=R1       OK
+P 12  predicted=R2       actual=R2       OK
+P 13  predicted=R5       actual=R5       OK
+P 14  predicted=R3       actual=R3       OK
+P 15  predicted=R4       actual=R3       MISS
+P 16  predicted=R2       actual=R2       OK
+P 17  predicted=R1       actual=R1       OK
+P 18  predicted=R3       actual=R3       OK
+P 19  predicted=R4       actual=R4       OK
+P 20  predicted=R3       actual=R3       OK
+P 21  predicted=R4       actual=R4       OK
+
+discrimination: 20/21 = 0.95  (seed 42, names masked)
+verdict: separable — per-register rules are load-bearing, keep them
+
+confused pairs (actual → predicted):
+  R3 → R4   ×1
+A pair confused repeatedly is one register, not two, whatever the labels say.
+
+Record as fidelity.json → discrimination: {"score": 0.95, "n": 21, "seed": 42, "mask_names": true}

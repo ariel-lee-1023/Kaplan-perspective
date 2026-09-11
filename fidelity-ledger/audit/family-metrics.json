@@ -1,0 +1,1105 @@
+{
+  "R1": {
+    "counts": {
+      "words": 89251,
+      "sentences": 3054,
+      "paragraphs": 465
+    },
+    "sentence_length": {
+      "n": 3054,
+      "mean": 29.22,
+      "median": 24.0,
+      "stdev": 21.92,
+      "p10": 8,
+      "p90": 57,
+      "min": 1,
+      "max": 207
+    },
+    "paragraph_length": {
+      "n": 465,
+      "mean": 191.94,
+      "median": 167,
+      "stdev": 140.17,
+      "p10": 20,
+      "p90": 376,
+      "min": 1,
+      "max": 732
+    },
+    "lexical_diversity_mattr500": 0.57,
+    "hedges_per_1k": 4.73,
+    "boosters_per_1k": 2.8,
+    "hedge_booster_ratio": 1.69,
+    "punctuation_per_1k": {
+      "em_dash": 6.61,
+      "semicolon": 1.58,
+      "colon": 4.48,
+      "question": 0.84,
+      "exclamation": 0.25,
+      "parenthetical": 2.1
+    },
+    "person_reference_pct": {
+      "first": 49.2,
+      "second": 5.2,
+      "third": 45.6
+    },
+    "top_content_words": [
+      [
+        "europe",
+        305
+      ],
+      [
+        "one",
+        255
+      ],
+      [
+        "world",
+        228
+      ],
+      [
+        "venice",
+        190
+      ],
+      [
+        "like",
+        184
+      ],
+      [
+        "even",
+        181
+      ],
+      [
+        "war",
+        177
+      ],
+      [
+        "time",
+        148
+      ],
+      [
+        "yet",
+        142
+      ],
+      [
+        "much",
+        140
+      ],
+      [
+        "empire",
+        138
+      ],
+      [
+        "history",
+        132
+      ],
+      [
+        "west",
+        122
+      ],
+      [
+        "century",
+        121
+      ],
+      [
+        "adriatic",
+        120
+      ],
+      [
+        "now",
+        120
+      ],
+      [
+        "east",
+        115
+      ],
+      [
+        "greece",
+        113
+      ],
+      [
+        "european",
+        113
+      ],
+      [
+        "itself",
+        112
+      ],
+      [
+        "early",
+        110
+      ],
+      [
+        "modern",
+        108
+      ],
+      [
+        "ottoman",
+        105
+      ],
+      [
+        "great",
+        102
+      ],
+      [
+        "new",
+        99
+      ]
+    ],
+    "top_bigrams": [
+      [
+        "world war",
+        67
+      ],
+      [
+        "european union",
+        49
+      ],
+      [
+        "central europe",
+        36
+      ],
+      [
+        "ottoman empire",
+        34
+      ],
+      [
+        "early modern",
+        32
+      ],
+      [
+        "cold war",
+        31
+      ],
+      [
+        "twentieth century",
+        25
+      ],
+      [
+        "middle ages",
+        24
+      ],
+      [
+        "north africa",
+        24
+      ],
+      [
+        "east west",
+        22
+      ],
+      [
+        "habsburg empire",
+        21
+      ],
+      [
+        "middle east",
+        20
+      ],
+      [
+        "late antiquity",
+        20
+      ],
+      [
+        "near east",
+        19
+      ],
+      [
+        "former yugoslavia",
+        18
+      ]
+    ],
+    "conspicuously_absent_common_words": [
+      "thing",
+      "problem",
+      "question",
+      "reason",
+      "important",
+      "possible"
+    ],
+    "pronoun_per_1k": {
+      "first": 16.0,
+      "second": 1.69
+    }
+  },
+  "R2": {
+    "counts": {
+      "words": 37946,
+      "sentences": 1776,
+      "paragraphs": 213
+    },
+    "sentence_length": {
+      "n": 1776,
+      "mean": 21.37,
+      "median": 17.5,
+      "stdev": 16.47,
+      "p10": 6,
+      "p90": 40,
+      "min": 1,
+      "max": 187
+    },
+    "paragraph_length": {
+      "n": 213,
+      "mean": 178.15,
+      "median": 165,
+      "stdev": 86.09,
+      "p10": 75,
+      "p90": 293,
+      "min": 60,
+      "max": 411
+    },
+    "lexical_diversity_mattr500": 0.578,
+    "hedges_per_1k": 4.08,
+    "boosters_per_1k": 3.0,
+    "hedge_booster_ratio": 1.36,
+    "punctuation_per_1k": {
+      "em_dash": 4.3,
+      "semicolon": 1.82,
+      "colon": 4.27,
+      "question": 1.98,
+      "exclamation": 0.5,
+      "parenthetical": 1.9
+    },
+    "person_reference_pct": {
+      "first": 46.0,
+      "second": 7.3,
+      "third": 46.7
+    },
+    "top_content_words": [
+      [
+        "one",
+        102
+      ],
+      [
+        "greek",
+        77
+      ],
+      [
+        "like",
+        76
+      ],
+      [
+        "world",
+        74
+      ],
+      [
+        "romania",
+        74
+      ],
+      [
+        "war",
+        73
+      ],
+      [
+        "greece",
+        73
+      ],
+      [
+        "now",
+        67
+      ],
+      [
+        "first",
+        63
+      ],
+      [
+        "said",
+        62
+      ],
+      [
+        "people",
+        59
+      ],
+      [
+        "romanian",
+        58
+      ],
+      [
+        "years",
+        55
+      ],
+      [
+        "bulgaria",
+        51
+      ],
+      [
+        "turkish",
+        49
+      ],
+      [
+        "old",
+        48
+      ],
+      [
+        "serbs",
+        46
+      ],
+      [
+        "time",
+        46
+      ],
+      [
+        "two",
+        45
+      ],
+      [
+        "church",
+        43
+      ],
+      [
+        "even",
+        43
+      ],
+      [
+        "turks",
+        43
+      ],
+      [
+        "never",
+        43
+      ],
+      [
+        "europe",
+        42
+      ],
+      [
+        "back",
+        41
+      ]
+    ],
+    "top_bigrams": [
+      [
+        "world war",
+        30
+      ],
+      [
+        "athenee palace",
+        13
+      ],
+      [
+        "grand hotel",
+        12
+      ],
+      [
+        "eastern europe",
+        10
+      ],
+      [
+        "plum brandy",
+        9
+      ],
+      [
+        "dame rebecca",
+        9
+      ],
+      [
+        "twentieth century",
+        8
+      ],
+      [
+        "black lamb",
+        8
+      ],
+      [
+        "first time",
+        8
+      ],
+      [
+        "old man",
+        8
+      ],
+      [
+        "british council",
+        8
+      ],
+      [
+        "soviet union",
+        7
+      ],
+      [
+        "prime minister",
+        7
+      ],
+      [
+        "lamb grey",
+        6
+      ],
+      [
+        "grey falcon",
+        6
+      ]
+    ],
+    "conspicuously_absent_common_words": [
+      "thing",
+      "point",
+      "problem",
+      "question",
+      "reason",
+      "idea",
+      "system",
+      "sense",
+      "important",
+      "possible",
+      "human",
+      "social"
+    ],
+    "pronoun_per_1k": {
+      "first": 22.22,
+      "second": 3.5
+    }
+  },
+  "R3": {
+    "counts": {
+      "words": 148107,
+      "sentences": 5440,
+      "paragraphs": 720
+    },
+    "sentence_length": {
+      "n": 5440,
+      "mean": 27.23,
+      "median": 23.0,
+      "stdev": 17.9,
+      "p10": 9,
+      "p90": 48,
+      "min": 1,
+      "max": 161
+    },
+    "paragraph_length": {
+      "n": 720,
+      "mean": 205.7,
+      "median": 177.0,
+      "stdev": 156.85,
+      "p10": 23,
+      "p90": 439,
+      "min": 1,
+      "max": 775
+    },
+    "lexical_diversity_mattr500": 0.566,
+    "hedges_per_1k": 7.04,
+    "boosters_per_1k": 3.06,
+    "hedge_booster_ratio": 2.3,
+    "punctuation_per_1k": {
+      "em_dash": 6.25,
+      "semicolon": 1.86,
+      "colon": 3.48,
+      "question": 0.88,
+      "exclamation": 0.14,
+      "parenthetical": 1.96
+    },
+    "person_reference_pct": {
+      "first": 37.0,
+      "second": 2.5,
+      "third": 60.5
+    },
+    "top_content_words": [
+      [
+        "war",
+        653
+      ],
+      [
+        "world",
+        493
+      ],
+      [
+        "one",
+        404
+      ],
+      [
+        "states",
+        371
+      ],
+      [
+        "power",
+        343
+      ],
+      [
+        "china",
+        308
+      ],
+      [
+        "even",
+        302
+      ],
+      [
+        "like",
+        274
+      ],
+      [
+        "military",
+        253
+      ],
+      [
+        "united",
+        243
+      ],
+      [
+        "many",
+        241
+      ],
+      [
+        "american",
+        221
+      ],
+      [
+        "political",
+        206
+      ],
+      [
+        "new",
+        193
+      ],
+      [
+        "policy",
+        180
+      ],
+      [
+        "state",
+        178
+      ],
+      [
+        "century",
+        167
+      ],
+      [
+        "great",
+        164
+      ],
+      [
+        "time",
+        164
+      ],
+      [
+        "north",
+        164
+      ],
+      [
+        "huntington",
+        163
+      ],
+      [
+        "history",
+        161
+      ],
+      [
+        "now",
+        161
+      ],
+      [
+        "human",
+        159
+      ],
+      [
+        "much",
+        155
+      ]
+    ],
+    "top_bigrams": [
+      [
+        "united states",
+        211
+      ],
+      [
+        "cold war",
+        117
+      ],
+      [
+        "foreign policy",
+        98
+      ],
+      [
+        "world war",
+        90
+      ],
+      [
+        "middle east",
+        67
+      ],
+      [
+        "soviet union",
+        52
+      ],
+      [
+        "human rights",
+        50
+      ],
+      [
+        "twentieth century",
+        45
+      ],
+      [
+        "central asia",
+        36
+      ],
+      [
+        "south korea",
+        34
+      ],
+      [
+        "north korea",
+        34
+      ],
+      [
+        "west africa",
+        29
+      ],
+      [
+        "silk road",
+        29
+      ],
+      [
+        "twenty-first century",
+        27
+      ],
+      [
+        "balance power",
+        27
+      ]
+    ],
+    "conspicuously_absent_common_words": [
+      "thing",
+      "question",
+      "idea"
+    ],
+    "pronoun_per_1k": {
+      "first": 9.88,
+      "second": 0.67
+    }
+  },
+  "R4": {
+    "counts": {
+      "words": 109963,
+      "sentences": 3659,
+      "paragraphs": 430
+    },
+    "sentence_length": {
+      "n": 3659,
+      "mean": 30.05,
+      "median": 26,
+      "stdev": 18.28,
+      "p10": 11,
+      "p90": 53,
+      "min": 1,
+      "max": 140
+    },
+    "paragraph_length": {
+      "n": 430,
+      "mean": 255.73,
+      "median": 259.0,
+      "stdev": 160.01,
+      "p10": 40,
+      "p90": 431,
+      "min": 7,
+      "max": 838
+    },
+    "lexical_diversity_mattr500": 0.542,
+    "hedges_per_1k": 5.18,
+    "boosters_per_1k": 2.06,
+    "hedge_booster_ratio": 2.51,
+    "punctuation_per_1k": {
+      "em_dash": 4.36,
+      "semicolon": 1.85,
+      "colon": 3.51,
+      "question": 0.6,
+      "exclamation": 0.06,
+      "parenthetical": 1.62
+    },
+    "person_reference_pct": {
+      "first": 36.0,
+      "second": 1.1,
+      "third": 62.9
+    },
+    "top_content_words": [
+      [
+        "china",
+        496
+      ],
+      [
+        "world",
+        404
+      ],
+      [
+        "power",
+        385
+      ],
+      [
+        "europe",
+        340
+      ],
+      [
+        "east",
+        328
+      ],
+      [
+        "states",
+        314
+      ],
+      [
+        "geography",
+        302
+      ],
+      [
+        "war",
+        288
+      ],
+      [
+        "russia",
+        274
+      ],
+      [
+        "even",
+        254
+      ],
+      [
+        "one",
+        246
+      ],
+      [
+        "central",
+        232
+      ],
+      [
+        "india",
+        226
+      ],
+      [
+        "iran",
+        224
+      ],
+      [
+        "sea",
+        216
+      ],
+      [
+        "north",
+        211
+      ],
+      [
+        "asia",
+        202
+      ],
+      [
+        "united",
+        201
+      ],
+      [
+        "mackinder",
+        201
+      ],
+      [
+        "middle",
+        196
+      ],
+      [
+        "history",
+        196
+      ],
+      [
+        "south",
+        180
+      ],
+      [
+        "america",
+        173
+      ],
+      [
+        "state",
+        172
+      ],
+      [
+        "great",
+        161
+      ]
+    ],
+    "top_bigrams": [
+      [
+        "united states",
+        160
+      ],
+      [
+        "middle east",
+        139
+      ],
+      [
+        "cold war",
+        79
+      ],
+      [
+        "central asia",
+        77
+      ],
+      [
+        "world war",
+        60
+      ],
+      [
+        "sea power",
+        54
+      ],
+      [
+        "soviet union",
+        53
+      ],
+      [
+        "central europe",
+        50
+      ],
+      [
+        "indian ocean",
+        48
+      ],
+      [
+        "arab world",
+        39
+      ],
+      [
+        "twenty-first century",
+        37
+      ],
+      [
+        "land power",
+        35
+      ],
+      [
+        "far east",
+        35
+      ],
+      [
+        "indian subcontinent",
+        34
+      ],
+      [
+        "balance power",
+        34
+      ]
+    ],
+    "conspicuously_absent_common_words": [
+      "thing",
+      "problem",
+      "question",
+      "reason",
+      "possible",
+      "social"
+    ],
+    "pronoun_per_1k": {
+      "first": 5.24,
+      "second": 0.16
+    }
+  },
+  "R5": {
+    "counts": {
+      "words": 29350,
+      "sentences": 1336,
+      "paragraphs": 218
+    },
+    "sentence_length": {
+      "n": 1336,
+      "mean": 21.97,
+      "median": 19.0,
+      "stdev": 14.28,
+      "p10": 7,
+      "p90": 40,
+      "min": 1,
+      "max": 106
+    },
+    "paragraph_length": {
+      "n": 218,
+      "mean": 134.63,
+      "median": 87.0,
+      "stdev": 115.23,
+      "p10": 9,
+      "p90": 319,
+      "min": 1,
+      "max": 532
+    },
+    "lexical_diversity_mattr500": 0.55,
+    "hedges_per_1k": 4.63,
+    "boosters_per_1k": 3.99,
+    "hedge_booster_ratio": 1.16,
+    "punctuation_per_1k": {
+      "em_dash": 4.5,
+      "semicolon": 1.7,
+      "colon": 3.51,
+      "question": 1.12,
+      "exclamation": 0.51,
+      "parenthetical": 0.89
+    },
+    "person_reference_pct": {
+      "first": 33.6,
+      "second": 4.3,
+      "third": 62.1
+    },
+    "top_content_words": [
+      [
+        "tragedy",
+        111
+      ],
+      [
+        "war",
+        104
+      ],
+      [
+        "world",
+        100
+      ],
+      [
+        "one",
+        82
+      ],
+      [
+        "order",
+        79
+      ],
+      [
+        "even",
+        76
+      ],
+      [
+        "human",
+        63
+      ],
+      [
+        "greeks",
+        57
+      ],
+      [
+        "greek",
+        57
+      ],
+      [
+        "iraq",
+        54
+      ],
+      [
+        "good",
+        54
+      ],
+      [
+        "gods",
+        54
+      ],
+      [
+        "yet",
+        52
+      ],
+      [
+        "like",
+        51
+      ],
+      [
+        "power",
+        50
+      ],
+      [
+        "shakespeare",
+        49
+      ],
+      [
+        "fear",
+        49
+      ],
+      [
+        "great",
+        47
+      ],
+      [
+        "men",
+        46
+      ],
+      [
+        "life",
+        43
+      ],
+      [
+        "tragic",
+        42
+      ],
+      [
+        "many",
+        40
+      ],
+      [
+        "much",
+        38
+      ],
+      [
+        "first",
+        37
+      ],
+      [
+        "fate",
+        37
+      ]
+    ],
+    "top_bigrams": [
+      [
+        "united states",
+        18
+      ],
+      [
+        "greek tragedy",
+        16
+      ],
+      [
+        "tragic sensibility",
+        14
+      ],
+      [
+        "ancient greeks",
+        13
+      ],
+      [
+        "cold war",
+        12
+      ],
+      [
+        "think tragically",
+        10
+      ],
+      [
+        "men women",
+        10
+      ],
+      [
+        "greeks shakespeare",
+        9
+      ],
+      [
+        "world war",
+        9
+      ],
+      [
+        "afghanistan iraq",
+        8
+      ],
+      [
+        "middle east",
+        7
+      ],
+      [
+        "saddam hussein",
+        7
+      ],
+      [
+        "anxious foresight",
+        7
+      ],
+      [
+        "one good",
+        7
+      ],
+      [
+        "thinking tragically",
+        7
+      ]
+    ],
+    "conspicuously_absent_common_words": [
+      "problem",
+      "question",
+      "idea",
+      "system",
+      "important",
+      "different"
+    ],
+    "pronoun_per_1k": {
+      "first": 13.73,
+      "second": 1.77
+    }
+  }
+}

@@ -1,27 +1,11 @@
 # NOTICE
 
-## Originality
+The runtime persona contains original synthesized guidance based on seven works by Robert D. Kaplan. It is not authored, approved, or endorsed by Kaplan. Generated examples are not authentic quotations or records of his experiences.
 
-This repository contains original text authored by the contributor.
-It reproduces no substantial portion of any copyrighted source work.
+The audit includes short source excerpts for verification, source names, and attributed terminology. Full books and complete reserved source paragraphs are not distributed. Rights in the source works remain with their respective rights holders; the repository’s license does not license those works.
 
-## Nature of Reference Material
+Framework terms retain their relevant authorship, including Canetti’s crowd symbols, Aron’s probabilistic determinism, and the strategic formulations of Mackinder and Spykman. Operational headings may be the distiller’s synthesis rather than the author’s own terminology.
 
-Source works are named for two purposes only: attribution and verification.
-What is distilled here is **structure** — frameworks, decision rules, and
-named terminology — not expression. No prose, sentences, or expressive
-language from source works has been reproduced.
-
-Framework names and named terminology are preserved exactly as they appear
-in the originals. Paraphrasing them would break traceability to the source
-and defeat the purpose of attribution.
-
-## Rights
-
-Source works referenced in this repository remain the exclusive property
-of their respective rights holders. No license or right in those works is
-granted or implied by their citation here.
-
-## Contributor
+The validation, budgeting, and token-estimation utilities derive from Persona-Distiller, copyright 2026 Ariel Lee, under the MIT license reproduced in scripts/PERSONA-DISTILLER-LICENSE.txt. The remaining original repository material is covered by LICENSE.
 
 Contributed by [@ariel-lee-1023](https://github.com/ariel-lee-1023).

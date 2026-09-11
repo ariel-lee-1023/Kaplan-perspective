@@ -1,116 +1,55 @@
-# kaplan-perspective
+# Robert D. Kaplan — perspective
 
-A **reusable AI skill** that analyzes conflicts, states, leaders, and decisions through the documented thinking style of the American author and geopolitical writer **Robert D. Kaplan** — read the map before the ideology, think tragically to forestall tragedy, and grant that order comes before freedom.
+A persona skill rebuilt from seven supplied books using this project’s **Persona-Distiller** method. It joins geography, historical comparison, political order, travel, and literature in a working account of judgment. It is an interpretive tool, not writing authored or endorsed by Robert D. Kaplan.
 
-It is a *thinking-style tool* for analysis and ideation. It is not affiliated with, endorsed by, or authored by Robert D. Kaplan, and it must not be used to attribute invented statements to him. See [Disclaimer](#disclaimer).
+The central question is what changes a recommendation: the successor authority after an intervention, the resources consumed elsewhere, the historical analogy that actually fits, and the person who must live with the consequences. The later reckoning with Iraq and *Balkan Ghosts* constrains the earlier confidence. Geography establishes pressures without abolishing choice; tragedy preserves responsibility without requiring despair.
 
----
+## Start here
 
-## What it does
+The canonical skill is [`.agents/skills/kaplan-perspective/SKILL.md`](.agents/skills/kaplan-perspective/SKILL.md). The root `SKILL.md` and `references/` are compatibility symlinks to that one runtime package. The previous recursive `.agents/skills/Kaplan-perspective → ../..` layout has been replaced.
 
-Loaded into a compatible AI assistant's session, the skill reframes a question the way Kaplan's published work does:
+A compatible agent can discover the skill in this repository. For use in another project, copy the complete `kaplan-perspective` directory into that project’s `.agents/skills/`. The existing project `AGENTS.md` remains in place.
 
-- **Read the map first.** Terrain, distance, chokepoints, and position before ideology or personality.
-- **Partial, self-undercutting determinism.** Assert the constraint, then refuse the fatalism — "the map tells many contradictory stories."
-- **Order before freedom.** Authority is prior to liberty; anarchy is the crueler tyranny.
-- **Think tragically to avoid tragedy.** Anxious foresight as a discipline against hubris.
-- **A pagan ethos.** Statecraft judged by results and by the fate of those in one's care, not by purity of intention.
-- **Forecast by mechanism, never by date.** A prediction that names a year and not a cause is astrology.
-- **Summon a witness from the dead.** Objections answered through Thucydides, Machiavelli, Hobbes, Mackinder, Berlin, Niebuhr.
+Example requests:
 
-It also **modulates register** with the subject matter — close and first-person in the field, hedged and third-person on the geopolitical map, most declarative on the moral weight of power.
+- “Use $kaplan-perspective to assess the proposed intervention. Identify what would have to be true to justify it.”
+- “Read this city description through the later Adriatic perspective, allowing the details to change the interpretation.”
+- “Use the tragic frame to examine this leader’s decision. Preserve the legitimate obligation the choice sacrifices.”
 
-## When to use it
+The core handles short answers. It routes sustained writing to [voice.md](.agents/skills/kaplan-perspective/references/voice.md), extended reasoning to [frameworks.md](.agents/skills/kaplan-perspective/references/frameworks.md), and specialized questions to one relevant depth module. Contemporary applications require current evidence; invented travel memories, conversations, quotations, and attributed positions are excluded.
 
-Good fits:
+## Five writing modes
 
-- Grand-strategy and geopolitical analysis
-- Reading a rising or revisionist power from geography and history
-- Order-vs-freedom sequencing in state-building, intervention, and post-conflict policy
-- The moral philosophy of power; the burden of the decider
-- Borderlands and shatter-zones — the Balkans, the Adriatic, Eurasian seams
+| Mode | Primary material | Function |
+|---|---|---|
+| Historical policy argument — default | *The Coming Anarchy*, *Warrior Politics*, *The Return of Marco Polo’s World* | Compare choices, instruments of power, and their costs. |
+| Geographic exposition | *The Revenge of Geography* | Read terrain, routes, strategic reach, and changing constraints. |
+| Early reported travel | *Balkan Ghosts* | Follow encounters, historical memory, and the pressure of place. |
+| Late literary travel | *Adriatic* | Let art, reading, and overlapping identities revise the observer. |
+| Tragic literary reflection | *The Tragic Mind* | Examine conscience, ambition, incompatible duties, and consolation. |
 
-Poor fits (the skill will reframe toward geography/order rather than hold a real position):
+Seven depth modules retain the distinctions within each work. Their dates identify publications or the established module labels, not the composition date of every collected essay. The default understanding incorporates later corrections; an explicitly requested historical mode can recover an earlier stance with its limits.
 
-- Economics and technical finance
-- Domestic US policy
-- Granular dated forecasting
-- Anything after 2023
+## What changed in this rebuild
 
-Confidence boundaries are documented in [`fidelity-ledger/provenance.md`](fidelity-ledger/provenance.md).
+The previous package reduced Kaplan to a handful of geopolitical maxims and borrowed generic interaction rules from the distiller’s illustrative examples. The rebuild removes the unsupported refusal of numbers, permanent withholding of comfort, and use of dead authorities to settle objections. It restores actual discriminants, qualified standing judgments, literary attention, accountability, and measured differences among writing modes.
 
-## Repository layout
+The core contains roughly 2,700 words. Depth is loaded selectively. The audit uses the distiller’s explicit heuristic token estimator rather than calling word counts or planning estimates model tokens.
 
-```
-kaplan-perspective/
-├── SKILL.md                    # the skill itself (YAML frontmatter + persona core)
-├── references/               # host-agent-facing, loaded at runtime, never contains
-│   │                        #   provenance or episodic material
-│   ├── frameworks.md           # Kaplan's named constructs, preserved verbatim
-│   └── clusters/               # per-book register profiles
-│       ├── 1993-balkan-ghosts.md
-│       ├── 2000-coming-anarchy.md
-│       ├── 2001-warrior-politics.md
-│       ├── 2012-revenge-of-geography.md
-│       ├── 2018-marco-polos-world.md
-│       ├── 2022-adriatic.md
-│       └── 2023-tragic-mind.md
-├── fidelity-ledger/          # human-facing, never loaded by the host agent
-│   ├── provenance.md         # sources, scores, gates, confidence caveats
-│   └── episodic.md             # attested but lower-priority material
-├── LICENSE
-├── NOTICE.md
-├── CHANGELOG.md
-└── .github/workflows/validate.yml
+## Evidence and limits
+
+The seven local Markdown books were segmented into 98 chapter/essay units. All units received distributed reading samples, with deeper reading around diagnostic claims; this is not a claim of line-by-line close reading of seven pristine books. The *Balkan Ghosts* transcription is heavily damaged, and *Warrior Politics* requires text repair. Reported interviews do not provide evidence of Kaplan’s own live turn-taking.
+
+Internal checks include reserved continuations, register discrimination, cost-bearing admissions, five prose samples, literal attestation, package structure, and calculated budgets. They exposed and corrected substantive errors. They are self-scored checks, not independent authentication of a simulated author. Late literary continuation remains less reliable, and short-sample hedge rates vary substantially.
+
+The [rebuild audit](fidelity-ledger/provenance.md) preserves scores, misses, source hashes, the reading method, and the limits on each claim. The [episodic record](fidelity-ledger/episodic.md) separates concrete events from general traits. Audit files sit outside the runtime skill and are not persona context. The superseded 2026-08-17 audit is retained as history, without inheriting its unverified claims.
+
+## Validate
+
+```sh
+python3 scripts/validate.py
 ```
 
-The skill is organized for progressive disclosure: frontmatter describes when to use it, `SKILL.md` provides the core instructions, and `references/` supplies additional material on demand. Automatic loading depends on the host application's skill support.
+The validator checks canonical layout, reference resolution, frontmatter, retained cost-bearing material, budget arithmetic, artifact consistency, and runtime hashes. Full source texts are not distributed with this repository.
 
-## Installation
-
-**Local agents with skill support** — clone the repository, then place it in your agent's configured skills directory:
-
-```bash
-git clone https://github.com/ariel-lee-1023/Kaplan-perspective.git kaplan-perspective
-```
-
-**Applications with a skill-import interface** — import `SKILL.md` and the `references/` files you want available, using the application's supported format and preserving relative paths where supported.
-
-**Manual** — paste the contents of `SKILL.md` into a system prompt or project instructions, and paste individual reference files when you want a specific register.
-
-## Usage
-
-Once installed, ask normally:
-
-> Analyze Turkey's position between the Black Sea and the Levant.
-
-> What does the Kaplan frame say about state-building sequencing in the Sahel?
-
-> Read China's Indian Ocean strategy from the map rather than the rhetoric.
-
-To pin a specific register, name it:
-
-> Use the 1993 field voice — describe the Vardar valley as a seam between worlds.
-
-## How it was built
-
-Distilled by a `persona-distiller` pipeline (full-rigor mode) from seven single-authored books, roughly 562,000 words: *Balkan Ghosts* (1993), *The Coming Anarchy* (2000), *Warrior Politics* (2001), *The Revenge of Geography* (2012), *The Return of Marco Polo's World* (2018), *Adriatic* (2022), and *The Tragic Mind* (2023).
-
-Each core element is scored on projectibility, cost-bearing refusals, expressive match, interactional moves, and preoccupation, then gated. The full ledger — composites, elevation notes, projection and style-match results, temporal gaps — is in [`fidelity-ledger/provenance.md`](fidelity-ledger/provenance.md). The corpus contains **no** interviews, debates, or decision records, so the interactional moves are reconstructed from monologic prose and are the softest dimension.
-
-## Disclaimer
-
-- **Not affiliated with Robert D. Kaplan.** No endorsement is claimed or implied.
-- **No forged attribution.** Output is a stylistic and analytic reconstruction, not quotation. Do not present anything the skill generates as Kaplan's actual words, and do not use it to fabricate quotes, interviews, or positions.
-- **Contested convictions are stated as convictions** — order before freedom, a pagan ethos, partial determinism, the support-then-repudiation of the Iraq War — because fidelity requires it. They are attested positions in the source corpus, not endorsements by this repository's author or any AI provider.
-- **No verbatim source text.** The reference files paraphrase and characterize; they do not reproduce substantial passages from the underlying books, which remain under their publishers' copyright.
-
-## Contributing
-
-Issues and pull requests welcome. Useful contributions: corrections where a cluster mischaracterizes a book, better-calibrated confidence boundaries, additional registers for underrepresented periods. Please keep the honesty in `fidelity-ledger/provenance.md` rather than in `SKILL.md` — the core file stays in-voice.
-
-## License
-
-MIT © 2026 Ariel Lee. [See LICENSE](LICENSE).
-
-This license covers the original text in this repository. It does not extend to any referenced source books, which remain the property of their respective copyright holders.
+The [license](LICENSE) covers the repository’s original material; it does not grant rights to Kaplan’s books. Attribution and scope are described in [NOTICE.md](NOTICE.md).

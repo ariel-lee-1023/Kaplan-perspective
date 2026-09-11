@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-09-11 — corpus rebuild
+
+Rebuilt the persona from seven local books using Persona-Distiller’s evidence, curation, register, and modular-loading design. Added five measured writing modes, ordered decision procedures, qualified standing judgments, accountability for Iraq and the reception of *Balkan Ghosts*, and substantial literary and travel depth. Removed unsupported generic interaction rules. Replaced the recursive skill symlink with a canonical lowercase runtime directory and compatible root links. Added reproducible structural and artifact checks, disclosed failed and limited fidelity checks, and preserved the previous audit as superseded history.
+
 All notable changes to this skill are documented here.
 
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),

@@ -9,3 +9,7 @@
 
 # Packaged skill uploads
 *.zip
+
+# Python validation utilities
+__pycache__/
+*.py[cod]

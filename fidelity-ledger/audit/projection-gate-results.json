@@ -1,0 +1,222 @@
+{
+  "n": 24,
+  "overall": 0.7708333333333334,
+  "hit_2": 0.625,
+  "hit_1": 0.2916666666666667,
+  "by_domain": {
+    "AD": {
+      "n": 2,
+      "overall": 0.25,
+      "hit_2": 0.0,
+      "hit_1": 0.5
+    },
+    "BG": {
+      "n": 4,
+      "overall": 0.75,
+      "hit_2": 0.75,
+      "hit_1": 0.0
+    },
+    "CA": {
+      "n": 3,
+      "overall": 0.6666666666666666,
+      "hit_2": 0.3333333333333333,
+      "hit_1": 0.6666666666666666
+    },
+    "MP": {
+      "n": 4,
+      "overall": 0.875,
+      "hit_2": 0.75,
+      "hit_1": 0.25
+    },
+    "RG": {
+      "n": 4,
+      "overall": 0.875,
+      "hit_2": 0.75,
+      "hit_1": 0.25
+    },
+    "TM": {
+      "n": 4,
+      "overall": 0.75,
+      "hit_2": 0.5,
+      "hit_1": 0.5
+    },
+    "WP": {
+      "n": 3,
+      "overall": 1.0,
+      "hit_2": 1.0,
+      "hit_1": 0.0
+    }
+  },
+  "passed": true,
+  "items": [
+    {
+      "id": "c01-8",
+      "prediction": "Historical violence in the Balkans supplies a precedent for supposedly new Middle Eastern terrorism; local sponsorship and rival national claims connect the two.",
+      "domain": "BG",
+      "score": 2,
+      "reason": "Matches both the direction and the operative reason; specific historical details were not predicted."
+    },
+    {
+      "id": "c04-14",
+      "prediction": "Defeat and lost territory leave Bulgaria with grievance and an irredentist orientation that carries into later alliances; victory has not resolved Macedonia.",
+      "domain": "BG",
+      "score": 2,
+      "reason": "Matches both the direction and the operative reason; specific historical details were not predicted."
+    },
+    {
+      "id": "c08-10",
+      "prediction": "Romanian antisemitism has its own local agency and bureaucratic violence; the account will resist treating the massacres merely as German impositions and expose the evasions of later national memory.",
+      "domain": "BG",
+      "score": 0,
+      "reason": "Missed Antonescu\u2019s opportunistic reversal and the limits of its political explanation."
+    },
+    {
+      "id": "c09-9",
+      "prediction": "The church\u2019s material intimacy and surviving color make history emotionally present; the art is also a record of collective belief and struggle, not scenery outside politics.",
+      "domain": "BG",
+      "score": 2,
+      "reason": "Matches both the direction and the operative reason; specific historical details were not predicted."
+    },
+    {
+      "id": "c20-27",
+      "prediction": "The inhabited Kurdish region cuts across legal borders; ethnic and economic networks undermine both a neat state map and a simple Turkic-versus-Iranian civilizational division.",
+      "domain": "CA",
+      "score": 1,
+      "reason": "Got porous borders; omitted Kurds as selectors of which states endure."
+    },
+    {
+      "id": "c21-10",
+      "prediction": "Berlin\u2019s defense of liberty against historical necessity challenges Hobbesian security, but the demand for order remains ethically serious where society can disintegrate; neither pole eliminates the other.",
+      "domain": "CA",
+      "score": 1,
+      "reason": "Right opposition; continuation chiefly develops Berlin\u2019s rejection of inevitability."
+    },
+    {
+      "id": "c22-2",
+      "prediction": "Imperial order can protect minorities better than mass national self-determination; humane aims require workable authority and sometimes force rather than education or legal declarations alone.",
+      "domain": "CA",
+      "score": 2,
+      "reason": "Matches both the direction and the operative reason; specific historical details were not predicted."
+    },
+    {
+      "id": "c37-11",
+      "prediction": "Statecraft needs a synthesis of worldly prudence and moral purpose. Pagan technique is not permission for cruelty or corruption; power must create the conditions for decency and liberty.",
+      "domain": "WP",
+      "score": 2,
+      "reason": "Matches both the direction and the operative reason; specific historical details were not predicted."
+    },
+    {
+      "id": "c39-7",
+      "prediction": "Political unification does not guarantee humane governance. Qin\u2019s coercive system shows that institutions can integrate territory while provoking reaction; a durable order requires more than a centralizing machinery.",
+      "domain": "WP",
+      "score": 2,
+      "reason": "Matches both the direction and the operative reason; specific historical details were not predicted."
+    },
+    {
+      "id": "c40-3",
+      "prediction": "Tiberius concealed losses to avoid a prestige-driven escalation and conserved the frontier rather than demand revenge; capable restraint may appear unheroic but protects the polity.",
+      "domain": "WP",
+      "score": 2,
+      "reason": "Matches both the direction and the operative reason; specific historical details were not predicted."
+    },
+    {
+      "id": "c41-6",
+      "prediction": "Use the older geopolitical thinkers critically to identify physical constraints, not to deny agency. The map makes opportunities and dangers visible; transport and communication do not erase terrain.",
+      "domain": "RG",
+      "score": 2,
+      "reason": "Matches both the direction and the operative reason; specific historical details were not predicted."
+    },
+    {
+      "id": "c42-6",
+      "prediction": "Central Europe\u2019s cultural aspiration lacks defensible physical boundaries between Germany and Russia. A benign interval or institutional umbrella can protect it, but geography leaves it exposed to stronger neighbors.",
+      "domain": "RG",
+      "score": 2,
+      "reason": "Matches both the direction and the operative reason; specific historical details were not predicted."
+    },
+    {
+      "id": "c43-10",
+      "prediction": "Maritime distance and the need to transport and sustain forces still shape American power; aircraft and missiles cannot substitute for logistics and physical presence.",
+      "domain": "RG",
+      "score": 2,
+      "reason": "Matches both the direction and the operative reason; specific historical details were not predicted."
+    },
+    {
+      "id": "c54-16",
+      "prediction": "Iran connects the Persian plateau to Central Asia and the Gulf, but Soviet/Russian and other constraints have prevented its natural cultural-commercial reach. Internal political development could turn its geographic potential into regional influence.",
+      "domain": "RG",
+      "score": 1,
+      "reason": "Right pivot; insufficient discrimination among sectarian and national constraints."
+    },
+    {
+      "id": "c59-4",
+      "prediction": "Personal virtue is insufficient for public duty. The president must consider citizens, the balance of power, and the long consequences; McGovern\u2019s moral character does not prove better statesmanship than Nixon\u2019s.",
+      "domain": "MP",
+      "score": 2,
+      "reason": "Matches both the direction and the operative reason; specific historical details were not predicted."
+    },
+    {
+      "id": "c63-2",
+      "prediction": "Possible eventual benefit does not vindicate the original invasion or its opportunity costs. Admit the surge\u2019s accomplishment while judging the initial decision against foreseeable risk and today\u2019s overstretch.",
+      "domain": "MP",
+      "score": 1,
+      "reason": "Got costs and timing; missed the explicit parents\u2019 test and numerical proportionality."
+    },
+    {
+      "id": "c64-2",
+      "prediction": "The suffering extends beyond battlefield casualties into families and a civilian society unable to absorb war\u2019s long effects. The volunteer military\u2019s isolation makes small wars harder on the home front than the headline numbers suggest.",
+      "domain": "MP",
+      "score": 2,
+      "reason": "Matches both the direction and the operative reason; specific historical details were not predicted."
+    },
+    {
+      "id": "c73-2",
+      "prediction": "Urumqi has been transformed by transport, building, and Han economic penetration; development consolidates Chinese power in the frontier and also presses on minority identity.",
+      "domain": "MP",
+      "score": 2,
+      "reason": "Matches both the direction and the operative reason; specific historical details were not predicted."
+    },
+    {
+      "id": "c74-1",
+      "prediction": "Solitary looking makes the journey an inner education. Books, weather, and works of art generate an enlarged consciousness before a political argument; loneliness can intensify beauty rather than signify despair.",
+      "domain": "AD",
+      "score": 0,
+      "reason": "Missed the correction of exoticism and the turn from solitude to self-doubt."
+    },
+    {
+      "id": "c77-11",
+      "prediction": "Venice demands slow sensory attention; the visitor and remembered literature illuminate each other. Its preserved beauty provides a contrast with surrounding modernity and a way into its historical civilization.",
+      "domain": "AD",
+      "score": 1,
+      "reason": "Generic aesthetic/literary direction; lacked the specific critical and architectural transition."
+    },
+    {
+      "id": "c89-4",
+      "prediction": "A leader\u2019s intimate bonds and appetite for rapid action affect the course of states. The Macbeths suggest that domestic devotion can coexist with public cruelty, while ambition crowds out conscience.",
+      "domain": "TM",
+      "score": 2,
+      "reason": "Matches both the direction and the operative reason; specific historical details were not predicted."
+    },
+    {
+      "id": "c91-4",
+      "prediction": "The ancient description exposes the disproportion between leaders\u2019 objectives and ordinary suffering. Human costs and exhausted survivors puncture the prestige or grand justification used to launch a discretionary war.",
+      "domain": "TM",
+      "score": 2,
+      "reason": "Matches both the direction and the operative reason; specific historical details were not predicted."
+    },
+    {
+      "id": "c93-2",
+      "prediction": "As the scale of intervention grows, accumulated historical and sectarian forces overwhelm even forceful individuals. American power has limits; larger great-power contests will make false mastery still more dangerous.",
+      "domain": "TM",
+      "score": 1,
+      "reason": "Limits correct; missed the turn to America importing the pathologies it sought to fix."
+    },
+    {
+      "id": "c94-2",
+      "prediction": "Oedipus gains inward dignity through admitting failure and limits, not through solving every wrong. This is endurance and tragic understanding, not moral absolution or a guarantee of worldly success.",
+      "domain": "TM",
+      "score": 1,
+      "reason": "Endurance correct; insufficient attention to renewed energy through consolation."
+    }
+  ],
+  "sampling_note": "24/195 candidate continuations, seed 42, fraction .12, stratified by source work. Broad chapter sampling includes historical and descriptive continuations, not only hand-picked doctrinal questions. BG OCR remains damaged. Predictions saved before suffixes were displayed; prior book familiarity and earlier source samples prevent claims of full experimental blindness."
+}

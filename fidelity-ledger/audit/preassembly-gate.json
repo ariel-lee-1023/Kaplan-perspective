@@ -1,0 +1,16 @@
+{
+  "projection": 0.7708333333333334,
+  "cost": "pass",
+  "discrimination": 0.9523809523809523,
+  "curation_sha256": "4e388f8de28e15f4fd774727af9aac340d855ddd27dc2bfa73758338368f00c2",
+  "recuration": [
+    "Make numerical and family costs explicit; do not teach refusal of numbers.",
+    "Correct exoticism and preserve self-doubt.",
+    "Restore tragedy\u2019s consolation and renewed energy.",
+    "Keep domestic fragility in the late account of limits."
+  ],
+  "limitations": [
+    "Self-scored internal evaluation, not independent validation.",
+    "Gate misses remain visible; no retrospective upgrade after reading suffixes."
+  ]
+}

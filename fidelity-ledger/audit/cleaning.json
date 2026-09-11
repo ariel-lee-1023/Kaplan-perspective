@@ -1,0 +1,1216 @@
+{
+  "persona_work/kaplan-rebuild/prepared/c01.txt": {
+    "f_rate": 2.079992453542119,
+    "words": 4491,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 42,
+    "top_suspects": {
+      "sta": 1
+    },
+    "verdict": "HYPHEN"
+  },
+  "persona_work/kaplan-rebuild/prepared/c02.txt": {
+    "f_rate": 2.049758474757406,
+    "words": 9872,
+    "ligature_unambiguous": 1,
+    "ligature_per_10k": 1.0,
+    "markup_hits": 0,
+    "hyphen_splits": 109,
+    "top_suspects": {
+      "nal": 1,
+      "ance": 1,
+      "uid": 1
+    },
+    "verdict": "HYPHEN"
+  },
+  "persona_work/kaplan-rebuild/prepared/c03.txt": {
+    "f_rate": 2.01671511627907,
+    "words": 7075,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 67,
+    "top_suspects": {
+      "ll": 2,
+      "ne": 1
+    },
+    "verdict": "HYPHEN"
+  },
+  "persona_work/kaplan-rebuild/prepared/c04.txt": {
+    "f_rate": 2.0237846860004174,
+    "words": 7938,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 100,
+    "top_suspects": {
+      "nd": 1,
+      "sta": 1
+    },
+    "verdict": "HYPHEN"
+  },
+  "persona_work/kaplan-rebuild/prepared/c05.txt": {
+    "f_rate": 1.9497123375239718,
+    "words": 2001,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 18,
+    "top_suspects": {
+      "nd": 1,
+      "ll": 1
+    },
+    "verdict": "f-low(screen only), HYPHEN"
+  },
+  "persona_work/kaplan-rebuild/prepared/c06.txt": {
+    "f_rate": 2.081967213114754,
+    "words": 7657,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 80,
+    "top_suspects": {
+      "ne": 1,
+      "ance": 1,
+      "ll": 1
+    },
+    "verdict": "HYPHEN"
+  },
+  "persona_work/kaplan-rebuild/prepared/c07.txt": {
+    "f_rate": 2.0468146889054144,
+    "words": 6180,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 46,
+    "top_suspects": {},
+    "verdict": "HYPHEN"
+  },
+  "persona_work/kaplan-rebuild/prepared/c08.txt": {
+    "f_rate": 1.9966254218222723,
+    "words": 6035,
+    "ligature_unambiguous": 1,
+    "ligature_per_10k": 1.7,
+    "markup_hits": 0,
+    "hyphen_splits": 70,
+    "top_suspects": {
+      "ll": 1,
+      "uid": 1
+    },
+    "verdict": "f-low(screen only), HYPHEN"
+  },
+  "persona_work/kaplan-rebuild/prepared/c09.txt": {
+    "f_rate": 2.123015023755511,
+    "words": 5144,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 51,
+    "top_suspects": {
+      "ll": 3,
+      "ame": 1,
+      "sti": 1
+    },
+    "verdict": "HYPHEN"
+  },
+  "persona_work/kaplan-rebuild/prepared/c10.txt": {
+    "f_rate": 1.8790826963168867,
+    "words": 7780,
+    "ligature_unambiguous": 1,
+    "ligature_per_10k": 1.3,
+    "markup_hits": 0,
+    "hyphen_splits": 81,
+    "top_suspects": {
+      "ll": 4,
+      "ne": 1,
+      "dened": 1
+    },
+    "verdict": "f-low(screen only), HYPHEN"
+  },
+  "persona_work/kaplan-rebuild/prepared/c11.txt": {
+    "f_rate": 2.031451405001289,
+    "words": 4277,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 39,
+    "top_suspects": {},
+    "verdict": "HYPHEN"
+  },
+  "persona_work/kaplan-rebuild/prepared/c12.txt": {
+    "f_rate": 1.9230769230769231,
+    "words": 2941,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 20,
+    "top_suspects": {
+      "ll": 6
+    },
+    "verdict": "f-low(screen only), HYPHEN"
+  },
+  "persona_work/kaplan-rebuild/prepared/c13.txt": {
+    "f_rate": 1.9996090149970676,
+    "words": 7728,
+    "ligature_unambiguous": 1,
+    "ligature_per_10k": 1.3,
+    "markup_hits": 0,
+    "hyphen_splits": 78,
+    "top_suspects": {
+      "nd": 2,
+      "ll": 2,
+      "ow": 1,
+      "uid": 1,
+      "sta": 1
+    },
+    "verdict": "f-low(screen only), HYPHEN"
+  },
+  "persona_work/kaplan-rebuild/prepared/c14.txt": {
+    "f_rate": 1.8867924528301887,
+    "words": 2003,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 12,
+    "top_suspects": {
+      "ll": 1
+    },
+    "verdict": "f-low(screen only), HYPHEN"
+  },
+  "persona_work/kaplan-rebuild/prepared/c15.txt": {
+    "f_rate": 2.1713362068965516,
+    "words": 4144,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 38,
+    "top_suspects": {
+      "nd": 1,
+      "sti": 1
+    },
+    "verdict": "HYPHEN"
+  },
+  "persona_work/kaplan-rebuild/prepared/c16.txt": {
+    "f_rate": 2.0491654900257052,
+    "words": 5933,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 60,
+    "top_suspects": {
+      "ame": 1
+    },
+    "verdict": "HYPHEN"
+  },
+  "persona_work/kaplan-rebuild/prepared/c17.txt": {
+    "f_rate": 2.1311291048133154,
+    "words": 3719,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 49,
+    "top_suspects": {
+      "eld": 1,
+      "ame": 1
+    },
+    "verdict": "HYPHEN"
+  },
+  "persona_work/kaplan-rebuild/prepared/c18.txt": {
+    "f_rate": 1.9397188568533918,
+    "words": 9684,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 123,
+    "top_suspects": {
+      "ll": 1,
+      "sta": 1
+    },
+    "verdict": "f-low(screen only), HYPHEN"
+  },
+  "persona_work/kaplan-rebuild/prepared/c19.txt": {
+    "f_rate": 2.025658338960162,
+    "words": 1248,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 8,
+    "top_suspects": {},
+    "verdict": "HYPHEN"
+  },
+  "persona_work/kaplan-rebuild/prepared/c20.txt": {
+    "f_rate": 2.2152854697412145,
+    "words": 14067,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 48,
+    "top_suspects": {
+      "ne": 2,
+      "tries": 2
+    },
+    "verdict": "HYPHEN"
+  },
+  "persona_work/kaplan-rebuild/prepared/c21.txt": {
+    "f_rate": 2.025382128746458,
+    "words": 9842,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 20,
+    "top_suspects": {
+      "nal": 1,
+      "ne": 1,
+      "tries": 1
+    },
+    "verdict": "HYPHEN"
+  },
+  "persona_work/kaplan-rebuild/prepared/c22.txt": {
+    "f_rate": 2.1575514300050176,
+    "words": 806,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 1,
+    "top_suspects": {},
+    "verdict": "clean"
+  },
+  "persona_work/kaplan-rebuild/prepared/c23.txt": {
+    "f_rate": 2.270663033605813,
+    "words": 1316,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 5,
+    "top_suspects": {},
+    "verdict": "HYPHEN"
+  },
+  "persona_work/kaplan-rebuild/prepared/c24.txt": {
+    "f_rate": 2.5059039622146417,
+    "words": 1527,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 2,
+    "top_suspects": {
+      "tries": 1
+    },
+    "verdict": "clean"
+  },
+  "persona_work/kaplan-rebuild/prepared/c25.txt": {
+    "f_rate": 1.8992568125516103,
+    "words": 1441,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 9,
+    "top_suspects": {},
+    "verdict": "f-low(screen only), HYPHEN"
+  },
+  "persona_work/kaplan-rebuild/prepared/c26.txt": {
+    "f_rate": 2.040573855704399,
+    "words": 6730,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 24,
+    "top_suspects": {
+      "sta": 1
+    },
+    "verdict": "HYPHEN"
+  },
+  "persona_work/kaplan-rebuild/prepared/c27.txt": {
+    "f_rate": 2.3512747875354107,
+    "words": 2895,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 4,
+    "top_suspects": {
+      "tries": 1
+    },
+    "verdict": "clean"
+  },
+  "persona_work/kaplan-rebuild/prepared/c28.txt": {
+    "f_rate": 2.1179955566526782,
+    "words": 4158,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 14,
+    "top_suspects": {},
+    "verdict": "HYPHEN"
+  },
+  "persona_work/kaplan-rebuild/prepared/c29.txt": {
+    "f_rate": 1.956323930846224,
+    "words": 929,
+    "ligature_unambiguous": 12,
+    "ligature_per_10k": 129.2,
+    "markup_hits": 0,
+    "hyphen_splits": 0,
+    "top_suspects": {
+      "rst": 5,
+      "dierent": 2,
+      "nding": 1,
+      "specic": 1,
+      "dened": 1,
+      "oer": 1,
+      "aord": 1
+    },
+    "verdict": "LIGATURE"
+  },
+  "persona_work/kaplan-rebuild/prepared/c30.txt": {
+    "f_rate": 1.635206321334504,
+    "words": 3428,
+    "ligature_unambiguous": 21,
+    "ligature_per_10k": 61.3,
+    "markup_hits": 0,
+    "hyphen_splits": 3,
+    "top_suspects": {
+      "rst": 5,
+      "specic": 2,
+      "reect": 2,
+      "conict": 2,
+      "dicult": 2,
+      "eort": 2,
+      "signicant": 1,
+      "benecial": 1,
+      "inuence": 1,
+      "sucient": 1,
+      "diculties": 1,
+      "dierences": 1
+    },
+    "verdict": "LIGATURE"
+  },
+  "persona_work/kaplan-rebuild/prepared/c31.txt": {
+    "f_rate": 1.7859624739402362,
+    "words": 2884,
+    "ligature_unambiguous": 19,
+    "ligature_per_10k": 65.9,
+    "markup_hits": 0,
+    "hyphen_splits": 0,
+    "top_suspects": {
+      "rst": 4,
+      "dierences": 2,
+      "aord": 2,
+      "nd": 1,
+      "fty": 1,
+      "gure": 1,
+      "lled": 1,
+      "signicant": 1,
+      "denition": 1,
+      "prot": 1,
+      "dicult": 1,
+      "dierently": 1
+    },
+    "verdict": "LIGATURE"
+  },
+  "persona_work/kaplan-rebuild/prepared/c32.txt": {
+    "f_rate": 1.853846153846154,
+    "words": 2657,
+    "ligature_unambiguous": 17,
+    "ligature_per_10k": 64.0,
+    "markup_hits": 0,
+    "hyphen_splits": 1,
+    "top_suspects": {
+      "conict": 3,
+      "rst": 2,
+      "dierence": 2,
+      "suering": 2,
+      "sacrice": 1,
+      "inuence": 1,
+      "suciently": 1,
+      "diculty": 1,
+      "dierences": 1,
+      "eect": 1,
+      "oers": 1,
+      "oce": 1
+    },
+    "verdict": "LIGATURE"
+  },
+  "persona_work/kaplan-rebuild/prepared/c33.txt": {
+    "f_rate": 1.770151031234775,
+    "words": 3658,
+    "ligature_unambiguous": 25,
+    "ligature_per_10k": 68.3,
+    "markup_hits": 0,
+    "hyphen_splits": 2,
+    "top_suspects": {
+      "rst": 3,
+      "conict": 3,
+      "dicult": 2,
+      "dierences": 2,
+      "suering": 2,
+      "eort": 2,
+      "nd": 1,
+      "nds": 1,
+      "fth": 1,
+      "signies": 1,
+      "dened": 1,
+      "benet": 1
+    },
+    "verdict": "LIGATURE"
+  },
+  "persona_work/kaplan-rebuild/prepared/c34.txt": {
+    "f_rate": 1.7381635161233686,
+    "words": 3297,
+    "ligature_unambiguous": 21,
+    "ligature_per_10k": 63.7,
+    "markup_hits": 0,
+    "hyphen_splits": 2,
+    "top_suspects": {
+      "aord": 3,
+      "rst": 2,
+      "diculty": 2,
+      "suering": 2,
+      "nd": 1,
+      "sacrice": 1,
+      "dened": 1,
+      "benet": 1,
+      "reected": 1,
+      "conict": 1,
+      "suciently": 1,
+      "diculties": 1
+    },
+    "verdict": "LIGATURE"
+  },
+  "persona_work/kaplan-rebuild/prepared/c35.txt": {
+    "f_rate": 1.6960806784322713,
+    "words": 3364,
+    "ligature_unambiguous": 22,
+    "ligature_per_10k": 65.4,
+    "markup_hits": 0,
+    "hyphen_splits": 0,
+    "top_suspects": {
+      "rst": 3,
+      "inuence": 3,
+      "conict": 3,
+      "sucient": 2,
+      "nal": 1,
+      "innitely": 1,
+      "erce": 1,
+      "identied": 1,
+      "dicult": 1,
+      "dierences": 1,
+      "indierence": 1,
+      "eect": 1
+    },
+    "verdict": "LIGATURE"
+  },
+  "persona_work/kaplan-rebuild/prepared/c36.txt": {
+    "f_rate": 2.0195105254150265,
+    "words": 4674,
+    "ligature_unambiguous": 38,
+    "ligature_per_10k": 81.3,
+    "markup_hits": 0,
+    "hyphen_splits": 1,
+    "top_suspects": {
+      "rst": 9,
+      "conict": 5,
+      "dened": 3,
+      "dierences": 2,
+      "eects": 2,
+      "ne": 1,
+      "innite": 1,
+      "fth": 1,
+      "gure": 1,
+      "identied": 1,
+      "specic": 1,
+      "magnicent": 1
+    },
+    "verdict": "LIGATURE"
+  },
+  "persona_work/kaplan-rebuild/prepared/c37.txt": {
+    "f_rate": 1.8216753501090048,
+    "words": 5382,
+    "ligature_unambiguous": 41,
+    "ligature_per_10k": 76.2,
+    "markup_hits": 0,
+    "hyphen_splits": 1,
+    "top_suspects": {
+      "rst": 5,
+      "dierent": 5,
+      "aairs": 5,
+      "inuence": 4,
+      "specic": 3,
+      "erce": 2,
+      "signicant": 2,
+      "nds": 1,
+      "nally": 1,
+      "delity": 1,
+      "signicance": 1,
+      "signied": 1
+    },
+    "verdict": "LIGATURE"
+  },
+  "persona_work/kaplan-rebuild/prepared/c38.txt": {
+    "f_rate": 1.6297778333541746,
+    "words": 4704,
+    "ligature_unambiguous": 37,
+    "ligature_per_10k": 78.7,
+    "markup_hits": 0,
+    "hyphen_splits": 1,
+    "top_suspects": {
+      "rst": 5,
+      "specic": 3,
+      "conict": 3,
+      "suer": 3,
+      "signicance": 2,
+      "dene": 2,
+      "dierence": 2,
+      "dierences": 2,
+      "nd": 1,
+      "nds": 1,
+      "rm": 1,
+      "eld": 1
+    },
+    "verdict": "LIGATURE"
+  },
+  "persona_work/kaplan-rebuild/prepared/c39.txt": {
+    "f_rate": 1.6818500350385424,
+    "words": 4165,
+    "ligature_unambiguous": 26,
+    "ligature_per_10k": 62.4,
+    "markup_hits": 0,
+    "hyphen_splits": 2,
+    "top_suspects": {
+      "rst": 5,
+      "dierent": 3,
+      "eective": 3,
+      "signicant": 2,
+      "suciently": 2,
+      "nal": 1,
+      "fth": 1,
+      "justied": 1,
+      "sacrice": 1,
+      "reects": 1,
+      "inuence": 1,
+      "conict": 1
+    },
+    "verdict": "LIGATURE"
+  },
+  "persona_work/kaplan-rebuild/prepared/c40.txt": {
+    "f_rate": 2.031407578158767,
+    "words": 1422,
+    "ligature_unambiguous": 17,
+    "ligature_per_10k": 119.5,
+    "markup_hits": 0,
+    "hyphen_splits": 0,
+    "top_suspects": {
+      "rst": 6,
+      "inuence": 3,
+      "dierent": 2,
+      "eective": 2,
+      "conned": 1,
+      "benet": 1,
+      "ock": 1,
+      "suciently": 1,
+      "dierences": 1,
+      "sta": 1
+    },
+    "verdict": "LIGATURE"
+  },
+  "persona_work/kaplan-rebuild/prepared/c41.txt": {
+    "f_rate": 2.0798668885191347,
+    "words": 3104,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 4,
+    "top_suspects": {},
+    "verdict": "clean"
+  },
+  "persona_work/kaplan-rebuild/prepared/c42.txt": {
+    "f_rate": 2.271779908295123,
+    "words": 6830,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 7,
+    "top_suspects": {},
+    "verdict": "clean"
+  },
+  "persona_work/kaplan-rebuild/prepared/c43.txt": {
+    "f_rate": 2.3358441756067867,
+    "words": 5297,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 1,
+    "top_suspects": {},
+    "verdict": "clean"
+  },
+  "persona_work/kaplan-rebuild/prepared/c44.txt": {
+    "f_rate": 2.200814536340852,
+    "words": 7652,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 7,
+    "top_suspects": {},
+    "verdict": "clean"
+  },
+  "persona_work/kaplan-rebuild/prepared/c45.txt": {
+    "f_rate": 2.295458271847844,
+    "words": 6277,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 2,
+    "top_suspects": {
+      "tries": 1
+    },
+    "verdict": "clean"
+  },
+  "persona_work/kaplan-rebuild/prepared/c46.txt": {
+    "f_rate": 2.574370709382151,
+    "words": 3111,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 2,
+    "top_suspects": {},
+    "verdict": "clean"
+  },
+  "persona_work/kaplan-rebuild/prepared/c47.txt": {
+    "f_rate": 2.115743621655258,
+    "words": 4853,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 0,
+    "top_suspects": {},
+    "verdict": "clean"
+  },
+  "persona_work/kaplan-rebuild/prepared/c48.txt": {
+    "f_rate": 2.1632937892533146,
+    "words": 3493,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 2,
+    "top_suspects": {},
+    "verdict": "clean"
+  },
+  "persona_work/kaplan-rebuild/prepared/c49.txt": {
+    "f_rate": 2.121551081282625,
+    "words": 5292,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 4,
+    "top_suspects": {},
+    "verdict": "clean"
+  },
+  "persona_work/kaplan-rebuild/prepared/c50.txt": {
+    "f_rate": 2.1470285125386463,
+    "words": 5644,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 1,
+    "top_suspects": {},
+    "verdict": "clean"
+  },
+  "persona_work/kaplan-rebuild/prepared/c51.txt": {
+    "f_rate": 2.110314416467493,
+    "words": 10760,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 7,
+    "top_suspects": {
+      "tries": 1
+    },
+    "verdict": "clean"
+  },
+  "persona_work/kaplan-rebuild/prepared/c52.txt": {
+    "f_rate": 2.0361585966168443,
+    "words": 13393,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 10,
+    "top_suspects": {},
+    "verdict": "clean"
+  },
+  "persona_work/kaplan-rebuild/prepared/c53.txt": {
+    "f_rate": 2.1864159211247034,
+    "words": 8659,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 8,
+    "top_suspects": {},
+    "verdict": "clean"
+  },
+  "persona_work/kaplan-rebuild/prepared/c54.txt": {
+    "f_rate": 2.023616268985301,
+    "words": 8961,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 5,
+    "top_suspects": {},
+    "verdict": "clean"
+  },
+  "persona_work/kaplan-rebuild/prepared/c55.txt": {
+    "f_rate": 1.9098686588745633,
+    "words": 9911,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 7,
+    "top_suspects": {},
+    "verdict": "f-low(screen only)"
+  },
+  "persona_work/kaplan-rebuild/prepared/c56.txt": {
+    "f_rate": 2.223617546442645,
+    "words": 9173,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 3,
+    "top_suspects": {},
+    "verdict": "clean"
+  },
+  "persona_work/kaplan-rebuild/prepared/c57.txt": {
+    "f_rate": 1.8870712712978972,
+    "words": 13256,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 13,
+    "top_suspects": {},
+    "verdict": "f-low(screen only)"
+  },
+  "persona_work/kaplan-rebuild/prepared/c58.txt": {
+    "f_rate": 2.2172497965825873,
+    "words": 1017,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 1,
+    "top_suspects": {},
+    "verdict": "clean"
+  },
+  "persona_work/kaplan-rebuild/prepared/c59.txt": {
+    "f_rate": 1.9742921952448962,
+    "words": 2365,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 1,
+    "top_suspects": {},
+    "verdict": "f-low(screen only)"
+  },
+  "persona_work/kaplan-rebuild/prepared/c60.txt": {
+    "f_rate": 2.1830669228567925,
+    "words": 4967,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 6,
+    "top_suspects": {},
+    "verdict": "clean"
+  },
+  "persona_work/kaplan-rebuild/prepared/c61.txt": {
+    "f_rate": 2.1561790204421127,
+    "words": 6325,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 3,
+    "top_suspects": {},
+    "verdict": "clean"
+  },
+  "persona_work/kaplan-rebuild/prepared/c62.txt": {
+    "f_rate": 2.2574115356035565,
+    "words": 8135,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 8,
+    "top_suspects": {},
+    "verdict": "clean"
+  },
+  "persona_work/kaplan-rebuild/prepared/c63.txt": {
+    "f_rate": 1.9966722129783694,
+    "words": 1025,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 3,
+    "top_suspects": {},
+    "verdict": "f-low(screen only), HYPHEN"
+  },
+  "persona_work/kaplan-rebuild/prepared/c64.txt": {
+    "f_rate": 2.590247512540087,
+    "words": 2572,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 1,
+    "top_suspects": {},
+    "verdict": "clean"
+  },
+  "persona_work/kaplan-rebuild/prepared/c65.txt": {
+    "f_rate": 2.4575213593165017,
+    "words": 2176,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 3,
+    "top_suspects": {},
+    "verdict": "clean"
+  },
+  "persona_work/kaplan-rebuild/prepared/c66.txt": {
+    "f_rate": 2.0320452403393023,
+    "words": 5046,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 5,
+    "top_suspects": {},
+    "verdict": "clean"
+  },
+  "persona_work/kaplan-rebuild/prepared/c67.txt": {
+    "f_rate": 2.0599212742958537,
+    "words": 9341,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 7,
+    "top_suspects": {},
+    "verdict": "clean"
+  },
+  "persona_work/kaplan-rebuild/prepared/c68.txt": {
+    "f_rate": 1.9556675365187919,
+    "words": 6652,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 6,
+    "top_suspects": {},
+    "verdict": "f-low(screen only)"
+  },
+  "persona_work/kaplan-rebuild/prepared/c69.txt": {
+    "f_rate": 1.7946161515453638,
+    "words": 825,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 0,
+    "top_suspects": {},
+    "verdict": "f-low(screen only)"
+  },
+  "persona_work/kaplan-rebuild/prepared/c70.txt": {
+    "f_rate": 1.9977924944812362,
+    "words": 1745,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 0,
+    "top_suspects": {},
+    "verdict": "f-low(screen only)"
+  },
+  "persona_work/kaplan-rebuild/prepared/c71.txt": {
+    "f_rate": 2.0930477158784138,
+    "words": 5821,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 1,
+    "top_suspects": {},
+    "verdict": "clean"
+  },
+  "persona_work/kaplan-rebuild/prepared/c72.txt": {
+    "f_rate": 2.127152948646718,
+    "words": 2493,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 2,
+    "top_suspects": {},
+    "verdict": "clean"
+  },
+  "persona_work/kaplan-rebuild/prepared/c73.txt": {
+    "f_rate": 2.232505276830654,
+    "words": 2461,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 3,
+    "top_suspects": {},
+    "verdict": "clean"
+  },
+  "persona_work/kaplan-rebuild/prepared/c74.txt": {
+    "f_rate": 2.3892692468911556,
+    "words": 1499,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 2,
+    "top_suspects": {},
+    "verdict": "clean"
+  },
+  "persona_work/kaplan-rebuild/prepared/c75.txt": {
+    "f_rate": 2.256522961335003,
+    "words": 8030,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 6,
+    "top_suspects": {
+      "ll": 1
+    },
+    "verdict": "clean"
+  },
+  "persona_work/kaplan-rebuild/prepared/c76.txt": {
+    "f_rate": 2.2098209283040857,
+    "words": 9243,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 10,
+    "top_suspects": {},
+    "verdict": "clean"
+  },
+  "persona_work/kaplan-rebuild/prepared/c77.txt": {
+    "f_rate": 2.173261952004792,
+    "words": 10990,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 7,
+    "top_suspects": {
+      "ll": 1
+    },
+    "verdict": "clean"
+  },
+  "persona_work/kaplan-rebuild/prepared/c78.txt": {
+    "f_rate": 2.1189828882136577,
+    "words": 12901,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 10,
+    "top_suspects": {},
+    "verdict": "clean"
+  },
+  "persona_work/kaplan-rebuild/prepared/c79.txt": {
+    "f_rate": 2.1812032445756544,
+    "words": 14313,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 7,
+    "top_suspects": {
+      "ll": 1
+    },
+    "verdict": "clean"
+  },
+  "persona_work/kaplan-rebuild/prepared/c80.txt": {
+    "f_rate": 2.150102446057724,
+    "words": 16340,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 9,
+    "top_suspects": {
+      "ll": 1,
+      "tries": 1
+    },
+    "verdict": "clean"
+  },
+  "persona_work/kaplan-rebuild/prepared/c81.txt": {
+    "f_rate": 2.089352125265359,
+    "words": 12839,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 9,
+    "top_suspects": {
+      "ll": 1
+    },
+    "verdict": "clean"
+  },
+  "persona_work/kaplan-rebuild/prepared/c82.txt": {
+    "f_rate": 2.221238751554235,
+    "words": 9560,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 6,
+    "top_suspects": {
+      "ll": 4
+    },
+    "verdict": "clean"
+  },
+  "persona_work/kaplan-rebuild/prepared/c83.txt": {
+    "f_rate": 2.4657534246575343,
+    "words": 1261,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 15,
+    "top_suspects": {},
+    "verdict": "HYPHEN"
+  },
+  "persona_work/kaplan-rebuild/prepared/c84.txt": {
+    "f_rate": 2.1717456326672155,
+    "words": 4745,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 65,
+    "top_suspects": {},
+    "verdict": "HYPHEN"
+  },
+  "persona_work/kaplan-rebuild/prepared/c85.txt": {
+    "f_rate": 2.1442006269592477,
+    "words": 3298,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 38,
+    "top_suspects": {},
+    "verdict": "HYPHEN"
+  },
+  "persona_work/kaplan-rebuild/prepared/c86.txt": {
+    "f_rate": 2.1665778724915645,
+    "words": 3508,
+    "ligature_unambiguous": 1,
+    "ligature_per_10k": 2.9,
+    "markup_hits": 0,
+    "hyphen_splits": 51,
+    "top_suspects": {
+      "edies": 1
+    },
+    "verdict": "HYPHEN"
+  },
+  "persona_work/kaplan-rebuild/prepared/c87.txt": {
+    "f_rate": 2.134269890584898,
+    "words": 1563,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 22,
+    "top_suspects": {},
+    "verdict": "HYPHEN"
+  },
+  "persona_work/kaplan-rebuild/prepared/c88.txt": {
+    "f_rate": 2.115104605716913,
+    "words": 2831,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 23,
+    "top_suspects": {},
+    "verdict": "HYPHEN"
+  },
+  "persona_work/kaplan-rebuild/prepared/c89.txt": {
+    "f_rate": 2.16761010630954,
+    "words": 1556,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 15,
+    "top_suspects": {},
+    "verdict": "HYPHEN"
+  },
+  "persona_work/kaplan-rebuild/prepared/c90.txt": {
+    "f_rate": 2.2634345794392523,
+    "words": 1464,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 17,
+    "top_suspects": {},
+    "verdict": "HYPHEN"
+  },
+  "persona_work/kaplan-rebuild/prepared/c91.txt": {
+    "f_rate": 2.290157648061355,
+    "words": 2043,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 16,
+    "top_suspects": {},
+    "verdict": "HYPHEN"
+  },
+  "persona_work/kaplan-rebuild/prepared/c92.txt": {
+    "f_rate": 2.115206900092412,
+    "words": 2133,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 21,
+    "top_suspects": {},
+    "verdict": "HYPHEN"
+  },
+  "persona_work/kaplan-rebuild/prepared/c93.txt": {
+    "f_rate": 2.312543798177996,
+    "words": 1829,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 23,
+    "top_suspects": {},
+    "verdict": "HYPHEN"
+  },
+  "persona_work/kaplan-rebuild/prepared/c94.txt": {
+    "f_rate": 2.603069515498044,
+    "words": 1454,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 15,
+    "top_suspects": {},
+    "verdict": "HYPHEN"
+  },
+  "persona_work/kaplan-rebuild/prepared/c95.txt": {
+    "f_rate": 2.1366517961962903,
+    "words": 940,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 12,
+    "top_suspects": {},
+    "verdict": "HYPHEN"
+  },
+  "persona_work/kaplan-rebuild/prepared/c96.txt": {
+    "f_rate": 2.024489795918367,
+    "words": 1328,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 15,
+    "top_suspects": {
+      "ll": 1
+    },
+    "verdict": "HYPHEN"
+  },
+  "persona_work/kaplan-rebuild/prepared/c97.txt": {
+    "f_rate": 2.471042471042471,
+    "words": 844,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 7,
+    "top_suspects": {},
+    "verdict": "HYPHEN"
+  },
+  "persona_work/kaplan-rebuild/prepared/c98.txt": {
+    "f_rate": 2.197006277160792,
+    "words": 854,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 16,
+    "top_suspects": {},
+    "verdict": "HYPHEN"
+  }
+}

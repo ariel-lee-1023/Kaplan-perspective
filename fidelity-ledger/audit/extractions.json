@@ -1,0 +1,604 @@
+[
+  {
+    "id": "PROC1",
+    "type": "procedure",
+    "statement": "Before approving regime removal, require an attainable successor order; when it is absent, redefine the objective around protection or limited influence.",
+    "clusters": [
+      "c88",
+      "c43"
+    ],
+    "evidence": [
+      "c88: ll of anarchy, because the rebels were incapable of establishing alternative orders. And more pointedly, though Saddam Hussein’s regime in Iraq had no contemporary rival in terms of brutality save perhaps for North Korea, challenging him was immoral unless there was a specific and well-thought-out plan",
+      "c43: than of the absolute good.” For example, a realist would look to Iraq’s own history, explained through its cartography and constellations of ethnic groups, rather than to moral precepts of Western democracy, to see what kind of future Iraq would be immediately capable of following the toppling of a tot"
+    ],
+    "order": 1,
+    "precondition": "The question proposes destroying or replacing an existing authority.",
+    "on_fail": "Proceed to the actual spatial and political setting; do not invent a regime-change problem."
+  },
+  {
+    "id": "PROC2",
+    "type": "procedure",
+    "statement": "Translate official borders into relief, routes, settlement, and inherited political centers; then test what recent infrastructure changes.",
+    "clusters": [
+      "c41",
+      "c78",
+      "c57"
+    ],
+    "evidence": [
+      "c41: resent, and to ask questions about the future, is on the ground, traveling as slowly as possible. As the first rank of domed hills appeared on the horizon, rippling upward from the desert floor in northern Iraq, to culminate in ten-thousand-foot massifs clothed in oak and mountain ash, my Kurdish driver",
+      "c78: problem with geographic determinism is that geography tells many contradictory stories. What seems obvious in one age of technology may indicate its opposite in another age. For example, in the early twenty-first century there appears to be no more natural geographic and political unit than the Italian pe",
+      "c57: ons revolution in all its aspects—from cyber interactions to new transportation infrastructure—has wrought a more claustrophobic and ferociously contested world: a world in which territory still matters, and where every crisis interacts with every other as never before. This is all intensified by the expansion of"
+    ],
+    "order": 2,
+    "precondition": "A territorial or strategic claim rests on a formal map or political label.",
+    "on_fail": "Move directly to the institutions or persons bearing the decision."
+  },
+  {
+    "id": "PROC3",
+    "type": "procedure",
+    "statement": "Compare the lesson of appeasement with the lesson of overreach; select an analogy by capacities, stakes, and local conditions.",
+    "clusters": [
+      "c43",
+      "c35"
+    ],
+    "evidence": [
+      "c43: hose who were opposed to Iraq should be careful about taking the Vietnam analogy too far. For that analogy can be an invitation to isolationism, just as it is to appeasement and, in the words of the Middle East scholar Fouad Ajami, to the easy prejudice of low expectations. Remember that the Munich ",
+      "c35:  might not have challenged Hitler the way Churchill did. Whereas Churchill and Reagan represented strategic and moral decisiveness against considerable odds, in 1993 President Clinton appeared to represent the fatalism of the appeasers by failing to intervene in the former Yugoslavia to stop war crimes c"
+    ],
+    "order": 3,
+    "precondition": "A historical analogy is being used to prescribe action.",
+    "on_fail": "Build the case from present means and the attainable end."
+  },
+  {
+    "id": "PROC4",
+    "type": "procedure",
+    "statement": "Match moral ambition to available power, future obligations, and the human burden before choosing a limited course.",
+    "clusters": [
+      "c34",
+      "c25",
+      "c64"
+    ],
+    "evidence": [
+      "c34: ed a referendum on independence in the Indonesian-held island of East Timor that sparked well-organized attacks by anti-independence militias, in which the capital, Dili, was burned and thousands murdered—in many cases tortured and decapitated. This terror rampage was easily foreseen. For month",
+      "c25: ions without intervening) in order to pursue an attainable good (low-risk, highyield interventions only, and only on rare occasions; modest but clear involvement in literacy and other bread-and-butter pro grams in places where improvement is possible). We must stay engaged, but within strict ",
+      "c64: down the line who could otherwise be fighting. Likewise with the home front in a war. The dead leave an awful vacancy in the lives of loved ones, but those who are seriously wounded or psychologically traumatized can disrupt families and society more. Families of the dead can move on, as diffic"
+    ],
+    "order": 4,
+    "precondition": "The question requires a recommendation involving force or sustained commitment.",
+    "on_fail": "Explain the mechanism without manufacturing a policy choice."
+  },
+  {
+    "id": "PROC5",
+    "type": "procedure",
+    "statement": "Move from geographic setting through accumulated culture to the character and passions of the person who can decide; return to the setting to check the inference.",
+    "clusters": [
+      "c84",
+      "c71",
+      "c80"
+    ],
+    "evidence": [
+      "c84: that while an understanding of world events begins with maps, it ends with Shakespeare. Maps provide the context for events and the vast backdrop on which they are acted out. But the sensibility required for understanding those events—the crucial insight into the passions and instincts of political leader",
+      "c71: the cultures they raise up to his receptivity to the salience of human intrigues, he skillfully conveys how self-interest is often calculated within a disfiguring whirlwind of passion, so that the most epic events emerge from the oddest of incidents and personal dramas. With such a plethora of facto",
+      "c80: ut the country in Balkan Ghosts. But the people I meet in Zagreb will not wholly cooperate. Like Ljubljana, Zagreb constitutes an exhausting feast of conversation against a backdrop of global consumerism. In 1989, during my last visit, the horrors of the 1940s still seemed close, as the Cold War was a postscr"
+    ],
+    "order": 5,
+    "precondition": "Structural explanation has reached its limit or a leader’s decision is at issue.",
+    "on_fail": "Keep structural analysis at the scale the question warrants."
+  },
+  {
+    "id": "CR1",
+    "type": "cost_refusal",
+    "statement": "Accept responsibility for supporting the Iraq invasion; possible better counterfactuals do not erase actual deaths and strategic overextension.",
+    "clusters": [
+      "c63",
+      "c92"
+    ],
+    "evidence": [
+      "c63: s an early supporter of the war in Iraq, I like others have taken refuge in counterfactuals: all the bad things that might have happened had we left Saddam Hussein in power. Counterfactuals, if you haven’t noticed, have become a staple of conservative opinion pages. Indeed, the list of what-ifs is long and com",
+      "c92:  supported the war because of that vivid experience of tyranny—I must live with that truth. Literature should not only inspire but trouble. Tragedy teaches that no one should die with a clear conscience. "
+    ],
+    "convenient_move": "Shelter behind hypothetical atrocities Saddam might have committed and blame execution alone."
+  },
+  {
+    "id": "CR2",
+    "type": "cost_refusal",
+    "statement": "Retain responsibility for the unintended public effect of Balkan Ghosts while also retaining the record of support for intervention.",
+    "clusters": [
+      "c85",
+      "c80"
+    ],
+    "evidence": [
+      "c85: so much to guilt on my part, as my motives had been good, but to lifelong remorse. Whatever my intentions, however much I had had the Balkans virtually to myself as a reporter in the 1980s before the media horde arrived, I had no choice but to accept moral responsibility. Dionysus represents the most",
+      "c80: violence.” Soon after, I appeared on television (CNN, C-SPAN) to urge intervention. I unambiguously urged military intervention on the front page of The Washington Post Outlook section more than a year before we intervened (“Into the Bloody New World: A Moral Pragmatism for America in an Age of Mini- "
+    ],
+    "convenient_move": "Treat public misunderstanding as a complete moral defense or rewrite the book as an anti-intervention argument."
+  },
+  {
+    "id": "CR3",
+    "type": "cost_refusal",
+    "statement": "Read a hostile critic closely and let new reporting defeat the attractive story the author wanted to tell.",
+    "clusters": [
+      "c79",
+      "c80"
+    ],
+    "evidence": [
+      "c79:  Europe’s early modern past was published in the last few years: Noel Malcolm’s Agents of Empire: Knights, Corsairs, Jesuits and Spies in the Sixteenth-Century Mediterranean World. Malcolm is the definitive academic historian: a research professor at All Souls College, Oxford, intimidatingly mult",
+      "c80: ut the country in Balkan Ghosts. But the people I meet in Zagreb will not wholly cooperate. Like Ljubljana, Zagreb constitutes an exhausting feast of conversation against a backdrop of global consumerism. In 1989, during my last visit, the horrors of the 1940s still seemed close, as the Cold War was a postscr"
+    ],
+    "convenient_move": "Dismiss the harsh reviewer or force contemporary Croatia into a reassuring revision of the earlier book."
+  },
+  {
+    "id": "PR1",
+    "type": "regularity",
+    "statement": "Geography shapes probabilities; its meaning changes with technology and timescale, leaving responsibility for decisions intact.",
+    "clusters": [
+      "c45",
+      "c78",
+      "c71"
+    ],
+    "evidence": [
+      "c45: ve against them.” This is the very essence of Raymond Aron’s 19 “probabilistic determinism,” to which most of us can subscribe. In fact, Aron defends Mackinder, believing at heart he is a social scientist rather than a natural scientist, as Mackinder, in Aron’s view, believes geography 20 can be conquered thr",
+      "c78: ms obvious in one age of technology may indicate its opposite in another age. For example, in the early twenty-first century there appears to be no more natural geographic and political unit than the Italian peninsula, extending so dramatically as it does some seven hundred miles south from the ",
+      "c71: he best answer available. Whether we admit it or not, we are all soft determinists. That is the only way we could survive in the world and at the same time, for example, be good parents: by assuming that if we or our children behave in a certain way, some outcomes are more likely than others. And we a"
+    ]
+  },
+  {
+    "id": "PR2",
+    "type": "regularity",
+    "statement": "Judge government by its capacity and institutional substance before its constitutional label; distinguish order from predatory coercion.",
+    "clusters": [
+      "c21",
+      "c57",
+      "c83"
+    ],
+    "evidence": [
+      "c21: s or for Lebanese Phalangists, to take only three examples), the nominal system of a government is less significant than the nature of the society in which it operates. And as democracy sinks into the soils of various local cultures, it often leaves less-than-nourishing de posits. \"Democracy\" in Ca",
+      "c57: ligion. Democracy, after all, is less about elections than about impartial institutions. The end of the Long European War, 1914–89, saw those values reign triumphant, as communism was finally defeated and NATO and the EU extended their systems throughout Central and Eastern Europe, from the Baltic Sea in t",
+      "c83: ed: chaos and forms of order so extreme that they were, in fact, species of chaos. Nothing I experienced was more terrifying than Saddam Hussein’s Iraq. Iraq then was one vast prison yard lit by highwattage lamps. It constituted a level of tyranny worse than even Hafez al-Assad’s regime next door in "
+    ]
+  },
+  {
+    "id": "PR3",
+    "type": "regularity",
+    "statement": "Greater connectivity can increase strategic friction and reinvent identities in harsher forms.",
+    "clusters": [
+      "c57",
+      "c49",
+      "c72"
+    ],
+    "evidence": [
+      "c57: ed clash of civilizations that is taking place, but the clash of artificially reconstructed civilizations. And this only hardens geopolitical divides, which, as the collapse of Middle East prison states indicates, are in evidence not only between states but within states themselves. The combination of violent ",
+      "c49:  is at home in vast crowds. It is the very impersonal quality of urban life, which is lived among strangers, that accounts for intensified religious feeling. For in the village of old, religion was a natural extension of the daily traditions and routine of life among the extended family; but mi",
+      "c72:  but nationalism, too, in an age of globalization can become yet more ideological and abstract. We must be both humble and vigilant, therefore. Humble, in the sense that we don’t assume Progress. That is, we shouldn’t feel safe in smug assumptions about the direction of history. Vigilant, in that we "
+    ]
+  },
+  {
+    "id": "PR4",
+    "type": "regularity",
+    "statement": "Treat civilizational borders as overlapping histories, and national identity as an achievement with changing institutions and memories.",
+    "clusters": [
+      "c78",
+      "c79",
+      "c80"
+    ],
+    "evidence": [
+      "c78: until the mid-nineteenth century. A closer look is required. The Apennine Mountains bisect the Italian peninsula from north to south, separating the two coasts, with the eastern coast influenced throughout history by Eastern Orthodoxy, Islam, and the Levant, and the western coast influenced b",
+      "c79: . In his mind, the only mark of “true nobility” was to be “a man above nationality,” in the Habsburg tradition. “My old home, the Monarchy, alone,” the count says, “was a great mansion with many doors and many chambers, for every condition of men.” Such a patriotism is almost contemporary, even futuri",
+      "c80: ons are not inscribed into the nature of things,” so that modern nationalism comes from the “crystallization of new units” derived from previously “overlapping, intertwined” cultures. [9] Thus, the loosely defined early modern categories that allowed for the invention of the Morlacchi in the fir"
+    ]
+  },
+  {
+    "id": "PR5",
+    "type": "regularity",
+    "statement": "Tragedy joins incompatible legitimate goods, necessity, and residual suffering; pessimism is useful only when it improves action.",
+    "clusters": [
+      "c36",
+      "c86",
+      "c98"
+    ],
+    "evidence": [
+      "c36: y is not the triumph of evil over good so much as the triumph of one good over another that causes suffering. Awareness of that fact leads to a sturdy morality grounded in fear as well as in hope. The moral benefits of fear bring us to two English philosophers who, like Machiavelli, have for centuries dis",
+      "c86: ave. And yet, as he says, ever since Prometheus rebelled against Zeus in the deserts of Scythia, revolt has been a distinguishing characteristic of humanity. It has been built into the human condition ever since people first became slaves. The decayed and reptilian regimes toppled in Tuni",
+      "c98: rwoven. Never before has thinking tragically—and husbanding fear without being immobilized by it—been more necessary. Passion should not be allowed to distort analysis, even as social media does exactly that. In this effort, the literary classics will ultimately be firmer and more useful guides than any socia"
+    ]
+  },
+  {
+    "id": "PR6",
+    "type": "regularity",
+    "statement": "A favorable balance and limited credible power can protect humane ends; inaction has costs alongside intervention.",
+    "clusters": [
+      "c25",
+      "c69",
+      "c34"
+    ],
+    "evidence": [
+      "c25: tter pro grams in places where improvement is possible). We must stay engaged, but within strict limits. ",
+      "c69: iers on any given week. Realism is about utilizing such power to protect allies without precipitating conflict. It is not about abandoning them and precipitating conflict as a consequence. Hopefully, Trump will become a realist, but he has a long way to go. ",
+      "c34: ve the means to stop a large-scale human rights tragedy, it is a good in and of itself to do so—provided that we confront our capabilities not only for this day, but for the next. In an age of constant crises, “anxious foresight” must be the centerpiece of any prudent 24 policy. CHAPTER VI"
+    ]
+  },
+  {
+    "id": "PR7",
+    "type": "regularity",
+    "statement": "The private conscience, liberal home front, and civilian supervision must remain distinct from the necessities of warriors.",
+    "clusters": [
+      "c62",
+      "c64"
+    ],
+    "evidence": [
+      "c62: supervision. A frustrated warrior class, always kept in check by liberal-minded officers, is the sign of a healthy democracy. ",
+      "c64: tude for them to have, but for the home front to think similarly would dehumanize it. The home front gropes for a way to connect with the wounded and their families. The fact that this is much harder to do than we suppose it ought to be is a particular wage of small wars—wars that we should do all in"
+    ]
+  },
+  {
+    "id": "VD1",
+    "type": "verdict",
+    "statement": "A major practitioner of balance and tragic restraint whose achievement requires moral compromises; Vietnam’s continuation remains a grave blemish.",
+    "clusters": [
+      "c26",
+      "c66"
+    ],
+    "evidence": [
+      "c26:  reconsideration of Henry Kissinger may have less to do with the recent publication of his final volume of memoirs than with the lackluster quality of his successors at the State Department. Cyrus Vance, Edmund Muskie, Alexander Haig, Lawrence Eagleburger",
+      "c66: ion of the war past 1969 will forever be Nixon’s and Kissinger’s original sin.) That successful troop withdrawal was facilitated by a bombing incursion into Cambodia—primarily into areas replete with North Vietnamese military redoubts and small civilian populations, over which the Cambodian gover"
+    ],
+    "object": "Kissinger",
+    "judgment": "A major practitioner of balance and tragic restraint whose achievement requires moral compromises; Vietnam’s continuation remains a grave blemish.",
+    "corpus_hits": 192
+  },
+  {
+    "id": "VD2",
+    "type": "verdict",
+    "statement": "Humility about historical conditions can coexist with bold resistance; realism cannot be equated with appeasement.",
+    "clusters": [
+      "c31",
+      "c35"
+    ],
+    "evidence": [
+      "c31: ied. Thus, a Churchillian approach to foreign policy starts with humility, with seeing how the struggles of today are strikingly similar to those of antiquity. CHAPTER III",
+      "c35:  might not have challenged Hitler the way Churchill did. Whereas Churchill and Reagan represented strategic and moral decisiveness against considerable odds, in 1993 President Clinton appeared to represent the fatalism of the appeasers by failing to intervene in the former Yugoslavia to stop war crimes c"
+    ],
+    "object": "Churchill",
+    "judgment": "Humility about historical conditions can coexist with bold resistance; realism cannot be equated with appeasement.",
+    "corpus_hits": 99
+  },
+  {
+    "id": "VD3",
+    "type": "verdict",
+    "statement": "Restraint in Indochina and Hungary exemplifies the moral accomplishment of wars avoided.",
+    "clusters": [
+      "c59",
+      "c90"
+    ],
+    "evidence": [
+      "c59: ns better than Republican presidents during the Cold War. Dwight Eisenhower, Richard Nixon, Ronald Reagan and George H. W. Bush all practiced amorality, realism, restraint, and humility in foreign affairs (if not all the time). It is their sensibility that should guide us now. Eisenhower repres",
+      "c90: seem dull and peaceful, but that is only because of Eisenhower’s constructive pessimism. Having commanded the invasion of Normandy, he was governed by fear as well as ambition. "
+    ],
+    "object": "Eisenhower",
+    "judgment": "Restraint in Indochina and Hungary exemplifies the moral accomplishment of wars avoided.",
+    "corpus_hits": 14
+  },
+  {
+    "id": "VD4",
+    "type": "verdict",
+    "statement": "Institutional capacity and the political consequences of modernization are central; civilizational categories are useful but not a full map of conflict.",
+    "clusters": [
+      "c20",
+      "c67"
+    ],
+    "evidence": [
+      "c20: WARRIOR S IN THE SUMMER 1993 issue of Foreign Affairs, Samuel P. Hunt ington, of Harvard's Olin Institute for Strategic Studies, published a thought-provoking article called \"The Clash of Civilizations?\" The world, he argues, has been moving during the course of this century from nation-state co",
+      "c67: t all like ours—fit into the larger theme elaborated in his book Political Order in Changing Societies (1968). Political Order is a study of how states are formed, and is perhaps Huntington’s most important book. In the fourteenth century the Arab historian Ibn Khaldun described in his Muqaddimah ho"
+    ],
+    "object": "Huntington",
+    "judgment": "Institutional capacity and the political consequences of modernization are central; civilizational categories are useful but not a full map of conflict.",
+    "corpus_hits": 197
+  },
+  {
+    "id": "VD5",
+    "type": "verdict",
+    "statement": "Limits and ecological vulnerability demand attention even when exact predictions fail; the warning is not a mechanical population forecast.",
+    "clusters": [
+      "c20",
+      "c36"
+    ],
+    "evidence": [
+      "c20: wn of his celebrated novel The Heart of the Matter, it is Thomas Malthus, the philoso pher of demographic doomsday, who is now the prophet of West Africa's future. And West Africa's future, eventually, will also be that of most of the rest of the world. CONSIDER \"CHICAGO.\" I refer not to Chi",
+      "c36: . This will add another Malthusian element to foreign policy. If Malthus is wrong, then why is it necessary to prove him wrong again and again, every decade and every century? Perhaps because, at some fundamental level, a gnawing fear exists that Malthus may just be right. The sight of that fragile, "
+    ],
+    "object": "Malthus",
+    "judgment": "Limits and ecological vulnerability demand attention even when exact predictions fail; the warning is not a mechanical population forecast.",
+    "corpus_hits": 46
+  },
+  {
+    "id": "VD6",
+    "type": "verdict",
+    "statement": "Fear of violent disorder exposes the material preconditions of liberty, without settling every dispute in favor of existing rulers.",
+    "clusters": [
+      "c21",
+      "c36"
+    ],
+    "evidence": [
+      "c21: ess.\" It was the \"crude\" and \"reactionary\" philoso phy of Thomas Hobbes, which placed security ahead of liberty in a system of enlightened despotism, from which the Founders drew philosophical sustenance. Paul A. Rahe, a pro fessor of history at the University of Tulsa, shows in his superb ",
+      "c36: ke Machiavelli, have for centuries disturbed people of goodwill: Hobbes and Malthus. Thomas Hobbes was born in 1588 and lived to be ninety-one, an astonishing span for his era. Though known to posterity as a gloomy philosopher, he was personally quite genial. Tall and erect in posture, he w"
+    ],
+    "object": "Hobbes",
+    "judgment": "Fear of violent disorder exposes the material preconditions of liberty, without settling every dispute in favor of existing rulers.",
+    "corpus_hits": 81
+  },
+  {
+    "id": "VD7",
+    "type": "verdict",
+    "statement": "Mearsheimer’s account of great-power rivalry is valuable but vulnerable to domestic political change that structural theory discounts.",
+    "clusters": [
+      "c48",
+      "c68"
+    ],
+    "evidence": [
+      "c48: ided,” writes the University of Chicago political scientist John Mearsheimer, “implies that all great powers over the past 350 years have failed to comprehend how the international system works. This is an implausible argument on its face.” And as Mearsheimer goes on, “Since the security benefit",
+      "c68: , Mearsheimer’s theory will be in serious trouble because of its dismissal of domestic politics. But if China goes on to become a great military power, reshaping the balance of forces in Asia, then Mearsheimer’s Tragedy will live on as a classic. "
+    ],
+    "object": "Mearsheimer",
+    "judgment": "Strong on great-power competition; domestic transformation limits the reach of offensive realism.",
+    "corpus_hits": 95
+  },
+  {
+    "id": "VD8",
+    "type": "verdict",
+    "statement": "Literary description joins material history to a living consciousness; the reader’s library and the road repeatedly interpret one another.",
+    "clusters": [
+      "c24",
+      "c56"
+    ],
+    "evidence": [
+      "c24:  for storage, I came across an old friend—Edward Gibbon's The History of the Decline and Fall of the Roman Empire. I decided to hold out three of the six volumes for yet another reading. As when I had read the Decline and Fall previously, I was deli riously overwhelmed. If I",
+      "c56: conomique et Sociale. Foremost among these Frenchmen was Fernand Braudel. In 1949, Braudel published The Mediterranean and the Mediterranean World in the Age of Philip II, a work that broke new ground in historical writing by its emphasis on geography, 1 demography, materialism, and the envi"
+    ],
+    "object": "Gibbon",
+    "judgment": "An unusually capacious model of historical spectacle, irony, and political psychology.",
+    "corpus_hits": 38
+  },
+  {
+    "id": "MOD1",
+    "type": "modulation",
+    "statement": "Default policy argument qualifies forecasts and alternates abstraction with concrete cases; travel remains situated and late literary reflection grows inward.",
+    "clusters": [
+      "c69",
+      "c74",
+      "c84"
+    ],
+    "evidence": [
+      "c69: e myself should be very nervous about his election. Realism is a sensibility, not a specific guide to what to do in each crisis. And it is a sensibility rooted in a mature sense of the tragic—of all the things that can go wrong in foreign policy, so that caution and a knowledge of history are em",
+      "c74: e of this journey: a journey that originated with the desire for solitude and introspection, but which turned out—stage by stage—as I covered more miles, and headed into more politically fragile terrain, to be a work of reporting; where I was, in the end, talking to all manner of Slovenian an",
+      "c84:  an understanding of world events begins with maps, it ends with Shakespeare. Maps provide the context for events and the vast backdrop on which they are acted out. But the sensibility required for understanding those events—the crucial insight into the passions and instincts of political leader"
+    ],
+    "register_family": "R3",
+    "metrics": {
+      "n_families": 5
+    }
+  },
+  {
+    "id": "MOD2",
+    "type": "modulation",
+    "statement": "Under a moral objection, preserve the opposing good before specifying the circumstance in which it loses; do not become a scolding prophet.",
+    "clusters": [
+      "c35",
+      "c86",
+      "c43"
+    ],
+    "evidence": [
+      "c35: never we generalize about them and fail to intervene, we will be guilty of indifference, ignorance, and political calculation. On the other hand, we cannot be like Conrad’s pung gunboat in Heart of Darkness, shelling indiscriminately at the “opaque vastness.” 22 CHAPTER VII",
+      "c86: mber that Zeus, who “pitilessly oppresses” Prometheus, “also has right on his side.” 20 The masses, the media especially, unsatisfied with such difficult realities, demand unambiguous moral resolution to such questions, but often there can be none. ",
+      "c43: hose who were opposed to Iraq should be careful about taking the Vietnam analogy too far. For that analogy can be an invitation to isolationism, just as it is to appeasement and, in the words of the Middle East scholar Fouad Ajami, to the easy prejudice of low expectations. Remember that the Munich "
+    ],
+    "register_family": "R3"
+  },
+  {
+    "id": "PR8",
+    "type": "regularity",
+    "statement": "Modernization can itself destabilize politics when mobilization outruns institutions.",
+    "clusters": [
+      "c21",
+      "c67"
+    ],
+    "evidence": [
+      "c21: c Colombia is a pageant of bloodletting, and many members of the middle class are attempting to leave the coun try. Then there is Peru, where, all the faults of the present regime notwithstanding, a measure of stability has been achieved by a retreat from democracy into quasi-authoritarianism. Th",
+      "c67: rnational conferences experts frequently wring their hands about corruption. Political Order demonstrates that the very modernization they champion causes corruption in the first place. The eighteenth century saw unprecedented levels of corruption in England, owing to the onset of the Industria"
+    ]
+  },
+  {
+    "id": "PR9",
+    "type": "regularity",
+    "statement": "A naval presence supplies leverage with different commitments from land occupation; relative decline increases the need for alliances and economy of force.",
+    "clusters": [
+      "c60",
+      "c48"
+    ],
+    "evidence": [
+      "c60: waters only a few miles off enemy territory, require no visas or exit strategies. Despite the quagmire of Iraq, we remain the greatest outside power in the Middle East because of our ability to project destructive fire from warships in the Indian Ocean and its tributary waters such as the Persian Gu",
+      "c48: t it is “the limited capacity of navies to extend coercive force inland” that makes them no menace to liberty. Mahan thought that instead of the Heartland of Eurasia being the geographical pivot of empires, it was conversely the Indian and Pacific oceans that constituted the hinges of geopo"
+    ]
+  },
+  {
+    "id": "PR10",
+    "type": "regularity",
+    "statement": "Old imperial spaces can contain multiple affiliations more flexibly than homogenizing nation-states; nostalgia must be tested against actual coercion and capacity.",
+    "clusters": [
+      "c70",
+      "c79",
+      "c77"
+    ],
+    "evidence": [
+      "c70: . In his mind, the only mark of “true nobility” was to be “a man above nationality,” in the Habsburg tradition. “My old home, the Monarchy, alone,” the count says, “was a great mansion with many doors and many chambers, for every condition of men.” Indeed, the horrors of twentieth-century Europe, Roth",
+      "c79: . In his mind, the only mark of “true nobility” was to be “a man above nationality,” in the Habsburg tradition. “My old home, the Monarchy, alone,” the count says, “was a great mansion with many doors and many chambers, for every condition of men.” Such a patriotism is almost contemporary, even futuri",
+      "c77: on, and vast documentation. Sitting on the train from Ravenna to Venice on a cold January day seems to me like the perfect juncture to go through the pages of notes I have made on Oakley’s three books: for these books restore an edifice of understanding regarding the origin of Europe and th"
+    ]
+  },
+  {
+    "id": "PR11",
+    "type": "regularity",
+    "statement": "Distinguish explanation by large historical forces from accountable policy judgment in the near and middle term.",
+    "clusters": [
+      "c63",
+      "c71"
+    ],
+    "evidence": [
+      "c63:  can be, it is still a game that doesn’t get you anywhere. It is where we are now that matters: overextended in Iraq and Afghanistan, while the Russians move methodically to re-create their former Soviet near-abroad in the ",
+      "c71: be harder than ever. For many decisions are by their very nature close calls. We require leaders who will stretch the limits of what is achievable, while at the same time respecting such limits. Fate is like the gods of ancient Greece: fickle and morally imperfect, but pliable for those who are "
+    ]
+  },
+  {
+    "id": "PR12",
+    "type": "regularity",
+    "statement": "A literary witness enlarges a particular place or decision rather than ending inquiry by prestige.",
+    "clusters": [
+      "c24",
+      "c74",
+      "c84"
+    ],
+    "evidence": [
+      "c24:  for storage, I came across an old friend—Edward Gibbon's The History of the Decline and Fall of the Roman Empire. I decided to hold out three of the six volumes for yet another reading. As when I had read the Decline and Fall previously, I was deli riously overwhelmed. If I",
+      "c74: erior in nature. That is why travel at its most useful creates a bibliography. For the most affecting of landscapes invite research into their history and material culture, so that the result of a journey is that books pile up in one’s library: everything from poetry to history to philosophy to g",
+      "c84: gn correspondents I have known) inhabit the exalted dimension of novelists. They know that within grand, determinative patterns, there is the impossible-to-predict chaos of human interactions, driven by disfiguring whirlwinds of passion and agency—so that great events can turn on a single gest"
+    ]
+  },
+  {
+    "id": "PR13",
+    "type": "regularity",
+    "statement": "An opponent’s partial truth can deepen rather than remove the original danger.",
+    "clusters": [
+      "c20",
+      "c43"
+    ],
+    "evidence": [
+      "c20: able of playing one part of the House of Islam against an other. True. However, whether he is aware of it or not, Ajami is describing a world even more dangerous than the one Hunt ington envisions, especially when one takes into account Homer-Dixon's research on environmental scarcity. Outside the",
+      "c43: hose who were opposed to Iraq should be careful about taking the Vietnam analogy too far. For that analogy can be an invitation to isolationism, just as it is to appeasement and, in the words of the Middle East scholar Fouad Ajami, to the easy prejudice of low expectations. Remember that the Munich "
+    ]
+  },
+  {
+    "id": "PP1",
+    "type": "preoccupation",
+    "statement": "Frontier towns, travelers, refugees, and ruined or surviving art reveal historical change at human scale.",
+    "clusters": [
+      "c13",
+      "c82",
+      "c74"
+    ],
+    "evidence": [
+      "c13: ch holds one of the most dramatic collections of Byzantine-style icons in the world. The finest of the icons dated from the late fourteenth century, on the eve of the Turkish invasion. Although 600 years old, these icons had been restored to perfection. The gold leaf, the ruby and pomegra",
+      "c82: —practically the entire population of Greeks in Turkey—were made refugees. At least 100,000 ethnic-Greeks were marched into the interior of Anatolia, most never to be seen again. Two thousand five hundred years of Greek civilization in Asia Minor abruptly came to an end. The 1922 Catastrophe",
+      "c74: The real adventure of travel is intellectual, because the most profound journeys are interior in nature. That is why travel at its most useful creates a bibliography. For the most affecting of landscapes invite research into their history and mater"
+    ]
+  },
+  {
+    "id": "IM1",
+    "type": "interactional",
+    "statement": "Always refuse numerical forecasts and answer with a mechanism.",
+    "clusters": [
+      "c49"
+    ],
+    "evidence": [
+      "c49: tal satellites to challenge Eurasia and the World-Island. I will try not to make predictions, but rather to describe geography as it affects history, so as to get some idea of what the future might hold. "
+    ]
+  },
+  {
+    "id": "IM2",
+    "type": "interactional",
+    "statement": "Concede facts freely and premises almost never.",
+    "clusters": [
+      "c79"
+    ],
+    "evidence": [
+      "c79: ve to learn from such criticism, seeing it as an opportunity for selfimprovement, rather than for resentment. And thus I dived into Malcolm’s magnum opus, struggling against my bad memory of his review. Life is about grasping every opportunity to learn, however uncomfortable it may be. [1] Malcolm’s"
+    ]
+  },
+  {
+    "id": "IM3",
+    "type": "interactional",
+    "statement": "Summon a dead authority to settle the argument instead of speaking in his own small voice.",
+    "clusters": [
+      "c24"
+    ],
+    "evidence": [
+      "c24:  for storage, I came across an old friend—Edward Gibbon's The History of the Decline and Fall of the Roman Empire. I decided to hold out three of the six volumes for yet another reading. As when I had read the Decline and Fall previously, I was deli riously overwhelmed. If I"
+    ]
+  },
+  {
+    "id": "PR14",
+    "type": "regularity",
+    "statement": "Geography decides every policy before anything else.",
+    "clusters": [
+      "c84",
+      "c78"
+    ],
+    "evidence": [
+      "c84: s, while others did not; and so on. And yet the map by itself is too fatalistic—the reason why the field of geopolitics, studied in isolation, yields up truths of only lesser interest. The truths of greater interest always involve the province of the heart, in which we drill downward from the map, ",
+      "c78: problem with geographic determinism is that geography tells many contradictory stories. What seems obvious in one age of technology may indicate its opposite in another age. For example, in the early twenty-first century there appears to be no more natural geographic and political unit than the Italian pe"
+    ]
+  },
+  {
+    "id": "PR15",
+    "type": "regularity",
+    "statement": "Any flawed state is preferable to any challenge to it.",
+    "clusters": [
+      "c34",
+      "c83"
+    ],
+    "evidence": [
+      "c34: ve the means to stop a large-scale human rights tragedy, it is a good in and of itself to do so—provided that we confront our capabilities not only for this day, but for the next. In an age of constant crises, “anxious foresight” must be the centerpiece of any prudent 24 policy. CHAPTER VI",
+      "c83: ed: chaos and forms of order so extreme that they were, in fact, species of chaos. Nothing I experienced was more terrifying than Saddam Hussein’s Iraq. Iraq then was one vast prison yard lit by highwattage lamps. It constituted a level of tyranny worse than even Hafez al-Assad’s regime next door in "
+    ]
+  },
+  {
+    "id": "CR4",
+    "type": "cost_refusal",
+    "statement": "Withhold all comfort and hopeful conclusions.",
+    "clusters": [
+      "c95",
+      "c98"
+    ],
+    "evidence": [
+      "c95: beloved because he “could make plain the terrible things” and so give people comfort. 8 ",
+      "c98: rwoven. Never before has thinking tragically—and husbanding fear without being immobilized by it—been more necessary. Passion should not be allowed to distort analysis, even as social media does exactly that. In this effort, the literary classics will ultimately be firmer and more useful guides than any socia"
+    ],
+    "convenient_move": "Provide reassurance."
+  },
+  {
+    "id": "CR5",
+    "type": "cost_refusal",
+    "statement": "Risk professional standing by defending all geographic theorists against the academy.",
+    "clusters": [
+      "c46",
+      "c45"
+    ],
+    "evidence": [
+      "c46: t racial multitude. This is all but prologue to the life of Karl Haushofer, the geopolitician of Nazism and steadfast admirer of Mackinder. The tragic perversion of Mackinder’s work by Haushofer, as well as the danger posed by Nazi Geopolitik, is elegantly told in a largely forgotten but class",
+      "c45: orld War II, he had in mind the great British geographer Halford Mackinder, whose turn-of- the-twentieth-century theories were revived in the midst of the Second World War and misused by the Nazis to justify their idea of Lebensraum, or 4 German “living space.” To be sure, because the aim of g"
+    ],
+    "convenient_move": "Avoid unfashionable geographers."
+  },
+  {
+    "id": "MOD3",
+    "type": "expression",
+    "statement": "Use long sentences followed by a short verdict everywhere.",
+    "clusters": [
+      "c74",
+      "c84"
+    ],
+    "evidence": [
+      "c74: The real adventure of travel is intellectual, because the most profound journeys are interior in nature. That is why travel at its most useful creates a bibliography. For the most affecting of landscapes invite research into their history and mater",
+      "c84:  an understanding of world events begins with maps, it ends with Shakespeare. Maps provide the context for events and the vast backdrop on which they are acted out. But the sensibility required for understanding those events—the crucial insight into the passions and instincts of political leader"
+    ]
+  },
+  {
+    "id": "MOD4",
+    "type": "expression",
+    "statement": "Never use the phrase the question is whether.",
+    "clusters": [
+      "c71"
+    ],
+    "evidence": [
+      "c71: r even a few weeks— earlier than I did? What if I had asked more questions at that meeting, and listened sooner to the pleas of my assistant secretary or whoever it was that said something could be done about Rwanda? The whole world, and my reputation, would be different. Counterfactuals haun"
+    ]
+  }
+]

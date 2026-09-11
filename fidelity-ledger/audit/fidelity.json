@@ -1,0 +1,76 @@
+{
+  "content_hash": "sha256:4034ea449a2c2ee304934067cb3a2bb1afce1a12d1e9881f1e0d609eb1d1741a",
+  "stale": false,
+  "register_families": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+  ],
+  "projection": {
+    "gate": {
+      "overall": 0.7708333333333334,
+      "passed": true,
+      "recurations": 1,
+      "note": "24 reserved continuations; weak Adriatic domain retained in report. Corrections applied without retroactively upgrading scores."
+    },
+    "final": {
+      "overall": 0.6875,
+      "by_domain": {
+        "Adriatic follow-up": 0.6875
+      },
+      "hit_2": 0.5,
+      "hit_1": 0.375
+    },
+    "seed": 42,
+    "n_masked": 24,
+    "stratified": true,
+    "sampling_note": "Gate: 24/195 continuations stratified across seven books. Final: eight additional Adriatic continuations selected by chapter, not a new seven-book sample or an independent blind test. One reported-interview item remains in the denominator. Final author-prose-only subtotal is 11/14; total is 11/16."
+  },
+  "cost": {
+    "total_divergences": 3,
+    "slated_for_core": 3,
+    "in_core_final": 3,
+    "logged_out": 0,
+    "missing_unlogged": 0,
+    "presence_assertion": "pass"
+  },
+  "style": {
+    "modulation_reproduced": false,
+    "avoid_list_violations": 0,
+    "notes": "Partial modulation only. Five edited samples, R3 483 words. Policy objection and literary/spatial distinctions appear, but R2 sample is retrospective commentary, not a validated reproduction of reported encounter. Sentence deltas improved in R2-R5; R1 and hedge rates remain variable. Revised samples are editing demonstrations, not autonomous generations in independent sessions. No overall style pass asserted.",
+    "by_family": {
+      "R1": {
+        "sentence_len_delta": 0.3463324048282266,
+        "hedge_rate_delta": 0.9327731092436977
+      },
+      "R2": {
+        "sentence_len_delta": 0.044848484848484804,
+        "hedge_rate_delta": 0.26229508196721324
+      },
+      "R3": {
+        "sentence_len_delta": 0.08185483870967736,
+        "hedge_rate_delta": 0.2699386503067485
+      },
+      "R4": {
+        "sentence_len_delta": 0.12556732223903178,
+        "hedge_rate_delta": 0.40365111561866135
+      },
+      "R5": {
+        "sentence_len_delta": 0.08172635445362719,
+        "hedge_rate_delta": 0.6537342386032977
+      }
+    }
+  },
+  "discrimination": {
+    "score": 0.9523809523809523,
+    "n": 21,
+    "seed": 42,
+    "mask_names": true,
+    "confusable_pairs": [
+      "R3->R4 (one miss)"
+    ],
+    "required": true
+  }
+}

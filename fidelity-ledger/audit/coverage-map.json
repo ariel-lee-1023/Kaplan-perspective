@@ -1,0 +1,58 @@
+{
+  "total_tokens": 669467,
+  "n_clusters": 98,
+  "domains": [
+    "Geography and geopolitics",
+    "Intervention and restraint",
+    "Political order and institutions",
+    "Travel and historical memory",
+    "Classical public ethics",
+    "Literature and tragic conscience"
+  ],
+  "dialogue_ratio": 0,
+  "decision_density": 0,
+  "temporal_spread": {
+    "earliest": "1993",
+    "latest": "2023",
+    "gaps": []
+  },
+  "thin_domains": [
+    "Live turn-taking by Kaplan",
+    "Private practical advice",
+    "Post-2023 views",
+    "Unscripted spoken delivery"
+  ],
+  "n_registers": 5,
+  "firsthand_ratio": 1,
+  "sources": [
+    {
+      "type": "local",
+      "location": "/Users/Extracurriculars/Knowledge/Humanities theorists/Robert Kaplan/Balkan-ghosts-Robert-D-Kaplan.md"
+    },
+    {
+      "type": "local",
+      "location": "/Users/Extracurriculars/Knowledge/Humanities theorists/Robert Kaplan/The-Coming-Anarchy-Shattering-the-Dreams-of-the-Post-Cold-War-Robert-D-Kaplan.md"
+    },
+    {
+      "type": "local",
+      "location": "/Users/Extracurriculars/Knowledge/Humanities theorists/Robert Kaplan/Warrior-Politics-Robert-D-Kaplan.md"
+    },
+    {
+      "type": "local",
+      "location": "/Users/Extracurriculars/Knowledge/Humanities theorists/Robert Kaplan/The-Revenge-of-Geography-What-the-Map-Tells-Us-About-Coming-Conflicts-and-the-Ba.md"
+    },
+    {
+      "type": "local",
+      "location": "/Users/Extracurriculars/Knowledge/Humanities theorists/Robert Kaplan/The-Return-of-Marco-Polos-World-War-Strategy-and-American-Interests-in-the-Twent.md"
+    },
+    {
+      "type": "local",
+      "location": "/Users/Extracurriculars/Knowledge/Humanities theorists/Robert Kaplan/Adriatic-A-Concert-of-Civilization-at-the-End-of-the-Modern-Age-Robert-D-Kaplan.md"
+    },
+    {
+      "type": "local",
+      "location": "/Users/Extracurriculars/Knowledge/Humanities theorists/Robert Kaplan/The-Tragic-Mind-Fear-Fate-and-the-Burden-of-Power-Robert-D-Kaplan.md"
+    }
+  ],
+  "notes": "503095 segmented whitespace words. Source-level firsthand attribution is not an assertion that every embedded quote is Kaplan. No speaker-isolated Kaplan dialogue or contemporaneous decision records. Publication dates do not establish temporal gaps. Tokens are segment.py estimates, not BPE counts."
+}

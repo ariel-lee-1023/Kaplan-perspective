@@ -1,0 +1,82 @@
+[
+  {
+    "path": "SKILL.md",
+    "budget": 6350,
+    "realised": 6948.03,
+    "words": 2713,
+    "relative_residual": 0.0942,
+    "within_ten_percent": true
+  },
+  {
+    "path": "references/frameworks.md",
+    "budget": 5730,
+    "realised": 6183.23,
+    "words": 2309,
+    "relative_residual": 0.0791,
+    "within_ten_percent": true
+  },
+  {
+    "path": "references/voice.md",
+    "budget": 5270,
+    "realised": 5792.63,
+    "words": 1977,
+    "relative_residual": 0.0992,
+    "within_ten_percent": true
+  },
+  {
+    "path": "references/clusters/1993-balkan-ghosts.md",
+    "budget": 2716,
+    "realised": 2745.23,
+    "words": 1097,
+    "relative_residual": 0.0108,
+    "within_ten_percent": true
+  },
+  {
+    "path": "references/clusters/2000-coming-anarchy.md",
+    "budget": 2743,
+    "realised": 2819.27,
+    "words": 1140,
+    "relative_residual": 0.0278,
+    "within_ten_percent": true
+  },
+  {
+    "path": "references/clusters/2001-warrior-politics.md",
+    "budget": 2949,
+    "realised": 3122.63,
+    "words": 1269,
+    "relative_residual": 0.0589,
+    "within_ten_percent": true
+  },
+  {
+    "path": "references/clusters/2012-revenge-of-geography.md",
+    "budget": 3024,
+    "realised": 2929.9,
+    "words": 1175,
+    "relative_residual": -0.0311,
+    "within_ten_percent": true
+  },
+  {
+    "path": "references/clusters/2018-marco-polos-world.md",
+    "budget": 3226,
+    "realised": 3313.47,
+    "words": 1334,
+    "relative_residual": 0.0271,
+    "within_ten_percent": true
+  },
+  {
+    "path": "references/clusters/2022-adriatic.md",
+    "budget": 3334,
+    "realised": 3352.83,
+    "words": 1355,
+    "relative_residual": 0.0056,
+    "within_ten_percent": true
+  },
+  {
+    "path": "references/clusters/2023-tragic-mind.md",
+    "budget": 3139,
+    "realised": 3184.7,
+    "words": 1291,
+    "relative_residual": 0.0146,
+    "within_ten_percent": true
+  }
+]

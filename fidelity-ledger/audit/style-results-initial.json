@@ -1,0 +1,2308 @@
+{
+  "by_family": {
+    "R1": {
+      "original": {
+        "counts": {
+          "words": 560,
+          "sentences": 26,
+          "paragraphs": 2
+        },
+        "sentence_length": {
+          "n": 26,
+          "mean": 21.54,
+          "median": 15.5,
+          "stdev": 16.43,
+          "p10": 6,
+          "p90": 50,
+          "min": 6,
+          "max": 62
+        },
+        "paragraph_length": {
+          "n": 2,
+          "mean": 280,
+          "median": 280.0,
+          "stdev": 89.0,
+          "p10": 191,
+          "p90": 369,
+          "min": 191,
+          "max": 369
+        },
+        "lexical_diversity_mattr500": 0.532,
+        "hedges_per_1k": 3.57,
+        "boosters_per_1k": 7.14,
+        "hedge_booster_ratio": 0.5,
+        "punctuation_per_1k": {
+          "em_dash": 5.36,
+          "semicolon": 1.79,
+          "colon": 7.14,
+          "question": 1.79,
+          "exclamation": 1.79,
+          "parenthetical": 1.79
+        },
+        "person_reference_pct": {
+          "first": 37.8,
+          "second": 40.5,
+          "third": 21.6
+        },
+        "top_content_words": [
+          [
+            "time",
+            3
+          ],
+          [
+            "travel",
+            3
+          ],
+          [
+            "one",
+            3
+          ],
+          [
+            "yourself",
+            3
+          ],
+          [
+            "architecture",
+            3
+          ],
+          [
+            "differences",
+            3
+          ],
+          [
+            "peoples",
+            3
+          ],
+          [
+            "moon",
+            2
+          ],
+          [
+            "even",
+            2
+          ],
+          [
+            "world",
+            2
+          ],
+          [
+            "know",
+            2
+          ],
+          [
+            "alone",
+            2
+          ],
+          [
+            "century",
+            2
+          ],
+          [
+            "feel",
+            2
+          ],
+          [
+            "thus",
+            2
+          ],
+          [
+            "now",
+            2
+          ],
+          [
+            "find",
+            2
+          ],
+          [
+            "full",
+            2
+          ],
+          [
+            "places",
+            2
+          ],
+          [
+            "doubts",
+            2
+          ],
+          [
+            "specific",
+            2
+          ],
+          [
+            "berenson",
+            2
+          ],
+          [
+            "venice",
+            2
+          ],
+          [
+            "first",
+            2
+          ],
+          [
+            "published",
+            2
+          ]
+        ],
+        "top_bigrams": [
+          [
+            "gothic architecture",
+            2
+          ],
+          [
+            "moon yemen",
+            1
+          ],
+          [
+            "yemen stand",
+            1
+          ],
+          [
+            "stand fully",
+            1
+          ],
+          [
+            "fully conscious",
+            1
+          ],
+          [
+            "conscious moon",
+            1
+          ],
+          [
+            "moon sky",
+            1
+          ],
+          [
+            "sky exactly",
+            1
+          ],
+          [
+            "exactly like",
+            1
+          ],
+          [
+            "like place",
+            1
+          ],
+          [
+            "place time",
+            1
+          ],
+          [
+            "time travel",
+            1
+          ],
+          [
+            "travel intensified",
+            1
+          ],
+          [
+            "intensified form",
+            1
+          ],
+          [
+            "form consciousness",
+            1
+          ]
+        ],
+        "conspicuously_absent_common_words": [
+          "way",
+          "work",
+          "thing",
+          "part",
+          "point",
+          "fact",
+          "problem",
+          "question",
+          "idea",
+          "system",
+          "order",
+          "sense",
+          "state",
+          "good",
+          "important",
+          "possible",
+          "human",
+          "social",
+          "political"
+        ]
+      },
+      "generated": {
+        "counts": {
+          "words": 290,
+          "sentences": 18,
+          "paragraphs": 5
+        },
+        "sentence_length": {
+          "n": 18,
+          "mean": 16.11,
+          "median": 15.5,
+          "stdev": 8.65,
+          "p10": 4,
+          "p90": 28,
+          "min": 4,
+          "max": 35
+        },
+        "paragraph_length": {
+          "n": 5,
+          "mean": 58,
+          "median": 60,
+          "stdev": 6.96,
+          "p10": 46,
+          "p90": 67,
+          "min": 46,
+          "max": 67
+        },
+        "lexical_diversity_mattr500": 0.593,
+        "hedges_per_1k": 6.9,
+        "boosters_per_1k": 0.0,
+        "hedge_booster_ratio": null,
+        "punctuation_per_1k": {
+          "em_dash": 0.0,
+          "semicolon": 0.0,
+          "colon": 3.45,
+          "question": 0.0,
+          "exclamation": 0.0,
+          "parenthetical": 0.0
+        },
+        "person_reference_pct": {
+          "first": 50.0,
+          "second": 0.0,
+          "third": 50.0
+        },
+        "top_content_words": [
+          [
+            "greece",
+            4
+          ],
+          [
+            "inheritance",
+            4
+          ],
+          [
+            "less",
+            3
+          ],
+          [
+            "history",
+            3
+          ],
+          [
+            "one",
+            3
+          ],
+          [
+            "tomb",
+            2
+          ],
+          [
+            "rimini",
+            2
+          ],
+          [
+            "return",
+            2
+          ],
+          [
+            "journey",
+            2
+          ],
+          [
+            "place",
+            2
+          ],
+          [
+            "map",
+            2
+          ],
+          [
+            "ancient",
+            2
+          ],
+          [
+            "another",
+            2
+          ],
+          [
+            "modern",
+            2
+          ],
+          [
+            "made",
+            2
+          ],
+          [
+            "contrast",
+            2
+          ],
+          [
+            "country",
+            2
+          ],
+          [
+            "become",
+            2
+          ],
+          [
+            "connection",
+            2
+          ],
+          [
+            "edge",
+            1
+          ],
+          [
+            "discussion",
+            1
+          ],
+          [
+            "stands",
+            1
+          ],
+          [
+            "geographical",
+            1
+          ],
+          [
+            "distance",
+            1
+          ],
+          [
+            "surprising",
+            1
+          ]
+        ],
+        "top_bigrams": [
+          [
+            "tomb rimini",
+            2
+          ],
+          [
+            "edge discussion",
+            1
+          ],
+          [
+            "discussion greece",
+            1
+          ],
+          [
+            "greece stands",
+            1
+          ],
+          [
+            "stands tomb",
+            1
+          ],
+          [
+            "rimini geographical",
+            1
+          ],
+          [
+            "geographical distance",
+            1
+          ],
+          [
+            "distance less",
+            1
+          ],
+          [
+            "less surprising",
+            1
+          ],
+          [
+            "surprising intellectual",
+            1
+          ],
+          [
+            "intellectual return",
+            1
+          ],
+          [
+            "return journey",
+            1
+          ],
+          [
+            "journey around",
+            1
+          ],
+          [
+            "around adriatic",
+            1
+          ],
+          [
+            "adriatic comes",
+            1
+          ]
+        ],
+        "conspicuously_absent_common_words": [
+          "people",
+          "time",
+          "way",
+          "work",
+          "thing",
+          "part",
+          "point",
+          "fact",
+          "problem",
+          "question",
+          "reason",
+          "idea",
+          "system",
+          "power",
+          "order",
+          "sense",
+          "state",
+          "good",
+          "great",
+          "important",
+          "human",
+          "social",
+          "political"
+        ]
+      },
+      "sentence_len_delta": 0.25208913649025066,
+      "hedge_rate_delta": 0.9327731092436977,
+      "avoid_violations": []
+    },
+    "R2": {
+      "original": {
+        "counts": {
+          "words": 1312,
+          "sentences": 53,
+          "paragraphs": 4
+        },
+        "sentence_length": {
+          "n": 53,
+          "mean": 24.75,
+          "median": 21,
+          "stdev": 16.1,
+          "p10": 7,
+          "p90": 45,
+          "min": 5,
+          "max": 73
+        },
+        "paragraph_length": {
+          "n": 4,
+          "mean": 328,
+          "median": 351.0,
+          "stdev": 60.05,
+          "p10": 230,
+          "p90": 380,
+          "min": 230,
+          "max": 380
+        },
+        "lexical_diversity_mattr500": 0.584,
+        "hedges_per_1k": 3.05,
+        "boosters_per_1k": 0.76,
+        "hedge_booster_ratio": 4.0,
+        "punctuation_per_1k": {
+          "em_dash": 1.52,
+          "semicolon": 0.0,
+          "colon": 2.29,
+          "question": 0.0,
+          "exclamation": 0.0,
+          "parenthetical": 5.34
+        },
+        "person_reference_pct": {
+          "first": 33.3,
+          "second": 3.7,
+          "third": 63.0
+        },
+        "top_content_words": [
+          [
+            "war",
+            8
+          ],
+          [
+            "world",
+            7
+          ],
+          [
+            "first",
+            6
+          ],
+          [
+            "balkan",
+            6
+          ],
+          [
+            "antonescu",
+            6
+          ],
+          [
+            "jews",
+            5
+          ],
+          [
+            "balkans",
+            4
+          ],
+          [
+            "church",
+            4
+          ],
+          [
+            "bulgaria",
+            4
+          ],
+          [
+            "army",
+            4
+          ],
+          [
+            "transdniestria",
+            4
+          ],
+          [
+            "eichmann",
+            4
+          ],
+          [
+            "paintings",
+            4
+          ],
+          [
+            "beirut",
+            3
+          ],
+          [
+            "greek",
+            3
+          ],
+          [
+            "refugees",
+            3
+          ],
+          [
+            "long",
+            3
+          ],
+          [
+            "middle",
+            3
+          ],
+          [
+            "bulgarian",
+            3
+          ],
+          [
+            "macedonia",
+            3
+          ],
+          [
+            "sofia",
+            3
+          ],
+          [
+            "even",
+            3
+          ],
+          [
+            "back",
+            3
+          ],
+          [
+            "history",
+            3
+          ],
+          [
+            "time",
+            3
+          ]
+        ],
+        "top_bigrams": [
+          [
+            "balkan war",
+            3
+          ],
+          [
+            "second balkan",
+            2
+          ],
+          [
+            "world war",
+            2
+          ],
+          [
+            "jews bessarabia",
+            2
+          ],
+          [
+            "romanian army",
+            2
+          ],
+          [
+            "extermination camps",
+            2
+          ],
+          [
+            "antonescu began",
+            2
+          ],
+          [
+            "madder red",
+            2
+          ],
+          [
+            "sulfur yellow",
+            2
+          ],
+          [
+            "beirut managua",
+            1
+          ],
+          [
+            "managua younger",
+            1
+          ],
+          [
+            "younger world",
+            1
+          ],
+          [
+            "world ernest",
+            1
+          ],
+          [
+            "ernest hemingway",
+            1
+          ],
+          [
+            "hemingway filed",
+            1
+          ]
+        ],
+        "conspicuously_absent_common_words": [
+          "life",
+          "work",
+          "thing",
+          "part",
+          "fact",
+          "problem",
+          "question",
+          "reason",
+          "idea",
+          "system",
+          "power",
+          "order",
+          "sense",
+          "good",
+          "different",
+          "possible",
+          "human",
+          "social"
+        ]
+      },
+      "generated": {
+        "counts": {
+          "words": 256,
+          "sentences": 17,
+          "paragraphs": 4
+        },
+        "sentence_length": {
+          "n": 17,
+          "mean": 15.06,
+          "median": 15,
+          "stdev": 6.26,
+          "p10": 5,
+          "p90": 22,
+          "min": 5,
+          "max": 30
+        },
+        "paragraph_length": {
+          "n": 4,
+          "mean": 64,
+          "median": 58.5,
+          "stdev": 11.68,
+          "p10": 55,
+          "p90": 84,
+          "min": 55,
+          "max": 84
+        },
+        "lexical_diversity_mattr500": 0.656,
+        "hedges_per_1k": 3.91,
+        "boosters_per_1k": 0.0,
+        "hedge_booster_ratio": null,
+        "punctuation_per_1k": {
+          "em_dash": 0.0,
+          "semicolon": 3.91,
+          "colon": 0.0,
+          "question": 0.0,
+          "exclamation": 0.0,
+          "parenthetical": 0.0
+        },
+        "person_reference_pct": {
+          "first": 0.0,
+          "second": 0.0,
+          "third": 100.0
+        },
+        "top_content_words": [
+          [
+            "road",
+            3
+          ],
+          [
+            "political",
+            3
+          ],
+          [
+            "scene",
+            3
+          ],
+          [
+            "carry",
+            2
+          ],
+          [
+            "place",
+            2
+          ],
+          [
+            "early",
+            2
+          ],
+          [
+            "belongs",
+            2
+          ],
+          [
+            "history",
+            2
+          ],
+          [
+            "organization",
+            2
+          ],
+          [
+            "comparison",
+            2
+          ],
+          [
+            "refugee",
+            1
+          ],
+          [
+            "hemingway's",
+            1
+          ],
+          [
+            "dispatch",
+            1
+          ],
+          [
+            "leads",
+            1
+          ],
+          [
+            "rain",
+            1
+          ],
+          [
+            "possessions",
+            1
+          ],
+          [
+            "people",
+            1
+          ],
+          [
+            "still",
+            1
+          ],
+          [
+            "adrianople",
+            1
+          ],
+          [
+            "abstraction",
+            1
+          ],
+          [
+            "route",
+            1
+          ],
+          [
+            "destroyed",
+            1
+          ],
+          [
+            "arrangement",
+            1
+          ],
+          [
+            "becomes",
+            1
+          ],
+          [
+            "procession",
+            1
+          ]
+        ],
+        "top_bigrams": [
+          [
+            "refugee road",
+            1
+          ],
+          [
+            "road hemingway's",
+            1
+          ],
+          [
+            "hemingway's dispatch",
+            1
+          ],
+          [
+            "dispatch leads",
+            1
+          ],
+          [
+            "leads rain",
+            1
+          ],
+          [
+            "rain possessions",
+            1
+          ],
+          [
+            "possessions people",
+            1
+          ],
+          [
+            "people still",
+            1
+          ],
+          [
+            "still carry",
+            1
+          ],
+          [
+            "carry adrianople",
+            1
+          ],
+          [
+            "adrianople abstraction",
+            1
+          ],
+          [
+            "abstraction place",
+            1
+          ],
+          [
+            "place route",
+            1
+          ],
+          [
+            "route destroyed",
+            1
+          ],
+          [
+            "destroyed political",
+            1
+          ]
+        ],
+        "conspicuously_absent_common_words": [
+          "time",
+          "way",
+          "world",
+          "life",
+          "work",
+          "thing",
+          "part",
+          "point",
+          "fact",
+          "problem",
+          "question",
+          "reason",
+          "idea",
+          "system",
+          "power",
+          "order",
+          "sense",
+          "state",
+          "good",
+          "great",
+          "important",
+          "different",
+          "possible",
+          "human",
+          "social"
+        ]
+      },
+      "sentence_len_delta": 0.3915151515151515,
+      "hedge_rate_delta": 0.2819672131147542,
+      "avoid_violations": []
+    },
+    "R3": {
+      "original": {
+        "counts": {
+          "words": 3373,
+          "sentences": 136,
+          "paragraphs": 10
+        },
+        "sentence_length": {
+          "n": 136,
+          "mean": 24.8,
+          "median": 22.0,
+          "stdev": 17.14,
+          "p10": 8,
+          "p90": 45,
+          "min": 1,
+          "max": 121
+        },
+        "paragraph_length": {
+          "n": 10,
+          "mean": 337.3,
+          "median": 387.0,
+          "stdev": 120.53,
+          "p10": 128,
+          "p90": 462,
+          "min": 128,
+          "max": 462
+        },
+        "lexical_diversity_mattr500": 0.571,
+        "hedges_per_1k": 9.78,
+        "boosters_per_1k": 1.78,
+        "hedge_booster_ratio": 5.5,
+        "punctuation_per_1k": {
+          "em_dash": 5.34,
+          "semicolon": 1.19,
+          "colon": 1.48,
+          "question": 1.48,
+          "exclamation": 0.0,
+          "parenthetical": 2.37
+        },
+        "person_reference_pct": {
+          "first": 33.7,
+          "second": 3.6,
+          "third": 62.7
+        },
+        "top_content_words": [
+          [
+            "war",
+            17
+          ],
+          [
+            "iraq",
+            12
+          ],
+          [
+            "world",
+            11
+          ],
+          [
+            "states",
+            10
+          ],
+          [
+            "power",
+            9
+          ],
+          [
+            "veterans",
+            9
+          ],
+          [
+            "policy",
+            8
+          ],
+          [
+            "military",
+            8
+          ],
+          [
+            "still",
+            7
+          ],
+          [
+            "west",
+            7
+          ],
+          [
+            "one",
+            7
+          ],
+          [
+            "population",
+            7
+          ],
+          [
+            "turkey",
+            6
+          ],
+          [
+            "kurds",
+            6
+          ],
+          [
+            "united",
+            6
+          ],
+          [
+            "time",
+            6
+          ],
+          [
+            "now",
+            6
+          ],
+          [
+            "million",
+            5
+          ],
+          [
+            "two",
+            5
+          ],
+          [
+            "yet",
+            5
+          ],
+          [
+            "people",
+            5
+          ],
+          [
+            "continue",
+            5
+          ],
+          [
+            "liberal",
+            5
+          ],
+          [
+            "system",
+            5
+          ],
+          [
+            "advance",
+            5
+          ]
+        ],
+        "top_bigrams": [
+          [
+            "united states",
+            5
+          ],
+          [
+            "middle east",
+            4
+          ],
+          [
+            "soviet union",
+            3
+          ],
+          [
+            "cold war",
+            3
+          ],
+          [
+            "iraq afghanistan",
+            3
+          ],
+          [
+            "veterans iraq",
+            3
+          ],
+          [
+            "million kurds",
+            2
+          ],
+          [
+            "world war",
+            2
+          ],
+          [
+            "social cohesion",
+            2
+          ],
+          [
+            "human rights",
+            2
+          ],
+          [
+            "two great",
+            2
+          ],
+          [
+            "isaiah berlin",
+            2
+          ],
+          [
+            "historical inevitability",
+            2
+          ],
+          [
+            "war criminals",
+            2
+          ],
+          [
+            "policy makers",
+            2
+          ]
+        ],
+        "conspicuously_absent_common_words": [
+          "work",
+          "part",
+          "point",
+          "question",
+          "different"
+        ]
+      },
+      "generated": {
+        "counts": {
+          "words": 482,
+          "sentences": 31,
+          "paragraphs": 6
+        },
+        "sentence_length": {
+          "n": 31,
+          "mean": 15.55,
+          "median": 14,
+          "stdev": 8.47,
+          "p10": 5,
+          "p90": 29,
+          "min": 4,
+          "max": 32
+        },
+        "paragraph_length": {
+          "n": 6,
+          "mean": 80.33,
+          "median": 82.0,
+          "stdev": 8.52,
+          "p10": 66,
+          "p90": 90,
+          "min": 66,
+          "max": 90
+        },
+        "lexical_diversity_mattr500": 0.587,
+        "hedges_per_1k": 12.45,
+        "boosters_per_1k": 2.07,
+        "hedge_booster_ratio": 6.0,
+        "punctuation_per_1k": {
+          "em_dash": 0.0,
+          "semicolon": 4.15,
+          "colon": 2.07,
+          "question": 0.0,
+          "exclamation": 0.0,
+          "parenthetical": 0.0
+        },
+        "person_reference_pct": {
+          "first": 57.1,
+          "second": 0.0,
+          "third": 42.9
+        },
+        "top_content_words": [
+          [
+            "made",
+            4
+          ],
+          [
+            "one",
+            4
+          ],
+          [
+            "country",
+            3
+          ],
+          [
+            "people",
+            3
+          ],
+          [
+            "becomes",
+            3
+          ],
+          [
+            "another",
+            3
+          ],
+          [
+            "suffering",
+            2
+          ],
+          [
+            "claim",
+            2
+          ],
+          [
+            "upon",
+            2
+          ],
+          [
+            "army",
+            2
+          ],
+          [
+            "remain",
+            2
+          ],
+          [
+            "exposed",
+            2
+          ],
+          [
+            "lives",
+            2
+          ],
+          [
+            "cannot",
+            2
+          ],
+          [
+            "judgment",
+            2
+          ],
+          [
+            "knowledge",
+            2
+          ],
+          [
+            "different",
+            2
+          ],
+          [
+            "case",
+            2
+          ],
+          [
+            "local",
+            2
+          ],
+          [
+            "institutions",
+            2
+          ],
+          [
+            "already",
+            2
+          ],
+          [
+            "memory",
+            2
+          ],
+          [
+            "deserves",
+            2
+          ],
+          [
+            "authority",
+            2
+          ],
+          [
+            "forces",
+            2
+          ]
+        ],
+        "top_bigrams": [
+          [
+            "people exposed",
+            2
+          ],
+          [
+            "suffering dictatorship",
+            1
+          ],
+          [
+            "dictatorship establishes",
+            1
+          ],
+          [
+            "establishes claim",
+            1
+          ],
+          [
+            "claim upon",
+            1
+          ],
+          [
+            "upon attention",
+            1
+          ],
+          [
+            "attention tell",
+            1
+          ],
+          [
+            "tell kind",
+            1
+          ],
+          [
+            "kind country",
+            1
+          ],
+          [
+            "country emerge",
+            1
+          ],
+          [
+            "emerge invasion",
+            1
+          ],
+          [
+            "invasion long",
+            1
+          ],
+          [
+            "long invading",
+            1
+          ],
+          [
+            "invading army",
+            1
+          ],
+          [
+            "army remain",
+            1
+          ]
+        ],
+        "conspicuously_absent_common_words": [
+          "time",
+          "way",
+          "life",
+          "work",
+          "thing",
+          "point",
+          "fact",
+          "question",
+          "reason",
+          "idea",
+          "system",
+          "power",
+          "order",
+          "good",
+          "great",
+          "important",
+          "possible",
+          "human",
+          "social",
+          "political"
+        ]
+      },
+      "sentence_len_delta": 0.3729838709677419,
+      "hedge_rate_delta": 0.2730061349693252,
+      "avoid_violations": []
+    },
+    "R4": {
+      "original": {
+        "counts": {
+          "words": 1421,
+          "sentences": 43,
+          "paragraphs": 4
+        },
+        "sentence_length": {
+          "n": 43,
+          "mean": 33.05,
+          "median": 27,
+          "stdev": 20.54,
+          "p10": 10,
+          "p90": 60,
+          "min": 3,
+          "max": 98
+        },
+        "paragraph_length": {
+          "n": 4,
+          "mean": 355.25,
+          "median": 361.0,
+          "stdev": 60.36,
+          "p10": 273,
+          "p90": 426,
+          "min": 273,
+          "max": 426
+        },
+        "lexical_diversity_mattr500": 0.579,
+        "hedges_per_1k": 4.93,
+        "boosters_per_1k": 0.7,
+        "hedge_booster_ratio": 7.0,
+        "punctuation_per_1k": {
+          "em_dash": 5.63,
+          "semicolon": 1.41,
+          "colon": 3.52,
+          "question": 0.7,
+          "exclamation": 0.0,
+          "parenthetical": 1.41
+        },
+        "person_reference_pct": {
+          "first": 59.5,
+          "second": 5.4,
+          "third": 35.1
+        },
+        "top_content_words": [
+          [
+            "central",
+            14
+          ],
+          [
+            "geography",
+            11
+          ],
+          [
+            "iran",
+            11
+          ],
+          [
+            "europe",
+            9
+          ],
+          [
+            "war",
+            6
+          ],
+          [
+            "world",
+            5
+          ],
+          [
+            "middle",
+            5
+          ],
+          [
+            "east",
+            5
+          ],
+          [
+            "mackinder",
+            5
+          ],
+          [
+            "one",
+            5
+          ],
+          [
+            "persian",
+            5
+          ],
+          [
+            "asia",
+            5
+          ],
+          [
+            "history",
+            4
+          ],
+          [
+            "across",
+            4
+          ],
+          [
+            "new",
+            4
+          ],
+          [
+            "greater",
+            4
+          ],
+          [
+            "means",
+            4
+          ],
+          [
+            "fairgrieve",
+            4
+          ],
+          [
+            "yet",
+            4
+          ],
+          [
+            "american",
+            4
+          ],
+          [
+            "iraq",
+            4
+          ],
+          [
+            "political",
+            3
+          ],
+          [
+            "decades",
+            3
+          ],
+          [
+            "relief",
+            3
+          ],
+          [
+            "map",
+            3
+          ]
+        ],
+        "top_bigrams": [
+          [
+            "central europe",
+            7
+          ],
+          [
+            "middle east",
+            5
+          ],
+          [
+            "central asia",
+            5
+          ],
+          [
+            "greater middle",
+            3
+          ],
+          [
+            "mackinder fairgrieve",
+            3
+          ],
+          [
+            "relief map",
+            2
+          ],
+          [
+            "foreign policy",
+            2
+          ],
+          [
+            "world war",
+            2
+          ],
+          [
+            "gulf war",
+            2
+          ],
+          [
+            "air power",
+            2
+          ],
+          [
+            "iran geography",
+            2
+          ],
+          [
+            "history political",
+            1
+          ],
+          [
+            "political science",
+            1
+          ],
+          [
+            "science survived",
+            1
+          ],
+          [
+            "survived across",
+            1
+          ]
+        ],
+        "conspicuously_absent_common_words": [
+          "life",
+          "thing",
+          "point",
+          "question",
+          "reason",
+          "system",
+          "sense",
+          "good",
+          "different",
+          "possible",
+          "social"
+        ]
+      },
+      "generated": {
+        "counts": {
+          "words": 287,
+          "sentences": 19,
+          "paragraphs": 5
+        },
+        "sentence_length": {
+          "n": 19,
+          "mean": 15.11,
+          "median": 14,
+          "stdev": 6.19,
+          "p10": 7,
+          "p90": 25,
+          "min": 7,
+          "max": 31
+        },
+        "paragraph_length": {
+          "n": 5,
+          "mean": 57.4,
+          "median": 56,
+          "stdev": 5.08,
+          "p10": 52,
+          "p90": 67,
+          "min": 52,
+          "max": 67
+        },
+        "lexical_diversity_mattr500": 0.659,
+        "hedges_per_1k": 13.94,
+        "boosters_per_1k": 3.48,
+        "hedge_booster_ratio": 4.0,
+        "punctuation_per_1k": {
+          "em_dash": 0.0,
+          "semicolon": 6.97,
+          "colon": 0.0,
+          "question": 0.0,
+          "exclamation": 0.0,
+          "parenthetical": 0.0
+        },
+        "person_reference_pct": {
+          "first": 0.0,
+          "second": 0.0,
+          "third": 100.0
+        },
+        "top_content_words": [
+          [
+            "political",
+            4
+          ],
+          [
+            "map",
+            2
+          ],
+          [
+            "relief",
+            2
+          ],
+          [
+            "scale",
+            2
+          ],
+          [
+            "mountain",
+            2
+          ],
+          [
+            "different",
+            2
+          ],
+          [
+            "relationships",
+            2
+          ],
+          [
+            "geography",
+            2
+          ],
+          [
+            "alter",
+            2
+          ],
+          [
+            "becomes",
+            2
+          ],
+          [
+            "routes",
+            2
+          ],
+          [
+            "connection",
+            2
+          ],
+          [
+            "account",
+            2
+          ],
+          [
+            "power",
+            2
+          ],
+          [
+            "peninsula",
+            1
+          ],
+          [
+            "appear",
+            1
+          ],
+          [
+            "possess",
+            1
+          ],
+          [
+            "obvious",
+            1
+          ],
+          [
+            "national",
+            1
+          ],
+          [
+            "unity",
+            1
+          ],
+          [
+            "seen",
+            1
+          ],
+          [
+            "small",
+            1
+          ],
+          [
+            "concealed",
+            1
+          ],
+          [
+            "explains",
+            1
+          ],
+          [
+            "authority",
+            1
+          ]
+        ],
+        "top_bigrams": [
+          [
+            "peninsula appear",
+            1
+          ],
+          [
+            "appear possess",
+            1
+          ],
+          [
+            "possess obvious",
+            1
+          ],
+          [
+            "obvious national",
+            1
+          ],
+          [
+            "national unity",
+            1
+          ],
+          [
+            "unity seen",
+            1
+          ],
+          [
+            "seen small",
+            1
+          ],
+          [
+            "small map",
+            1
+          ],
+          [
+            "map relief",
+            1
+          ],
+          [
+            "relief concealed",
+            1
+          ],
+          [
+            "concealed scale",
+            1
+          ],
+          [
+            "scale explains",
+            1
+          ],
+          [
+            "explains political",
+            1
+          ],
+          [
+            "political authority",
+            1
+          ],
+          [
+            "authority remained",
+            1
+          ]
+        ],
+        "conspicuously_absent_common_words": [
+          "people",
+          "way",
+          "world",
+          "life",
+          "work",
+          "thing",
+          "part",
+          "point",
+          "fact",
+          "problem",
+          "question",
+          "reason",
+          "idea",
+          "system",
+          "order",
+          "sense",
+          "good",
+          "great",
+          "important",
+          "possible",
+          "human",
+          "social"
+        ]
+      },
+      "sentence_len_delta": 0.5428139183055976,
+      "hedge_rate_delta": 1.8275862068965518,
+      "avoid_violations": []
+    },
+    "R5": {
+      "original": {
+        "counts": {
+          "words": 1067,
+          "sentences": 49,
+          "paragraphs": 4
+        },
+        "sentence_length": {
+          "n": 49,
+          "mean": 21.78,
+          "median": 18,
+          "stdev": 13.05,
+          "p10": 6,
+          "p90": 44,
+          "min": 4,
+          "max": 60
+        },
+        "paragraph_length": {
+          "n": 4,
+          "mean": 266.75,
+          "median": 302.5,
+          "stdev": 69.12,
+          "p10": 148,
+          "p90": 314,
+          "min": 148,
+          "max": 314
+        },
+        "lexical_diversity_mattr500": 0.577,
+        "hedges_per_1k": 10.31,
+        "boosters_per_1k": 1.87,
+        "hedge_booster_ratio": 5.5,
+        "punctuation_per_1k": {
+          "em_dash": 0.94,
+          "semicolon": 0.0,
+          "colon": 5.62,
+          "question": 0.94,
+          "exclamation": 0.0,
+          "parenthetical": 1.87
+        },
+        "person_reference_pct": {
+          "first": 54.8,
+          "second": 9.5,
+          "third": 35.7
+        },
+        "top_content_words": [
+          [
+            "world",
+            10
+          ],
+          [
+            "macbeth",
+            7
+          ],
+          [
+            "war",
+            6
+          ],
+          [
+            "iraq",
+            5
+          ],
+          [
+            "life",
+            4
+          ],
+          [
+            "lives",
+            4
+          ],
+          [
+            "tragedy",
+            4
+          ],
+          [
+            "distant",
+            4
+          ],
+          [
+            "america",
+            4
+          ],
+          [
+            "yet",
+            3
+          ],
+          [
+            "actions",
+            3
+          ],
+          [
+            "one",
+            3
+          ],
+          [
+            "national",
+            3
+          ],
+          [
+            "ambition",
+            3
+          ],
+          [
+            "know",
+            3
+          ],
+          [
+            "political",
+            3
+          ],
+          [
+            "better",
+            3
+          ],
+          [
+            "places",
+            3
+          ],
+          [
+            "place",
+            3
+          ],
+          [
+            "oedipus",
+            3
+          ],
+          [
+            "speed",
+            2
+          ],
+          [
+            "play",
+            2
+          ],
+          [
+            "little",
+            2
+          ],
+          [
+            "self-awareness",
+            2
+          ],
+          [
+            "moment",
+            2
+          ]
+        ],
+        "top_bigrams": [
+          [
+            "macbeth little",
+            2
+          ],
+          [
+            "distant places",
+            2
+          ],
+          [
+            "distant societies",
+            2
+          ],
+          [
+            "fear dictator",
+            1
+          ],
+          [
+            "dictator caesar",
+            1
+          ],
+          [
+            "caesar become",
+            1
+          ],
+          [
+            "become yet",
+            1
+          ],
+          [
+            "yet macbeth",
+            1
+          ],
+          [
+            "macbeth full",
+            1
+          ],
+          [
+            "full anticipation",
+            1
+          ],
+          [
+            "anticipation rarely",
+            1
+          ],
+          [
+            "rarely hesitates",
+            1
+          ],
+          [
+            "hesitates diabolical",
+            1
+          ],
+          [
+            "diabolical speed",
+            1
+          ],
+          [
+            "speed actions",
+            1
+          ]
+        ],
+        "conspicuously_absent_common_words": [
+          "work",
+          "thing",
+          "part",
+          "fact",
+          "problem",
+          "question",
+          "reason",
+          "idea",
+          "order",
+          "sense",
+          "important",
+          "different",
+          "possible"
+        ]
+      },
+      "generated": {
+        "counts": {
+          "words": 279,
+          "sentences": 20,
+          "paragraphs": 5
+        },
+        "sentence_length": {
+          "n": 20,
+          "mean": 13.95,
+          "median": 12.5,
+          "stdev": 7.09,
+          "p10": 6,
+          "p90": 28,
+          "min": 4,
+          "max": 32
+        },
+        "paragraph_length": {
+          "n": 5,
+          "mean": 55.8,
+          "median": 56,
+          "stdev": 6.97,
+          "p10": 48,
+          "p90": 67,
+          "min": 48,
+          "max": 67
+        },
+        "lexical_diversity_mattr500": 0.649,
+        "hedges_per_1k": 3.58,
+        "boosters_per_1k": 10.75,
+        "hedge_booster_ratio": 0.33,
+        "punctuation_per_1k": {
+          "em_dash": 0.0,
+          "semicolon": 0.0,
+          "colon": 3.58,
+          "question": 0.0,
+          "exclamation": 0.0,
+          "parenthetical": 0.0
+        },
+        "person_reference_pct": {
+          "first": 0.0,
+          "second": 0.0,
+          "third": 100.0
+        },
+        "top_content_words": [
+          [
+            "make",
+            5
+          ],
+          [
+            "cannot",
+            3
+          ],
+          [
+            "decision",
+            3
+          ],
+          [
+            "person",
+            3
+          ],
+          [
+            "obligation",
+            2
+          ],
+          [
+            "public",
+            2
+          ],
+          [
+            "one",
+            2
+          ],
+          [
+            "good",
+            2
+          ],
+          [
+            "another",
+            2
+          ],
+          [
+            "lost",
+            2
+          ],
+          [
+            "less",
+            2
+          ],
+          [
+            "knowledge",
+            2
+          ],
+          [
+            "always",
+            2
+          ],
+          [
+            "antigone's",
+            1
+          ],
+          [
+            "brother",
+            1
+          ],
+          [
+            "admirable",
+            1
+          ],
+          [
+            "citizen",
+            1
+          ],
+          [
+            "remain",
+            1
+          ],
+          [
+            "real",
+            1
+          ],
+          [
+            "claim",
+            1
+          ],
+          [
+            "family",
+            1
+          ],
+          [
+            "reaches",
+            1
+          ],
+          [
+            "beyond",
+            1
+          ],
+          [
+            "judgment",
+            1
+          ],
+          [
+            "merit",
+            1
+          ]
+        ],
+        "top_bigrams": [
+          [
+            "antigone's brother",
+            1
+          ],
+          [
+            "brother admirable",
+            1
+          ],
+          [
+            "admirable citizen",
+            1
+          ],
+          [
+            "citizen obligation",
+            1
+          ],
+          [
+            "obligation remain",
+            1
+          ],
+          [
+            "remain real",
+            1
+          ],
+          [
+            "real claim",
+            1
+          ],
+          [
+            "claim family",
+            1
+          ],
+          [
+            "family reaches",
+            1
+          ],
+          [
+            "reaches beyond",
+            1
+          ],
+          [
+            "beyond public",
+            1
+          ],
+          [
+            "public judgment",
+            1
+          ],
+          [
+            "judgment merit",
+            1
+          ],
+          [
+            "merit yet",
+            1
+          ],
+          [
+            "yet state",
+            1
+          ]
+        ],
+        "conspicuously_absent_common_words": [
+          "people",
+          "time",
+          "way",
+          "world",
+          "thing",
+          "part",
+          "fact",
+          "problem",
+          "question",
+          "reason",
+          "idea",
+          "system",
+          "power",
+          "order",
+          "sense",
+          "great",
+          "important",
+          "possible",
+          "human",
+          "social",
+          "political"
+        ]
+      },
+      "sentence_len_delta": 0.359504132231405,
+      "hedge_rate_delta": 0.6527643064985451,
+      "avoid_violations": []
+    }
+  },
+  "avoid_list_violations": 0,
+  "scope": "One generated passage per family, including 500+ words in R3. Original comparators are all reserved full paragraphs in each family, not a fresh sample. Small, unequal samples; BG damaged. No overall style-pass threshold is asserted."
+}

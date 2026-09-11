@@ -1,0 +1,61 @@
+{
+  "words_firsthand": 503095,
+  "clusters": [
+    {
+      "cluster_id": "BG",
+      "words": 103519,
+      "apparatus": 3,
+      "moves": 6,
+      "applications": 7,
+      "fragments": 12
+    },
+    {
+      "cluster_id": "CA",
+      "words": 43895,
+      "apparatus": 4,
+      "moves": 6,
+      "applications": 7,
+      "fragments": 12
+    },
+    {
+      "cluster_id": "WP",
+      "words": 40667,
+      "apparatus": 6,
+      "moves": 6,
+      "applications": 7,
+      "fragments": 13
+    },
+    {
+      "cluster_id": "RG",
+      "words": 112340,
+      "apparatus": 6,
+      "moves": 6,
+      "applications": 7,
+      "fragments": 13
+    },
+    {
+      "cluster_id": "MP",
+      "words": 76160,
+      "apparatus": 6,
+      "moves": 7,
+      "applications": 8,
+      "fragments": 15
+    },
+    {
+      "cluster_id": "AD",
+      "words": 95718,
+      "apparatus": 7,
+      "moves": 7,
+      "applications": 8,
+      "fragments": 15
+    },
+    {
+      "cluster_id": "TM",
+      "words": 30796,
+      "apparatus": 6,
+      "moves": 7,
+      "applications": 8,
+      "fragments": 14
+    }
+  ]
+}
