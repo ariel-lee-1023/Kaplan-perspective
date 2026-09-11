@@ -117,7 +117,7 @@ Depth supplies use the repository’s unmodified cluster formula. The counted ap
 | references/clusters/2022-adriatic.md | 3334 | 3352.83 | +0.56% |
 | references/clusters/2023-tragic-mind.md | 3139 | 3184.70 | +1.46% |
 
-Every runtime file is within the ±10% size tolerance. One depth module normally loads at a time; a close secondary topic can justify two. Package size is not the per-response context load. Core + both standing files + the two largest depth files totals approximately 25,590 heuristic units. The historical audit remains outside the discoverable skill.
+Every runtime file is within the ±10% size tolerance. One depth module normally loads at a time; a close secondary topic can justify two. Package size is not the per-response context load. Core + both standing files + the two largest depth files totals approximately 25,590 heuristic units. The historical audit remains separate from the runtime files in `SKILL.md` and `references/`.
 
 ## Integrity and reproducibility
 
@@ -126,3 +126,7 @@ Runtime content hash: `sha256:4034ea449a2c2ee304934067cb3a2bb1afce1a12d1e9881f1e
 The local validator recomputes runtime hashes, sizes, score arithmetic, module budgets, reference routing, and cost presence. The original seven books are required for redoing source segmentation or generating new reserved source comparisons. The private working directory contains the ingest, refinement, extraction, and test scripts and full intermediate texts. The shipped audit contains short evidentiary windows, metadata, generated samples, and results rather than complete copyrighted sources.
 
 The superseded August audit remains under history with a prominent notice. Its unexplained measurements and test claims were not reused. The rebuild is a substantially better-grounded interpretive package, with disclosed remaining uncertainty in literary continuation, live interaction, source damage, and stylistic reproduction.
+
+## 2026-09-12 layout revision
+
+At the user’s request, the repository now follows the standalone root layout of Leopold-Kohr-perspective. `SKILL.md` is a regular root file, and `references/` is a real root directory. The nested `.agents/skills/` package and root symbolic links were removed. The ten runtime files retain the same relative paths, bytes, budgets, and aggregate content hash; no fidelity result was re-scored for this move. The structural validator now checks the root layout, and its report was refreshed after installation.

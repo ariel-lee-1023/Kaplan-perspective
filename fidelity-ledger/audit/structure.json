@@ -1,20 +1,20 @@
 {
-  "package": "/Users/AI products/GIthub/persona-distiller/persona_work/kaplan-rebuild/package",
-  "skill_root": "/Users/AI products/GIthub/persona-distiller/persona_work/kaplan-rebuild/package/.agents/skills/kaplan-perspective",
+  "package": "/Users/AI products/GIthub/Kaplan-perspective",
+  "skill_root": "/Users/AI products/GIthub/Kaplan-perspective",
   "strict": true,
   "checks": [
     {
       "check": "S1",
       "level": "error",
       "ok": true,
-      "detail": "one discoverable skill exists under .agents/skills/",
+      "detail": "root-level skill and references are real files/directories",
       "effective_level": "error"
     },
     {
       "check": "S2",
       "level": "error",
       "ok": true,
-      "detail": "SKILL.md exists inside the discovered skill directory",
+      "detail": "SKILL.md exists at the project root",
       "effective_level": "error"
     },
     {
@@ -28,7 +28,7 @@
       "check": "S4",
       "level": "error",
       "ok": true,
-      "detail": "fidelity-ledger/provenance.md present outside .agents/",
+      "detail": "fidelity-ledger/provenance.md is separate from runtime references",
       "effective_level": "error"
     },
     {
@@ -63,7 +63,7 @@
       "check": "C1b",
       "level": "error",
       "ok": true,
-      "detail": "frontmatter name matches .agents/skills directory",
+      "detail": "frontmatter declares kaplan-perspective",
       "effective_level": "error"
     },
     {

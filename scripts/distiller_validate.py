@@ -108,7 +108,7 @@ def resolve_module_ids(module_paths):
 
 def main():
     ap = argparse.ArgumentParser(description="Machine-check a distilled package's structural rules.")
-    ap.add_argument("package_dir", help="persona project root containing .agents/skills/<name>/")
+    ap.add_argument("package_dir", help="persona project root containing SKILL.md and references/")
     ap.add_argument("--json", help="write check artifact here")
     ap.add_argument("--strict", action="store_true", help="treat warnings as errors")
     ap.add_argument("--headings", help="file of required core heading anchors, one per line")
@@ -117,39 +117,26 @@ def main():
     if not os.path.isdir(root):
         ap.error("package directory not found: %s" % args.package_dir)
 
-    skills_home = os.path.join(root, ".agents", "skills")
-    skill_roots = []
-    if os.path.isdir(skills_home):
-        for name in sorted(os.listdir(skills_home)):
-            candidate = os.path.join(skills_home, name)
-            if os.path.isdir(candidate) and os.path.isfile(os.path.join(candidate, "SKILL.md")):
-                skill_roots.append(candidate)
-
-    # Keep checking after a layout failure so one run reports all useful findings.
-    skill_root = skill_roots[0] if len(skill_roots) == 1 else os.path.join(skills_home, "<skill-name>")
-    skill = os.path.join(skill_root, "SKILL.md")
+    # Root-level layout follows the standalone Leopold Kohr persona package.
+    skill_root = root
+    skill = os.path.join(root, "SKILL.md")
     references = os.path.join(skill_root, "references")
     clusters_dir = os.path.join(references, "clusters")
     provenance = os.path.join(root, "fidelity-ledger", "provenance.md")
     episodic = os.path.join(root, "fidelity-ledger", "episodic.md")
     results = []
 
-    layout_ok = len(skill_roots) == 1
-    layout_detail = (
-        "one discoverable skill exists under .agents/skills/"
-        if layout_ok else
-        "expected exactly one .agents/skills/<name>/SKILL.md; found %d" % len(skill_roots)
-    )
-    results.append(check("S1", "error", layout_ok, layout_detail))
+    layout_ok = os.path.isfile(skill) and not os.path.islink(skill) and not os.path.islink(references)
+    results.append(check("S1", "error", layout_ok,
+                         "root-level skill and references are real files/directories" if layout_ok else
+                         "expected a real root SKILL.md and references directory"))
     results.append(check("S2", "error", os.path.isfile(skill),
-                         "SKILL.md exists inside the discovered skill directory"
-                         if os.path.isfile(skill) else
-                         "missing .agents/skills/<name>/SKILL.md"))
+                         "SKILL.md exists at the project root" if os.path.isfile(skill) else "missing root SKILL.md"))
     refs_ok = os.path.isdir(references) and os.path.isfile(os.path.join(references, "voice.md")) and os.path.isfile(os.path.join(references, "frameworks.md"))
     results.append(check("S3", "error", refs_ok,
                          "references/, voice.md, and frameworks.md present" if refs_ok else "need references/ with voice.md and frameworks.md"))
     prov_ok = os.path.isfile(provenance)
-    results.append(check("S4", "error", prov_ok, "fidelity-ledger/provenance.md present outside .agents/" if prov_ok else "missing project-level fidelity-ledger/provenance.md"))
+    results.append(check("S4", "error", prov_ok, "fidelity-ledger/provenance.md is separate from runtime references" if prov_ok else "missing project-level fidelity-ledger/provenance.md"))
     results.append(check("S4", "warn", os.path.isfile(episodic),
                          "fidelity-ledger/episodic.md present" if os.path.isfile(episodic) else "episodic.md absent (permitted but expected when episodic material exists)"))
     misplaced = []
@@ -168,12 +155,12 @@ def main():
     c1_ok = fields is not None and bool(fields.get("name")) and bool(fields.get("description"))
     results.append(check("C1", "error", c1_ok,
                          "frontmatter has name and description" if c1_ok else "frontmatter needs non-empty name and description"))
-    path_name = os.path.basename(skill_root)
+    path_name = "kaplan-perspective"
     declared_name = fields.get("name", "") if fields else ""
     results.append(check("C1b", "error", bool(declared_name) and declared_name == path_name,
-                         "frontmatter name matches .agents/skills directory"
+                         "frontmatter declares kaplan-perspective"
                          if declared_name == path_name else
-                         "frontmatter name '%s' must match skill directory '%s'" % (declared_name or "<missing>", path_name)))
+                         "frontmatter name '%s' must match expected skill name '%s'" % (declared_name or "<missing>", path_name)))
     description = fields.get("description", "") if fields else ""
     found_audit = [word for word in AUDIT_WORDS if re.search(r"\b%s\b" % re.escape(word), description, re.I)]
     c2_ok = bool(description.strip()) and not found_audit

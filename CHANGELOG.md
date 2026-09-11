@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-09-12 — standalone root layout
+
+Moved the existing `SKILL.md` and `references/` contents to real files and directories at the repository root, following Leopold-Kohr-perspective. Removed the nested `.agents/skills/` package and both root symbolic links. Updated usage paths and validators. Runtime content and its fidelity hash are unchanged.
+
 ## 2026-09-11 — corpus rebuild
 
 Rebuilt the persona from seven local books using Persona-Distiller’s evidence, curation, register, and modular-loading design. Added five measured writing modes, ordered decision procedures, qualified standing judgments, accountability for Iraq and the reception of *Balkan Ghosts*, and substantial literary and travel depth. Removed unsupported generic interaction rules. Replaced the recursive skill symlink with a canonical lowercase runtime directory and compatible root links. Added reproducible structural and artifact checks, disclosed failed and limited fidelity checks, and preserved the previous audit as superseded history.

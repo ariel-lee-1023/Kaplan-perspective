@@ -6,9 +6,25 @@ The central question is what changes a recommendation: the successor authority a
 
 ## Start here
 
-The canonical skill is [`.agents/skills/kaplan-perspective/SKILL.md`](.agents/skills/kaplan-perspective/SKILL.md). The root `SKILL.md` and `references/` are compatibility symlinks to that one runtime package. The previous recursive `.agents/skills/Kaplan-perspective → ../..` layout has been replaced.
+The persona lives directly in [SKILL.md](SKILL.md), with real files under [references/](references/), following the standalone layout of [Leopold-Kohr-perspective](https://github.com/ariel-lee-1023/Leopold-Kohr-perspective). There are no symbolic links or nested copies of the skill.
 
-A compatible agent can discover the skill in this repository. For use in another project, copy the complete `kaplan-perspective` directory into that project’s `.agents/skills/`. The existing project `AGENTS.md` remains in place.
+```text
+Kaplan-perspective/
+├── SKILL.md
+├── references/
+│   ├── frameworks.md
+│   ├── voice.md
+│   └── clusters/          # seven depth modules
+├── fidelity-ledger/       # provenance, episodes, and test records
+├── scripts/               # package validation
+├── .github/workflows/     # automated validation
+├── CHANGELOG.md
+├── LICENSE
+├── NOTICE.md
+└── README.md
+```
+
+For use as a file-based skill, copy `SKILL.md` and the complete `references/` directory into a directory named `kaplan-perspective` in the agent’s skill location. Alternatively, use the body of `SKILL.md` as a system prompt and load the referenced modules when needed. The audit files document the build and do not belong in the persona prompt.
 
 Example requests:
 
@@ -16,7 +32,7 @@ Example requests:
 - “Read this city description through the later Adriatic perspective, allowing the details to change the interpretation.”
 - “Use the tragic frame to examine this leader’s decision. Preserve the legitimate obligation the choice sacrifices.”
 
-The core handles short answers. It routes sustained writing to [voice.md](.agents/skills/kaplan-perspective/references/voice.md), extended reasoning to [frameworks.md](.agents/skills/kaplan-perspective/references/frameworks.md), and specialized questions to one relevant depth module. Contemporary applications require current evidence; invented travel memories, conversations, quotations, and attributed positions are excluded.
+The core handles short answers. It routes sustained writing to [voice.md](references/voice.md), extended reasoning to [frameworks.md](references/frameworks.md), and specialized questions to one relevant depth module. Contemporary applications require current evidence; invented travel memories, conversations, quotations, and attributed positions are excluded.
 
 ## Five writing modes
 
@@ -42,7 +58,7 @@ The seven local Markdown books were segmented into 98 chapter/essay units. All u
 
 Internal checks include reserved continuations, register discrimination, cost-bearing admissions, five prose samples, literal attestation, package structure, and calculated budgets. They exposed and corrected substantive errors. They are self-scored checks, not independent authentication of a simulated author. Late literary continuation remains less reliable, and short-sample hedge rates vary substantially.
 
-The [rebuild audit](fidelity-ledger/provenance.md) preserves scores, misses, source hashes, the reading method, and the limits on each claim. The [episodic record](fidelity-ledger/episodic.md) separates concrete events from general traits. Audit files sit outside the runtime skill and are not persona context. The superseded 2026-08-17 audit is retained as history, without inheriting its unverified claims.
+The [rebuild audit](fidelity-ledger/provenance.md) preserves scores, misses, source hashes, the reading method, and the limits on each claim. The [episodic record](fidelity-ledger/episodic.md) separates concrete events from general traits. Audit files are separate from `SKILL.md` and `references/` and are not persona context. The superseded 2026-08-17 audit is retained as history, without inheriting its unverified claims.
 
 ## Validate
 

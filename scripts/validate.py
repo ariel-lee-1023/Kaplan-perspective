@@ -4,17 +4,19 @@ from pathlib import Path
 import hashlib,json,re,subprocess,sys
 import token_count,cluster_budget
 ROOT=Path(__file__).resolve().parents[1]
-RUNTIME=ROOT/'.agents/skills/kaplan-perspective'
+RUNTIME=ROOT
 AUDIT=ROOT/'fidelity-ledger/audit'
 def check(condition,message):
     if not condition: raise ValueError(message)
 def load(name): return json.loads((AUDIT/name).read_text())
 def main():
     subprocess.run([sys.executable,str(ROOT/'scripts/distiller_validate.py'),str(ROOT),'--strict'],check=True)
-    check(not RUNTIME.is_symlink(),'canonical runtime must be a real directory')
-    check((ROOT/'SKILL.md').is_symlink() and (ROOT/'SKILL.md').resolve()==RUNTIME/'SKILL.md','root skill alias is wrong')
-    check((ROOT/'references').is_symlink() and (ROOT/'references').resolve()==RUNTIME/'references','root references alias is wrong')
-    files={str(p.relative_to(RUNTIME)):hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(RUNTIME.rglob('*')) if p.is_file()}
+    check((ROOT/'SKILL.md').is_file() and not (ROOT/'SKILL.md').is_symlink(),'root SKILL.md must be a real file')
+    check((ROOT/'references').is_dir() and not (ROOT/'references').is_symlink(),'root references must be a real directory')
+    check(not (ROOT/'.agents').exists(),'obsolete nested skill directory remains')
+    runtime_files=[ROOT/'SKILL.md', *sorted((ROOT/'references').rglob('*'))]
+    check(not any(p.is_symlink() for p in runtime_files),'runtime must not contain symbolic links')
+    files={str(p.relative_to(RUNTIME)):hashlib.sha256(p.read_bytes()).hexdigest() for p in runtime_files if p.is_file()}
     record=load('runtime-hashes.json');check(files==record['files'],'runtime bytes changed; fidelity seal is stale')
     digest='sha256:'+hashlib.sha256(json.dumps(files,sort_keys=True,separators=(',',':')).encode()).hexdigest()
     check(digest==record['content_hash']==load('fidelity.json')['content_hash'],'runtime hash mismatch')
@@ -50,7 +52,7 @@ def main():
     core=(RUNTIME/'SKILL.md').read_text()
     for anchor in ['Iraq remains an error','Good intentions do not release a writer','A hostile judgment can contain an education']:
         check(anchor in core,'missing cost-bearing core anchor: '+anchor)
-    for path in RUNTIME.rglob('*.md'):
+    for path in [ROOT/'SKILL.md', *sorted((ROOT/'references').rglob('*.md'))]:
         for ref in re.findall(r'`(references/[^`]+\.md)`',path.read_text()):
             check((RUNTIME/ref).is_file(),'unresolved path: '+ref)
     for name in ['projection-gate-results.json','final-projection-results.json']:
