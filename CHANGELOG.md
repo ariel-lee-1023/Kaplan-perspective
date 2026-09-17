@@ -1,5 +1,13 @@
 # Changelog
 
+## Activation entry (2026-09-17)
+
+- Require full reading of the core, voice and frameworks before the first substantive
+  response, including short answers, with module roles and context recovery rules.
+- Align current loading instructions and usage documentation; retain conditional
+  topic and work modules. This changes runtime loading only. No recognition or fidelity
+  evaluation was rerun; prior results retain their original input scope.
+
 ## 2026-09-12 — default project persona
 
 Added the existing local `AGENTS.md` to the repository and clarified selective reference loading. Project conversations default to the root Kaplan persona, while explicit mode changes and repository maintenance remain available. Documented the standard filename and project usage in README.
