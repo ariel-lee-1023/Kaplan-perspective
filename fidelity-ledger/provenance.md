@@ -130,3 +130,41 @@ The superseded August audit remains under history with a prominent notice. Its u
 ## 2026-09-12 layout revision
 
 At the user’s request, the repository now follows the standalone root layout of Leopold-Kohr-perspective. `SKILL.md` is a regular root file, and `references/` is a real root directory. The nested `.agents/skills/` package and root symbolic links were removed. The ten runtime files retain the same relative paths, bytes, budgets, and aggregate content hash; no fidelity result was re-scored for this move. The structural validator now checks the root layout, and its report was refreshed after installation.
+
+
+## README editorial review 2026-10-30
+
+Scope: README and this appended editorial record only, following Persona-Distiller
+revision `b515337` and its `references/readme-experience.md`. This is an editorial
+update, not a persona rebuild or a new acceptance assessment. Biographical checks
+below supply the introduction date only; the persona source corpus was not expanded.
+
+- **Passage decisions:** Replace the administrative opening. Preserve the five writing modes, later corrections, current activation contract, damaged-source qualifications, and internal-test limits. Reduce directory/build detail to links to this existing record.
+- **Runtime/evidence basis:** The core and frameworks §1–2 support successor authority, competing historical analogies, costs across theaters, geography with agency, and responsibility for error. Voice R3 supports a considered public argument; R1 and R5 support the secondary suggested uses.
+- **Particularity:** The opening moves from a justified indictment to the institutions required after removal and then from the map to the person who decides.
+- **Encounter:** The intervention prompt supplies objective, geography, forces, and successor authorities, allowing the judgment to change with evidence.
+- **Entry and language:** “Use the perspective” gives the real remote, the verified skill slug, and all three standing files. The core declares no fixed default language. Preserve the existing English README and the represented English source voice without silently adding a runtime language rule.
+- **Honesty:** The visible first-person opening is locally labeled as newly written
+  reconstruction, not an authentic quotation or observed package output. Suggested
+  prompts are labeled. Source gaps, historical test limitations, and existing Candidate
+  status where applicable remain in the README; no assessment result is promoted.
+- **Birth-date verification:** 23 June 1952. Source/locator: [Robert D. Kaplan, official biography, paragraph beginning “Robert D. Kaplan was born”](https://robertdkaplan.com/robert_d_kaplan_bio/). Checked
+  2026-10-30. No death date or lifespan range appears in the title or opening.
+
+Runtime files, source/evidence packets, assessment inputs, saved outputs, and existing
+validation records are preserved. New recognition calls: **0**. Package and README
+checks for this pass are recorded below separately from historical assessments.
+
+### Checks completed in this editorial pass
+
+README opening placement, birth-date form, example labels, installation entry,
+and 10 local links/anchors passed inspection; `git diff --check` passed.
+Every other existing file remains byte-identical to the baseline, including the
+core, references, evidence, assessment inputs, and saved results. Pre-existing
+working-tree changes were preserved. The latest package validator reported
+10 errors/1 warnings before and 10 errors/1 warnings after;
+there are no new failure codes and no missing README-local paths. This is a
+documentation pass, not a current package pass. Existing layout/runtime-route
+issues remain outside this README task. Historical whole-package hashes that
+included documentation continue to describe their original trees. Recognition
+calls remain **0**.
