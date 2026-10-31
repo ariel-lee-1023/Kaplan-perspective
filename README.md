@@ -26,7 +26,12 @@ of Iraq and *Balkan Ghosts*. Contemporary applications need current evidence;
 they do not establish Kaplan's present opinions. Existing checks are internal
 and do not authenticate a simulated author.
 
-## Begin with a consequential choice
+
+Move between the map, the institutions that make order possible, and the person who must live with the consequences of a choice.
+
+[Uses](#what-to-bring) · [Getting started](#getting-started) · [Files and loading](#files-and-loading) · [Sources](#sources-and-contributions) · [Scope and status](#scope-and-current-status) · [License](#license)
+
+## What to bring
 
 **Suggested first prompt:**
 
@@ -35,69 +40,105 @@ and do not authenticate a simulated author.
 > likely successor authorities. What would have to be true to justify it, and
 > which missing facts could change the judgment?
 
-Bring the alternatives as well as the preferred plan. The inquiry follows the
-transition after an intervention, compares historical mechanisms, and accounts
-for commitments elsewhere. A powerful analogy must survive the differences
-between cases.
+Bring alternatives as well as the preferred plan. The inquiry follows the transition,
+tests the historical analogy and accounts for commitments elsewhere. Other situations
+invite different kinds of attention:
 
-For a different encounter, bring a city description and ask how its port,
-architecture, books, and overlapping identities alter an initial interpretation.
-Or bring a leader's decision and examine the legitimate obligation it sacrifices.
+- **A transport route said to transform a region:** Bring the terrain, ports, distances
+  and capacity to sustain control. Examine what becomes accessible and which obstacles
+  remain; a new connection need not end rivalry.
+- **A city that unsettles a familiar story:** Bring a description of its architecture,
+  inhabitants, art or books. Trace overlapping identities and let the particulars
+  change the initial interpretation rather than serve as decoration.
+- **A leader caught between legitimate obligations:** Name the good each option preserves
+  and sacrifices. Examine ambition, information and timing without treating necessity
+  as an excuse for the result.
+- **A criticism of one's earlier judgment:** Compare the original circumstances with
+  later evidence and consequences. A correction can acknowledge an achievement without
+  rescuing the original decision.
 
-## Use the perspective
+These are supported applications to try, not demonstrated policy outcomes. The later
+corrective perspective is the default; an explicitly requested earlier mode keeps its
+historical limits. Travel prose does not authorize invented journeys or interviews.
+
+## Getting started
 
 ```sh
-git clone https://github.com/ariel-lee-1023/Kaplan-perspective.git
+git clone https://github.com/ariel-lee-1023/Kaplan-perspective.git Kaplan-perspective
 ```
 
 Open the folder with an agent that reads [AGENTS.md](AGENTS.md), or install the
-root [SKILL.md](SKILL.md) and complete [references](references/) together in a
-skill directory named `kaplan-perspective`. There is one root runtime copy.
-Explicit requests to switch modes or maintain the repository take precedence.
+root and complete references in a skill directory named `kaplan-perspective`. There
+is one root runtime copy. Explicit mode changes and maintenance requests take precedence.
+Invoke `kaplan-perspective` through your host's skill selector, or ask it to use this perspective with one of the situations above.
 
-Before the first substantive answer, read the complete core,
-[voice](references/voice.md), and [frameworks](references/frameworks.md), even
-for a short reply. Reuse complete context; reload files lost after compaction.
-Add the relevant work modules when needed. For a chat without file access,
-supply those three complete texts and any relevant topic module.
+The published workspace instructions follow the user’s language and requested format.
+The core does not declare a fixed output language. To control it explicitly, request,
+for example, “Answer in English for this conversation.” Host-level overrides may
+set a different default; this README does not change the published runtime.
 
-## Different kinds of attention
+### Loading and manual configuration
 
-| Occasion | Main source and manner |
-|---|---|
-| Strategic choice and political order | *The Coming Anarchy*, *Warrior Politics*, and *The Return of Marco Polo's World*: historical policy argument, the default |
-| Terrain, routes, and strategic reach | *The Revenge of Geography*: sustained geographic explanation |
-| Early encounters and historical memory | *Balkan Ghosts*: reported travel, with its source and retrospective limits |
-| Art, place, and changing interpretation | *Adriatic*: late literary travel |
-| Conscience, ambition, and incompatible duties | *The Tragic Mind*: literary reflection |
+Before the first substantive response, including a short answer, read the complete
+[core](SKILL.md), [voice](references/voice.md) and [frameworks](references/frameworks.md).
+The core alone is incomplete. Keep complete texts already in context and reload any
+lost after compaction. Add relevant topic or work modules as the question requires.
+For a chat without file access, supply those three complete texts and the relevant
+module yourself. Maintenance and assessment records are not ordinary conversation inputs.
 
-The later perspective incorporates corrections; an explicitly requested earlier
-mode retains its historical limits. Travel prose does not license invented
-journeys, interviews, or memories.
+## Files and loading
 
-## Sources, scope, and confidence
+These are file responsibilities and loading relationships, not a fixed sequence of thought.
 
-All 98 chapter or essay units received distributed reading samples, with closer
-reading around diagnostic claims. This was not line-by-line reading of seven
-pristine books. The *Balkan Ghosts* transcription is heavily damaged, and
-*Warrior Politics* requires text repair. Reported interviews do not demonstrate
-Kaplan's own live conversational behavior.
+| File or entry | What it provides | When it is used |
+| --- | --- | --- |
+| [Core](SKILL.md) | Perspective, language and operating instructions | Read in full at setup |
+| [Voice](references/voice.md) | Expression, register and interaction | Read in full at setup |
+| [Frameworks](references/frameworks.md) | Concepts, methods and conditional judgments | Read in full at setup |
+| [Topic and source modules](references/clusters/) | Evidence, examples and work-specific distinctions | Load when relevant to the question |
+| [Maintenance records](fidelity-ledger/) | Provenance, editorial history and assessment evidence | Outside the ordinary conversation prompt |
 
-Reserved continuations, register comparisons, and prose checks exposed errors
-that were revised. They remain self-scored checks; late literary continuation
-is less reliable, and short-sample hedge rates vary. Later loading changes have
-not been reassessed. This README update makes no new recognition claim.
+## Sources and contributions
 
-The [provenance record](fidelity-ledger/provenance.md) preserves source hashes,
-reading methods, scores, misses, and rebuild history. The
-[episodic record](fidelity-ledger/episodic.md) separates events from reusable
-traits. These are maintainer records, not conversation inputs. Superseded
-results retain their original scope.
+The seven supplied books are by Robert D. Kaplan. Their placement below shows what
+each contributes; it does not erase changes of judgment between the earlier journeys
+and later reflection.
 
-The repository's structural check is `python3 scripts/validate.py`; its results
-must be distinguished from literary resemblance and historical accuracy.
+| Question or concern | Work and period | Contribution and reference |
+| --- | --- | --- |
+| How does historical memory enter an encounter? | *Balkan Ghosts* (1993) | Reported travel and inherited narratives, qualified by later reconsideration. [Early journey](references/clusters/1993-balkan-ghosts.md) |
+| What sustains order beneath political labels? | *The Coming Anarchy* (2000 collection of earlier essays) | Institutions, social and environmental pressures, and proportionate engagement. [Political order](references/clusters/2000-coming-anarchy.md) |
+| How should public responsibility use power? | *Warrior Politics* (2001) | Classical statecraft and the distinction between private virtue and public duty. [Prudence](references/clusters/2001-warrior-politics.md) |
+| What does geography constrain without deciding? | *The Revenge of Geography* (2012) | Terrain, continental and maritime reach, and the limits of map-based explanation. [Geographic exposition](references/clusters/2012-revenge-of-geography.md) |
+| What does a commitment consume elsewhere? | *The Return of Marco Polo's World* (2018 collection) | Alliances, naval power, war costs and historically situated policy arguments. [Strategy](references/clusters/2018-marco-polos-world.md) |
+| Can a place change the observer's argument? | *Adriatic* (2022; travel in 2016–2018 with later revision) | Art, imperial layers and returning to earlier interpretations. [Literary travel](references/clusters/2022-adriatic.md) |
+| What remains after a consequential choice? | *The Tragic Mind* (2023) | Conscience, ambition, remorse and incompatible duties. [Tragic reflection](references/clusters/2023-tragic-mind.md) |
 
-## Rights
+Interviewees' testimony is distinct from Kaplan's interpretation. His use of other
+writers does not make their positions his own. The [provenance record](fidelity-ledger/provenance.md)
+preserves the detailed inventory, reading methods and corrections.
+
+## Scope and current status
+
+**Current evidence consists of historical internal checks, not an independently
+established conversational likeness.** Reserved continuations, register comparisons
+and prose checks exposed errors that were revised, but remain self-scored. Late
+literary continuation is less reliable and short-sample hedge rates vary. Later
+loading changes have not been reassessed; this README adds no recognition result.
+
+The represented books span 1993–2023 and include earlier essays. They are not a source
+for Kaplan's present opinions or current geopolitical facts. Reading used distributed
+samples and targeted passages, not line-by-line inspection of pristine books. The
+*Balkan Ghosts* transcription is heavily damaged and *Warrior Politics* requires text
+repair. Reported interviews do not establish Kaplan's own live conversational behavior.
+
+See [provenance](fidelity-ledger/provenance.md) for source, editorial and diagnostic
+records, and the [episodic record](fidelity-ledger/episodic.md) for situated events.
+The repository's `python3 scripts/validate.py` check concerns structure; it cannot
+establish historical accuracy or recognition. Superseded results retain their original
+scope. Current runtime and assessment inputs are unchanged by this documentation edit.
+
+## License
 
 Full source texts are not distributed. [MIT](LICENSE) covers the repository's
 original material, not Kaplan's books. See [NOTICE](NOTICE.md).
