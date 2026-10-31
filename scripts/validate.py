@@ -17,13 +17,28 @@ def main():
     runtime_files=[ROOT/'SKILL.md', *sorted((ROOT/'references').rglob('*'))]
     check(not any(p.is_symlink() for p in runtime_files),'runtime must not contain symbolic links')
     files={str(p.relative_to(RUNTIME)):hashlib.sha256(p.read_bytes()).hexdigest() for p in runtime_files if p.is_file()}
-    record=load('runtime-hashes.json');check(files==record['files'],'runtime bytes changed; fidelity seal is stale')
+    # Frozen scores and budgets describe the original runtime, not later activation edits.
+    record=load('runtime-hashes.json');current=load('current-runtime.json')
+    check(files==current['files'],'runtime bytes changed since maintenance review')
     digest='sha256:'+hashlib.sha256(json.dumps(files,sort_keys=True,separators=(',',':')).encode()).hexdigest()
-    check(digest==record['content_hash']==load('fidelity.json')['content_hash'],'runtime hash mismatch')
-    check(not load('fidelity.json')['stale'],'audit is marked stale')
+    check(digest==current['content_hash'],'current runtime hash mismatch')
+    baseline_digest='sha256:'+hashlib.sha256(json.dumps(record['files'],sort_keys=True,separators=(',',':')).encode()).hexdigest()
+    check(baseline_digest==record['content_hash']==load('fidelity.json')['content_hash']==current['baseline_runtime_hash'],'historical runtime hash mismatch')
+    check(not load('fidelity.json')['stale'],'historical audit was marked stale')
+    check(current['assessment_applicability']=='historical_only' and current['current_recognition']=='not_run' and current['new_evaluation_calls']==0,'maintenance must not claim a new assessment')
+    check(set(files)==set(record['files']),'runtime inventory differs from historical inventory')
+    changed={p for p in files if files[p]!=record['files'][p]}
+    check(set(current['historical_paths'])==changed,'missing or redundant historical snapshot')
+    historical_files={}
+    for p,expected in record['files'].items():
+        source=ROOT/current['historical_paths'][p] if p in changed else ROOT/p
+        if p in changed:
+            check(source.resolve().is_relative_to(ROOT/'fidelity-ledger/history'),'historical snapshot outside history')
+        check(hashlib.sha256(source.read_bytes()).hexdigest()==expected,'historical runtime snapshot changed: '+p)
+        historical_files[p]=source
     budgets=load('budgets.json');check(len(budgets)==10,'expected core, two standing files, seven modules')
     for row in budgets:
-        actual=token_count.count(str(RUNTIME/row['path']),1/0.6,1.3)['tokens_est']
+        actual=token_count.count(str(historical_files[row['path']]),1/0.6,1.3)['tokens_est']
         check(abs(actual-row['realised'])<.02,'wrong size: '+row['path'])
         check(.9*row['budget']<=actual<=1.1*row['budget'],'budget exceeded: '+row['path'])
     scores=load('scores.json');c=scores['core_budget']['counts']
@@ -59,7 +74,7 @@ def main():
         result=load(name);check(abs(sum(x['score']for x in result['items'])/(2*len(result['items']))-result['overall'])<1e-9,'projection arithmetic mismatch')
     check(load('fidelity.json')['style']['modulation_reproduced'] is False,'unvalidated modulation must stay disclosed')
     print('\nPASS — layout, runtime hashes, references, budget arithmetic, curation, cost presence, and audit consistency.')
-    print('This validates the package, not a claim of complete literary or conversational fidelity.')
+    print('NOTE: scores and budgets describe the preserved historical runtime; current runtime recognition has not been rerun.')
 if __name__=='__main__':
     try: main()
     except (ValueError,KeyError,OSError,subprocess.CalledProcessError) as exc:

@@ -168,3 +168,16 @@ documentation pass, not a current package pass. Existing layout/runtime-route
 issues remain outside this README task. Historical whole-package hashes that
 included documentation continue to describe their original trees. Recognition
 calls remain **0**.
+
+## CI maintenance review — 2026-10-31
+
+The September activation edit changed three runtime files after the recorded fidelity
+seal. The old score and budget records are preserved unchanged. A separate
+[current-runtime record](audit/current-runtime.json) pins the reviewed current files
+and marks the assessment as historical only. Exact pre-activation copies of the three
+changed files are preserved under history/pre-activation; their hashes and measured
+sizes remain checked against the original records. Unchanged modules are checked
+against both versions. No score, budget, or behavioral pass was recalculated for the
+new input. No model calls were made.
+
+The complete package/audit validation and six integrity regression tests pass. Tests reject unreviewed runtime edits, corrupted historical bytes and scores, and a missing current record; a README-only edit remains valid.

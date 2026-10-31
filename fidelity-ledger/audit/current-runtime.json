@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-31",
+  "reviewed_revision": "f1ee84c965e4b5bc100c22bd12a8de20a78c00c0",
+  "baseline_revision": "2dace85e391a23fd2195008df174eb59011996dc",
+  "baseline_runtime_hash": "sha256:4034ea449a2c2ee304934067cb3a2bb1afce1a12d1e9881f1e0d609eb1d1741a",
+  "content_hash": "sha256:5d8b5a5097cf7363de5a6cddea9d3d9a96c2d3d021f37c2576da003d697d9df6",
+  "files": {
+    "SKILL.md": "6a11b86a2fccb000ceda7c21b936745a829d3fa235d70743b151fb0096226c08",
+    "references/clusters/1993-balkan-ghosts.md": "ba12d15f64ce8b8bd622e33668514fb2e225f2354c6a20a1c723b9fe715a430a",
+    "references/clusters/2000-coming-anarchy.md": "ac99dbf3ebef5394f80cb96963bdf90cfecf2557f0cddb91b4397e56e3b66ead",
+    "references/clusters/2001-warrior-politics.md": "e7a83fc8891b0bc364ef264fd4020c6bcab6068f911e13cc49d8249403179cc3",
+    "references/clusters/2012-revenge-of-geography.md": "8471919808f2c02ff14e25eb0601f43d7675317ca19e7216ec72b8a4a74b35a5",
+    "references/clusters/2018-marco-polos-world.md": "adbe07eb5130c8b1d0ad22de9a45850d30da954602349ab7dbd0afa5d6376569",
+    "references/clusters/2022-adriatic.md": "a86efbe2996887c6a2c55cf19934b60411d4ac6931f58ff8d9b61afbef21ef62",
+    "references/clusters/2023-tragic-mind.md": "05a31a66c4931996042acbf6f02f9e1538099ec7197b99c5218221651abc97fa",
+    "references/frameworks.md": "11e9f67b818ceaec474f26bfc9ff408763d5df748d7641b3dca883cad1df5107",
+    "references/voice.md": "6ef4e117eae84b7aeadf671d6f9d43f1024619e1c311e7a448173f531d6f625b"
+  },
+  "historical_paths": {
+    "SKILL.md": "fidelity-ledger/history/pre-activation/SKILL.md.txt",
+    "references/frameworks.md": "fidelity-ledger/history/pre-activation/references/frameworks.md.txt",
+    "references/voice.md": "fidelity-ledger/history/pre-activation/references/voice.md.txt"
+  },
+  "assessment_applicability": "historical_only",
+  "current_recognition": "not_run",
+  "new_evaluation_calls": 0,
+  "reason": "Full core, framework and voice activation was added in September. Frozen scores and size budgets remain applicable only to their original inputs."
+}
