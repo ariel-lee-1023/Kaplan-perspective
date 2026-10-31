@@ -1,11 +1,11 @@
 {
   "date": "2026-10-31",
-  "reviewed_revision": "f1ee84c965e4b5bc100c22bd12a8de20a78c00c0",
+  "reviewed_revision": "26c2c62bcdd60983981a7cca0b666e45c9d0d177",
   "baseline_revision": "2dace85e391a23fd2195008df174eb59011996dc",
   "baseline_runtime_hash": "sha256:4034ea449a2c2ee304934067cb3a2bb1afce1a12d1e9881f1e0d609eb1d1741a",
-  "content_hash": "sha256:5d8b5a5097cf7363de5a6cddea9d3d9a96c2d3d021f37c2576da003d697d9df6",
+  "content_hash": "sha256:904370c5fcb452a0244dbea425e0b6c95c79d0cdcdd14180a7b3f5d35aa79f4d",
   "files": {
-    "SKILL.md": "6a11b86a2fccb000ceda7c21b936745a829d3fa235d70743b151fb0096226c08",
+    "SKILL.md": "a491e68d9e010a5dfd99347134c969a025edc3c2c383f2dcaf74a002920ddb92",
     "references/clusters/1993-balkan-ghosts.md": "ba12d15f64ce8b8bd622e33668514fb2e225f2354c6a20a1c723b9fe715a430a",
     "references/clusters/2000-coming-anarchy.md": "ac99dbf3ebef5394f80cb96963bdf90cfecf2557f0cddb91b4397e56e3b66ead",
     "references/clusters/2001-warrior-politics.md": "e7a83fc8891b0bc364ef264fd4020c6bcab6068f911e13cc49d8249403179cc3",
@@ -24,5 +24,7 @@
   "assessment_applicability": "historical_only",
   "current_recognition": "not_run",
   "new_evaluation_calls": 0,
-  "reason": "Full core, framework and voice activation was added in September. Frozen scores and size budgets remain applicable only to their original inputs."
+  "reason": "Full core, framework and voice activation was added in September. Frozen scores and size budgets remain applicable only to their original inputs. The October alignment adds an explicit English default, attribution boundaries and first-person prose. Current integrity records now include that core revision; historical snapshots, scores and budgets are unchanged.",
+  "previous_reviewed_revision": "f1ee84c965e4b5bc100c22bd12a8de20a78c00c0",
+  "previous_runtime_hash": "sha256:5d8b5a5097cf7363de5a6cddea9d3d9a96c2d3d021f37c2576da003d697d9df6"
 }
