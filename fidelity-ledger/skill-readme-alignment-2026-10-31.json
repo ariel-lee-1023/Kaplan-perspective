@@ -1,0 +1,201 @@
+{
+  "date": "2026-10-31",
+  "task": "Core and README consistency alignment; preserve existing content; no new tests",
+  "tool_revision": "915ecf9671b3a172433c8c0e3306b2e1c19f988b",
+  "baseline_commit": "bbea37421819f2321d493db916a7fa012cd18edb",
+  "pre_existing_working_tree": [
+    " M AGENTS.md"
+  ],
+  "changed_files": [
+    {
+      "path": "README.md",
+      "before_sha256": "4a39bf8e1ab67b487d0d6ea3f6b617b4ee2f5c1c6f062cc6ce050ec342ee4eaa",
+      "after_sha256": "8f2f0214a088f1f590d12d80adbe89379a20a601053df4630442e5d1d27367c2"
+    },
+    {
+      "path": "SKILL.md",
+      "before_sha256": "6a11b86a2fccb000ceda7c21b936745a829d3fa235d70743b151fb0096226c08",
+      "after_sha256": "a491e68d9e010a5dfd99347134c969a025edc3c2c383f2dcaf74a002920ddb92"
+    },
+    {
+      "path": "fidelity-ledger/provenance.md",
+      "before_sha256": "23050aef9a80751c806d56c9f05d96ac70f69031dd419404e02d4081e5676b82",
+      "after_sha256": "564f3e91984c61ee4782f3e8b060a0516b894799a283ca474cbd9f33a74fecf6"
+    }
+  ],
+  "checks": {
+    "frontmatter": "pass",
+    "whitespace": "pass",
+    "language_before_activation": "pass",
+    "complete_core_voice_framework_activation": "editorially reviewed",
+    "first_person_persona_body": "editorially reviewed, not certified by pronoun counts",
+    "implementation_and_attribution_labels": "editorially reviewed",
+    "readme_introduction_bytes": "unchanged",
+    "readme_notice_bytes": "unchanged, relocated with its source links",
+    "readme_notice_location": "Scope and current status",
+    "local_markdown_links_checked": 30,
+    "new_broken_markdown_links": [],
+    "pre_existing_broken_markdown_links": [],
+    "rendered_layout": "not run"
+  },
+  "package_validation": {
+    "passed": false,
+    "failures": [
+      {
+        "check": "S9",
+        "level": "error",
+        "ok": false,
+        "detail": "automatic host assessment route: fidelity-ledger/; need reconstruction account at transworld-identity/scope.md; source review checks its responsibilities",
+        "effective_level": "error"
+      },
+      {
+        "check": "S1",
+        "level": "error",
+        "ok": false,
+        "detail": "expected exactly one .agents/skills/<name>/SKILL.md; found 0",
+        "effective_level": "error"
+      },
+      {
+        "check": "S2",
+        "level": "error",
+        "ok": false,
+        "detail": "missing .agents/skills/<name>/SKILL.md",
+        "effective_level": "error"
+      },
+      {
+        "check": "S3",
+        "level": "error",
+        "ok": false,
+        "detail": "need references/ with voice.md and frameworks.md",
+        "effective_level": "error"
+      },
+      {
+        "check": "S4",
+        "level": "error",
+        "ok": false,
+        "detail": "missing project-level transworld-identity/provenance.md",
+        "effective_level": "error"
+      },
+      {
+        "check": "C1",
+        "level": "error",
+        "ok": false,
+        "detail": "frontmatter needs non-empty name and description",
+        "effective_level": "error"
+      },
+      {
+        "check": "C1b",
+        "level": "error",
+        "ok": false,
+        "detail": "frontmatter name '<missing>' must match skill directory '<skill-name>'",
+        "effective_level": "error"
+      },
+      {
+        "check": "C2",
+        "level": "error",
+        "ok": false,
+        "detail": "description empty or contains audit/meta vocabulary: ",
+        "effective_level": "error"
+      },
+      {
+        "check": "C6",
+        "level": "error",
+        "ok": false,
+        "detail": "unresolved cluster citations: c01, c02, c03, c04, c05, c06, c07, c08, c09, c10, c11, c12, c13, c14, c15, c16, c17, c18, c19, c20, c21, c22, c23, c24, c25, c26, c27, c28, c29, c30, c31, c32, c33, c34, c35, c36, c37, c38, c39, c40, c41, c42, c43, c44, c45, c46, c47, c48, c49, c50, c51, c52, c53, c54, c55, c56, c57, c58, c59, c60, c61, c62, c63, c64, c65, c66, c67, c68, c69, c70, c71, c72, c73, c74, c75, c76, c77, c78, c79, c80, c81, c82, c83, c84, c85, c86, c87, c88, c89, c90, c91, c92, c93, c94, c95, c96, c97, c98",
+        "effective_level": "error"
+      },
+      {
+        "check": "L2",
+        "level": "error",
+        "ok": false,
+        "detail": "cannot check first provenance heading because provenance.md is missing",
+        "effective_level": "error"
+      }
+    ],
+    "baseline_failures": [
+      {
+        "check": "S9",
+        "level": "error",
+        "ok": false,
+        "detail": "hidden assessment route in runtime: SKILL.md; runtime link escapes runtime: fidelity-ledger/; automatic host assessment route: fidelity-ledger/; need reconstruction account at transworld-identity/scope.md; source review checks its responsibilities",
+        "effective_level": "error"
+      },
+      {
+        "check": "S1",
+        "level": "error",
+        "ok": false,
+        "detail": "expected exactly one .agents/skills/<name>/SKILL.md; found 0",
+        "effective_level": "error"
+      },
+      {
+        "check": "S2",
+        "level": "error",
+        "ok": false,
+        "detail": "missing .agents/skills/<name>/SKILL.md",
+        "effective_level": "error"
+      },
+      {
+        "check": "S3",
+        "level": "error",
+        "ok": false,
+        "detail": "need references/ with voice.md and frameworks.md",
+        "effective_level": "error"
+      },
+      {
+        "check": "S4",
+        "level": "error",
+        "ok": false,
+        "detail": "missing project-level transworld-identity/provenance.md",
+        "effective_level": "error"
+      },
+      {
+        "check": "C1",
+        "level": "error",
+        "ok": false,
+        "detail": "frontmatter needs non-empty name and description",
+        "effective_level": "error"
+      },
+      {
+        "check": "C1b",
+        "level": "error",
+        "ok": false,
+        "detail": "frontmatter name '<missing>' must match skill directory '<skill-name>'",
+        "effective_level": "error"
+      },
+      {
+        "check": "C2",
+        "level": "error",
+        "ok": false,
+        "detail": "description empty or contains audit/meta vocabulary: ",
+        "effective_level": "error"
+      },
+      {
+        "check": "C6",
+        "level": "error",
+        "ok": false,
+        "detail": "unresolved cluster citations: c01, c02, c03, c04, c05, c06, c07, c08, c09, c10, c11, c12, c13, c14, c15, c16, c17, c18, c19, c20, c21, c22, c23, c24, c25, c26, c27, c28, c29, c30, c31, c32, c33, c34, c35, c36, c37, c38, c39, c40, c41, c42, c43, c44, c45, c46, c47, c48, c49, c50, c51, c52, c53, c54, c55, c56, c57, c58, c59, c60, c61, c62, c63, c64, c65, c66, c67, c68, c69, c70, c71, c72, c73, c74, c75, c76, c77, c78, c79, c80, c81, c82, c83, c84, c85, c86, c87, c88, c89, c90, c91, c92, c93, c94, c95, c96, c97, c98",
+        "effective_level": "error"
+      },
+      {
+        "check": "L2",
+        "level": "error",
+        "ok": false,
+        "detail": "cannot check first provenance heading because provenance.md is missing",
+        "effective_level": "error"
+      }
+    ],
+    "scope": "Full-package layout issues are reported separately from the requested core/README edits; existing discovery deletions and legacy evidence trees are preserved."
+  },
+  "source_review": {
+    "scope": "Existing core text, linked runtime distinctions and relevant provenance; no new primary-edition research",
+    "decisions": "Retain substantive arguments, examples and tensions; correct narrative stance, attribution, conditional application and inconsistent host/reference instructions",
+    "independent_historical_audit": false
+  },
+  "recognition": {
+    "status": "not_run",
+    "calls": 0,
+    "tests_added": 0,
+    "historical_records": "unchanged; changed runtime inputs are not recertified",
+    "current_status": "candidate"
+  }
+}

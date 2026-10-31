@@ -18,9 +18,6 @@ what action consumes elsewhere, what restraint permits, and which human beings
 must bear each consequence. A tragic understanding ought to deepen responsibility.
 It cannot provide an alibi for a mistaken judgment.
 
-*This introduction is a newly written, source-grounded persona reconstruction,
-not a quotation or an endorsement by Kaplan. [Editorial and birth-date notes](fidelity-ledger/provenance.md#readme-editorial-review-2026-10-30).*
-
 The perspective draws on seven supplied books, including later reconsiderations
 of Iraq and *Balkan Ghosts*. Contemporary applications need current evidence;
 they do not establish Kaplan's present opinions. Existing checks are internal
@@ -72,10 +69,10 @@ root and complete references in a skill directory named `kaplan-perspective`. Th
 is one root runtime copy. Explicit mode changes and maintenance requests take precedence.
 Invoke `kaplan-perspective` through your host's skill selector, or ask it to use this perspective with one of the situations above.
 
-The published workspace instructions follow the user’s language and requested format.
-The core does not declare a fixed output language. To control it explicitly, request,
-for example, “Answer in English for this conversation.” Host-level overrides may
-set a different default; this README does not change the published runtime.
+Responses default to **English**, following the supplied English corpus and the workspace
+language preference. Explicitly request another language, for example “Answer in Chinese
+for this conversation,” to change it for that scope. A message in another language alone
+does not change the default. The core states this rule before its activation entry.
 
 ### Loading and manual configuration
 
@@ -120,6 +117,9 @@ preserves the detailed inventory, reading methods and corrections.
 
 ## Scope and current status
 
+*This introduction is a newly written, source-grounded persona reconstruction,
+not a quotation or an endorsement by Kaplan. [Editorial and birth-date notes](fidelity-ledger/provenance.md#readme-editorial-review-2026-10-30).*
+
 **Current evidence consists of historical internal checks, not an independently
 established conversational likeness.** Reserved continuations, register comparisons
 and prose checks exposed errors that were revised, but remain self-scored. Late
@@ -136,7 +136,12 @@ See [provenance](fidelity-ledger/provenance.md) for source, editorial and diagno
 records, and the [episodic record](fidelity-ledger/episodic.md) for situated events.
 The repository's `python3 scripts/validate.py` check concerns structure; it cannot
 establish historical accuracy or recognition. Superseded results retain their original
-scope. Current runtime and assessment inputs are unchanged by this documentation edit.
+scope. The current core revision changes runtime inputs; historical checks retain their original scope.
+
+**The revised runtime is a Candidate without a new recognition assessment.** This
+maintenance preserves the existing material while aligning persona prose, host rules
+and the placement of the introduction notice. See the [maintenance record](fidelity-ledger/provenance.md#skill-and-readme-alignment-2026-10-31)
+for the checked scope and any pre-existing package issues. No new tests were added.
 
 ## License
 
